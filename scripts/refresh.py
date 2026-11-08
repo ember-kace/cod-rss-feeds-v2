@@ -266,7 +266,7 @@ def refresh(initialize=False, pending_state=None, refresh_metadata=False):
         render_public(candidate, config, staged_public, now.isoformat())
         result = validate_public(staged_public, config)
         staged_state = temp / "state.json"
-        staged_state.write_text(json.dumps(candidate, ensure_ascii=False, sort_keys=True, indent=2) + "\n", encoding="utf-8")
+        staged_state.write_text(json.dumps(candidate, ensure_ascii=False, sort_keys=True, indent=2) + "\n", encoding="utf-8", newline="\n")
         # Both feeds are validated before any last-good output changes.
         backup = temp / "previous-public"
         existing = ROOT / "public"

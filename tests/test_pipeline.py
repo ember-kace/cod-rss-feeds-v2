@@ -90,6 +90,33 @@ class FetchTests(unittest.TestCase):
 
 
 class TransactionTests(unittest.TestCase):
+    def test_unchanged_refresh_preserves_state_and_publication_bytes_on_windows(self):
+        from codrss.events import new_state, update_state
+        from test_events import CONFIG, NOW, news, patch as patch_article
+        module = refresh_module()
+        articles = [news(), patch_article()]
+        original = update_state(new_state(), articles, NOW, CONFIG, initialize=True)
+        collection = {"index_counts": {}, "patch_pages": {}, "last_catchup": NOW}
+        fixed_now = datetime(2026, 11, 8, 22, 0, tzinfo=timezone.utc)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "data").mkdir()
+            (root / "config").mkdir()
+            shutil.copyfile(ROOT / "data/state.schema.json", root / "data/state.schema.json")
+            config = json.loads((ROOT / "config/feeds.json").read_text(encoding="utf-8"))
+            config["base_url"] = "https://example.com/project/"
+            (root / "config/feeds.json").write_text(json.dumps(config), encoding="utf-8")
+            (root / "data/state.json").write_bytes(json.dumps(original).encode())
+            with patch.object(module, "ROOT", root), patch.object(module, "collect", return_value=(articles, collection)), patch.object(module, "datetime") as clock:
+                clock.now.return_value = fixed_now
+                module.refresh()
+                first = (root / "data/state.json").read_bytes()
+                publication = {p.relative_to(root / "public"): p.read_bytes() for p in (root / "public").rglob("*") if p.is_file()}
+                module.refresh()
+            self.assertNotIn(b"\r\n", first)
+            self.assertEqual((root / "data/state.json").read_bytes(), first)
+            self.assertEqual({p.relative_to(root / "public"): p.read_bytes() for p in (root / "public").rglob("*") if p.is_file()}, publication)
+
     def test_corrupt_section_history_recovers_last_complete_git_state(self):
         from codrss.events import new_state, update_state
         from codrss.render import render_public
