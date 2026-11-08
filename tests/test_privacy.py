@@ -26,6 +26,7 @@ class PrivacyTextTests(unittest.TestCase):
         self.assertEqual(PRIVACY.scan_text(address, "README.md")[0]["kind"], "personal-email")
         self.assertEqual(PRIVACY.scan_text("123+sample@users.noreply.github.com", "README.md"), [])
         self.assertEqual(PRIVACY.scan_text("`123+sample@users.noreply.github.com`", "AGENTS.md"), [])
+        self.assertEqual(PRIVACY.scan_text("git config user.email '123+sample@users.noreply.github.com'", "README.md"), [])
         self.assertEqual(PRIVACY.scan_text("reader@example.com", "tests/fixture.txt"), [])
         self.assertTrue(PRIVACY.scan_text("reader@example.com", "public/index.html"))
 

@@ -44,6 +44,7 @@ def sensitive_path(path: str) -> bool:
 
 
 def allowed_email(address: str, path: str = "") -> bool:
+    address = address.strip("'\"`")
     if NOREPLY.fullmatch(address):
         return True
     # Only clearly synthetic fixtures can use example addresses. Production
