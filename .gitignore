@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+.scratch/
+.candidate-*/
+COD_RSS_Autonomous_Codex_Plan.txt

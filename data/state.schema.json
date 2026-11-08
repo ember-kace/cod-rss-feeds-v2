@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cod-rss:state:1",
+  "title": "Call of Duty RSS durable identity ledger",
+  "type": "object",
+  "required": ["schema_version", "parser_version", "initialized", "articles", "sections", "events", "feeds", "checkpoint"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "parser_version": {"type": "integer", "minimum": 1},
+    "initialized": {"type": "boolean"},
+    "created_at": {"type": "string", "minLength": 10},
+    "articles": {"type": "object", "additionalProperties": {"type": "object", "required": ["kind", "title", "source_date", "first_observed"]}},
+    "sections": {"type": "object", "additionalProperties": {"type": "object", "required": ["page_url", "key", "source_date", "digest", "digests", "first_observed"], "properties": {"digests": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}}}},
+    "events": {"type": "object", "additionalProperties": {"type": "object", "required": ["id", "guid", "kind", "title", "source_url", "page_url", "source_date", "precision", "event_date", "first_observed", "revision", "baseline", "game"], "properties": {"kind": {"enum": ["news", "patch"]}, "revision": {"type": "boolean"}, "baseline": {"type": "boolean"}, "precision": {"enum": ["date", "datetime"]}}}},
+    "feeds": {"type": "object", "required": ["news", "patch"], "properties": {"news": {"$ref": "#/$defs/feed"}, "patch": {"$ref": "#/$defs/feed"}}},
+    "checkpoint": {"type": "object"},
+    "collection": {"type": "object"},
+    "operational_history": {"type": "array", "maxItems": 30}
+  },
+  "$defs": {"feed": {"type": "object", "required": ["ids", "fingerprint", "last_build"], "properties": {"ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true, "maxItems": 60}, "fingerprint": {"type": "string"}, "last_build": {"type": ["string", "null"]}}}},
+  "additionalProperties": true
+}

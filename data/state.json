@@ -1,0 +1,1120 @@
+{
+  "articles": {
+    "https://www.callofduty.com/blog/2026/10/call-of-duty-endowment-code-forged-in-valor-pack": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-10-21T12:00:00-07:00",
+      "title": "The Call of Duty Endowment (C.O.D.E.) Presents the Forged in Valor Series, A Look into the Making of the Valor Pack"
+    },
+    "https://www.callofduty.com/blog/2026/10/call-of-duty-intel-modern-warfare-4-launch-xbox-game-pass": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-10-15T12:00:00-07:00",
+      "title": "Modern Warfare 4 Launches October 23 as a Standalone Release"
+    },
+    "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-campaign-early-access-live-now": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-10-16T12:00:00-07:00",
+      "title": "Modern Warfare 4: Campaign Early Access Now Live"
+    },
+    "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-launch-multiplayer-operators-weapons-equipment-create-a-class": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-10-19T12:00:00-07:00",
+      "title": "Ready for Launch: All Modern Warfare 4 Operators, Weapons, Equipment, and Multiplayer Create-a-Class Features"
+    },
+    "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-live-worldwide-now": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-10-23T12:00:00-07:00",
+      "title": "Call of Duty: Modern Warfare 4 is Live Worldwide — Play Now!"
+    },
+    "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-maps-modes": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-10-21T12:00:00-07:00",
+      "title": "Ready for Launch: Multiplayer Maps and Modes Confirmed"
+    },
+    "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-10-19T12:00:00-07:00",
+      "title": "Ready for Launch: Modern Warfare 4 Progression and Prestige"
+    },
+    "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-10-28T12:00:00-07:00",
+      "title": "Call of Duty: Modern Warfare 4 and Call of Duty: Warzone Season 1: All You Need to Know"
+    },
+    "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-season-1-battle-pass-blackcell-store-bundles": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-11-05T12:00:00-07:00",
+      "title": "Intel Drop: All You Need to Know about the Modern Warfare 4 Season 1 Battle Pass System, BlackCell, and New Store Bundles"
+    },
+    "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-11-02T12:00:00-07:00",
+      "title": "Call of Duty: Warzone Season 1: Everything You Need to Know"
+    },
+    "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "patch",
+      "precision": "datetime",
+      "source_date": "2026-11-02T12:00:00-07:00",
+      "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes"
+    },
+    "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "patch",
+      "precision": "datetime",
+      "source_date": "2026-11-07T12:00:00-07:00",
+      "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes"
+    },
+    "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": {
+      "aliases": [],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "kind": "patch",
+      "precision": "date",
+      "source_date": "2026-11-07",
+      "title": "Call of Duty: Warzone Season 1 Patch Notes"
+    }
+  },
+  "checkpoint": {
+    "checked_sources": [
+      "https://www.callofduty.com/blog",
+      "https://www.callofduty.com/blog/2026/10/call-of-duty-endowment-code-forged-in-valor-pack",
+      "https://www.callofduty.com/blog/2026/10/call-of-duty-intel-modern-warfare-4-launch-xbox-game-pass",
+      "https://www.callofduty.com/blog/2026/10/call-of-duty-mobile-modern-warfare-4-preorder-bonus",
+      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-campaign-early-access-live-now",
+      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-launch-multiplayer-operators-weapons-equipment-create-a-class",
+      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-live-worldwide-now",
+      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-maps-modes",
+      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige",
+      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement",
+      "https://www.callofduty.com/blog/2026/11/call-of-duty-mobile-season-10-7th-anniversary",
+      "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-season-1-battle-pass-blackcell-store-bundles",
+      "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1",
+      "https://www.callofduty.com/blog/modernwarfare4",
+      "https://www.callofduty.com/blog/warzone",
+      "https://www.callofduty.com/patchnotes",
+      "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-black-ops-7-season-06-patch-notes",
+      "https://www.callofduty.com/patchnotes/2026/09/call-of-duty-bo7-warzone-season-06-patch-notes",
+      "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "https://www.callofduty.com/robots.txt"
+    ],
+    "day": "2026-11-08",
+    "item_counts": {
+      "news": 10,
+      "patch": 14
+    },
+    "last_success": "2026-11-08T20:41:46+00:00",
+    "observation_time": "2026-11-08T20:41:46+00:00",
+    "source_data_stale": false
+  },
+  "collection": {
+    "index_counts": {
+      "https://www.callofduty.com/blog": 240,
+      "https://www.callofduty.com/blog/modernwarfare4": 37,
+      "https://www.callofduty.com/blog/warzone": 289,
+      "https://www.callofduty.com/patchnotes": 3
+    },
+    "last_catchup": "2026-11-08T21:01:30+00:00",
+    "patch_pages": {
+      "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes": "2026-11-08T00:00:00+00:00",
+      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes": "2026-11-08T00:00:00+00:00",
+      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": "2026-11-08T00:00:00+00:00"
+    }
+  },
+  "created_at": "2026-11-08T20:41:46+00:00",
+  "events": {
+    "004110105b90e68b91123f59a74fd380b0cf0115fcd5fd651cfd2c968393bb64": {
+      "anchor": "oct21",
+      "article_title": "Call of Duty: Modern Warfare 4 Launch Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": true,
+      "categories": [
+        "patch-notes"
+      ],
+      "digest": "f9765c98931c2fe9414be68e16d3e9547f216fda625e21ab487bd7743ebb7157",
+      "event_date": "2026-10-21",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:004110105b90e68b91123f59a74fd380b0cf0115fcd5fd651cfd2c968393bb64",
+      "id": "004110105b90e68b91123f59a74fd380b0cf0115fcd5fd651cfd2c968393bb64",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/launch/MW4-00-LAUNCH-PATCH-NOTES-TOUT-C.webp",
+      "image_type": "image/webp",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:oct21",
+      "source_date": "2026-10-21",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes#oct21",
+      "summary": "Core 6v6 Maps. Cachette. Coal. Lithium. Lotus. Mumbai. Munition. Nautical. Reactor U92. Rooftops. Sentry. Silkworm. Transit 213. Ground War 32v32 Maps. Imjin Farmland. Wolves Stadium. Forest. Gunfight 2v2 Maps. Cafe. Library. NYC. Smuggler. New dynamic Multiplayer map. Supports 3v3 and 10v10 Gunfight at launch. 6v6 modes supported post-launch. New Slabs and configurations coming post-launch. Inflation. Eliminate enemies and collect their cash. Th",
+      "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 21"
+    },
+    "00eb2368a4095ef51514f0f55ddedf13b84a40c993ec367cd8e170eb6315d314": {
+      "anchor": "",
+      "article_title": "Modern Warfare 4 Launches October 23 as a Standalone Release",
+      "author": "COD Intel Team",
+      "baseline": true,
+      "categories": [
+        "news"
+      ],
+      "digest": null,
+      "event_date": "2026-10-15T12:00:00-07:00",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:00eb2368a4095ef51514f0f55ddedf13b84a40c993ec367cd8e170eb6315d314",
+      "id": "00eb2368a4095ef51514f0f55ddedf13b84a40c993ec367cd8e170eb6315d314",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-001-TOUT_(2).jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-intel-modern-warfare-4-launch-xbox-game-pass",
+      "precision": "datetime",
+      "product_categories": [
+        "cod-intel",
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-10-15T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-intel-modern-warfare-4-launch-xbox-game-pass",
+      "summary": "Modern Warfare 4 launches October 23 as a standalone release and will not be available on Game Pass at launch.",
+      "title": "Modern Warfare 4 Launches October 23 as a Standalone Release"
+    },
+    "021b1e2443f5d9c80cd61104ce64a70bc4397c530a055f1f9d59999499a6b939": {
+      "anchor": "oct23",
+      "article_title": "Call of Duty: Modern Warfare 4 Launch Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": true,
+      "categories": [
+        "patch-notes"
+      ],
+      "digest": "faf4fbe239d2958a2ae932cdf64e290e60fb61ca68f1503e9bd50da5ae757ac7",
+      "event_date": "2026-10-23",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:021b1e2443f5d9c80cd61104ce64a70bc4397c530a055f1f9d59999499a6b939",
+      "id": "021b1e2443f5d9c80cd61104ce64a70bc4397c530a055f1f9d59999499a6b939",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/launch/MW4-00-LAUNCH-PATCH-NOTES-TOUT-C.webp",
+      "image_type": "image/webp",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:oct23",
+      "source_date": "2026-10-23",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes#oct23",
+      "summary": "Fixed several stability and crash issues for a better experience across all modes. Fixed an issue where Military Camos and Apex Attachments could appear locked again after Prestiging a weapon. Fixed an issue where several camo unlock requirements were inaccurate. Fixed an issue where a DMZ Challenge incorrectly listed Longshot kills instead of Headshot kills. Fixed an issue where Killstreak indicators from a previous Multiplayer match could incor",
+      "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 23, 2026"
+    },
+    "07e4a47a6d6261bd08187903f35eba65f0e575ee151981f9176d21a64f928343": {
+      "anchor": "nov7",
+      "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": true,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "54591f13bb1b56078a83d8bd4e3cbf9f385cc074b077e2eddc4a98c1dd7a07e6",
+      "event_date": "2026-11-07",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:07e4a47a6d6261bd08187903f35eba65f0e575ee151981f9176d21a64f928343",
+      "id": "07e4a47a6d6261bd08187903f35eba65f0e575ee151981f9176d21a64f928343",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:nov7",
+      "source_date": "2026-11-07",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov7",
+      "summary": "Fixed several stability issues for a better experience across all modes. Updated the Operator Selection menu to improve the display and organization of Operator Variants. Fixed an issue on Lithium where Field Upgrade equipment could be lost when deployed on certain surfaces. Fixed an issue where objectives in Grind would not spawn correctly in Private Match. Fixed an issue where players could be removed from the Gunship Killstreak when their Oper",
+      "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 7, 2026"
+    },
+    "28926ad5885f94ca17248d128672e3ff5cf0c5bc31c298a0c21583ce343ef91a": {
+      "anchor": "oct24",
+      "article_title": "Call of Duty: Modern Warfare 4 Launch Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": true,
+      "categories": [
+        "patch-notes"
+      ],
+      "digest": "e7cab57d6704a328f0c6ff2533c97de9ff0a284ce6b9c189f5223a76f85818b7",
+      "event_date": "2026-10-24",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:28926ad5885f94ca17248d128672e3ff5cf0c5bc31c298a0c21583ce343ef91a",
+      "id": "28926ad5885f94ca17248d128672e3ff5cf0c5bc31c298a0c21583ce343ef91a",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/launch/MW4-00-LAUNCH-PATCH-NOTES-TOUT-C.webp",
+      "image_type": "image/webp",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:oct24",
+      "source_date": "2026-10-24",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes#oct24",
+      "summary": "Fixed several stability and crash issues for a better experience across all modes. Fixed an issue where DMZ Stash options could incorrectly appear in the middle of the screen. Fixed various instances where front end menus could close unexpectedly. Fixed an issue on PC where the Split keybind would not update to reflect the player's custom Ping keybind, resulting in players thinking they were unable to split inventory stacks. Fixed an issue where ",
+      "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 24, 2026"
+    },
+    "2a369e762855ec002d364a0c73421868eba675f7489a49776e1eac7edbf0f715": {
+      "anchor": "",
+      "article_title": "Call of Duty: Warzone Season 1: Everything You Need to Know",
+      "author": "Call of Duty Staff",
+      "baseline": true,
+      "categories": [
+        "news",
+        "news-announcements",
+        "season-1"
+      ],
+      "digest": null,
+      "event_date": "2026-11-02T12:00:00-07:00",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:2a369e762855ec002d364a0c73421868eba675f7489a49776e1eac7edbf0f715",
+      "id": "2a369e762855ec002d364a0c73421868eba675f7489a49776e1eac7edbf0f715",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-wz-announcement/MW4-SEASON-1-WARZONE-TOUT.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1",
+      "precision": "datetime",
+      "product_categories": [
+        "Modern Warfare 4",
+        "Warzone"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-11-02T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1",
+      "summary": "Season 1 marks a major update to Call of Duty: Warzone as the free-to-play combat experience becomes fully integrated with Call of Duty: Modern Warfare 4. Deploy to Hajin and Zodiac, play with new gear like the Zipline Launcher and Grabber Drone, buff your Operator with new Elite Perks, and more. Season 1 arrives November 6.",
+      "title": "Call of Duty: Warzone Season 1: Everything You Need to Know"
+    },
+    "3fb51f1cde4ff187f396d26ac45373f8757a45f9f595f9a2cf19ecb1aed4a895": {
+      "anchor": "",
+      "article_title": "Modern Warfare 4: Campaign Early Access Now Live",
+      "author": "Call of Duty Staff",
+      "baseline": true,
+      "categories": [
+        "news",
+        "news-announcements"
+      ],
+      "digest": null,
+      "event_date": "2026-10-16T12:00:00-07:00",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:3fb51f1cde4ff187f396d26ac45373f8757a45f9f595f9a2cf19ecb1aed4a895",
+      "id": "3fb51f1cde4ff187f396d26ac45373f8757a45f9f595f9a2cf19ecb1aed4a895",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/campaign-live/MW4-CAMPAIGNLIVE-TOUT.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-campaign-early-access-live-now",
+      "precision": "datetime",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-10-16T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-campaign-early-access-live-now",
+      "summary": "Campaign Early Access is now live! Pre-order or pre-purchase Modern Warfare 4 today and experience the epic narrative, featuring sixteen missions taking place across the Korean Peninsula, Paris, New York, and Mumbai as a new invasion threatens to destabilize the world while Price goes on the hunt for the one pulling the strings.",
+      "title": "Modern Warfare 4: Campaign Early Access Now Live"
+    },
+    "402a8260509bff563b3443789e8d70a88beac4052667b08e6ac475d52c7f1749": {
+      "anchor": null,
+      "article_title": "Call of Duty: Modern Warfare 4 Launch Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": true,
+      "categories": [
+        "patch-notes"
+      ],
+      "digest": "260da5a962163dccf048b262d4c448d95d829807f1a45258d16e7c3b777d741e",
+      "event_date": "2026-10-29",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:402a8260509bff563b3443789e8d70a88beac4052667b08e6ac475d52c7f1749",
+      "id": "402a8260509bff563b3443789e8d70a88beac4052667b08e6ac475d52c7f1749",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/launch/MW4-00-LAUNCH-PATCH-NOTES-TOUT-C.webp",
+      "image_type": "image/webp",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "date:2026-10-29:label:october-29-2026",
+      "source_date": "2026-10-29",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "summary": "Halloween Party Mode. Fixed several stability and crash issues for a better experience across all modes. Updated the Calling Card menu to not hide unlock requirements after they have been completed. Fixed an issue where the Cash Gathered as HVT stat was formatted incorrectly in the After Action Report for Inflation. Fixed an issue where expanding or collapsing the Quick Nav menu in the DMZ FOB could cause the Progression Track to scroll unexpecte",
+      "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 29, 2026"
+    },
+    "4f5258cbb816e36921fe89f80f60089ee3b58b81b2b88811e89de4ec05f8b250": {
+      "anchor": "oct30",
+      "article_title": "Call of Duty: Modern Warfare 4 Launch Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": true,
+      "categories": [
+        "patch-notes"
+      ],
+      "digest": "020bf78a746e2e936e33de5149bfe5d213443a5260ac6cd3c90b0437f1672dba",
+      "event_date": "2026-10-30",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:4f5258cbb816e36921fe89f80f60089ee3b58b81b2b88811e89de4ec05f8b250",
+      "id": "4f5258cbb816e36921fe89f80f60089ee3b58b81b2b88811e89de4ec05f8b250",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/launch/MW4-00-LAUNCH-PATCH-NOTES-TOUT-C.webp",
+      "image_type": "image/webp",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:oct30",
+      "source_date": "2026-10-30",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes#oct30",
+      "summary": "Infected (NEW). Halloween Party Mode. Fixed various issues that could cause servers to crash during gameplay. Fixed an issue on PC where Platinum Camo progress for Marksman Rifles was not displaying correctly. Fixed an issue where Calling Card Challenges in the Multiplayer Lobby displayed the reward name instead of the challenge name. Fixed an issue where players could encounter a black screen after switching teams using auto-assign while waiting",
+      "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 30, 2026"
+    },
+    "6181d78aa4d262928f68580f97d0f8e91cd4eff2c74d03ed6864395c87214c58": {
+      "anchor": "",
+      "article_title": "The Call of Duty Endowment (C.O.D.E.) Presents the Forged in Valor Series, A Look into the Making of the Valor Pack",
+      "author": "Call of Duty Staff",
+      "baseline": true,
+      "categories": [
+        "news",
+        "news-announcements"
+      ],
+      "digest": null,
+      "event_date": "2026-10-21T12:00:00-07:00",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:6181d78aa4d262928f68580f97d0f8e91cd4eff2c74d03ed6864395c87214c58",
+      "id": "6181d78aa4d262928f68580f97d0f8e91cd4eff2c74d03ed6864395c87214c58",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/MW4-CODE-FORGED-IN-VALOR-TOUT.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-endowment-code-forged-in-valor-pack",
+      "precision": "datetime",
+      "product_categories": [
+        "Modern Warfare 4",
+        "Warzone",
+        "code"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-10-21T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-endowment-code-forged-in-valor-pack",
+      "summary": "Go behind the scenes of the C.O.D.E. Valor Pack with Medal of Honor recipient Kyle Carpenter. In the Forged in Valor series, discover the experiences, sacrifice, and resilience that inspired the pack and the mission of the Call of Duty Endowment.",
+      "title": "The Call of Duty Endowment (C.O.D.E.) Presents the Forged in Valor Series, A Look into the Making of the Valor Pack"
+    },
+    "6a013c06bc1e521d79d2a62b576966c95120fb869a392a5b27b297620c145f7d": {
+      "anchor": "nov2",
+      "article_title": "Call of Duty: Modern Warfare 4 Launch Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": true,
+      "categories": [
+        "patch-notes"
+      ],
+      "digest": "860e7558a3fc12f4be9267d60a1bf6168d9720af9f675ff3ee905a3be5734bf3",
+      "event_date": "2026-11-02",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:6a013c06bc1e521d79d2a62b576966c95120fb869a392a5b27b297620c145f7d",
+      "id": "6a013c06bc1e521d79d2a62b576966c95120fb869a392a5b27b297620c145f7d",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/launch/MW4-00-LAUNCH-PATCH-NOTES-TOUT-C.webp",
+      "image_type": "image/webp",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:nov2",
+      "source_date": "2026-11-02",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes#nov2",
+      "summary": "Fixed several stability and crash issues for a better experience across all modes. Reverted a temporary exploit mitigation that restores the 23% of dive’s intended velocity. Also fixed an issue that had allowed players to transition from prone to standing without intended animations. These server-side fixes introduce minor visual animation bugs that will be resolved in a future update. Fixed an exploit involving the JOKR Launcher by temporarily d",
+      "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — November 2, 2026"
+    },
+    "6c0f264b707081b888795e96ee6a2fb15bb24560206e10e1a20c6311894e430c": {
+      "anchor": "addnov5",
+      "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": true,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "792fcaab29de7c48ae51995d852dbc5a643b34f1e21017c309359476e4232393",
+      "event_date": "2026-11-05",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:6c0f264b707081b888795e96ee6a2fb15bb24560206e10e1a20c6311894e430c",
+      "id": "6c0f264b707081b888795e96ee6a2fb15bb24560206e10e1a20c6311894e430c",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:addnov5",
+      "source_date": "2026-11-05",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#addnov5",
+      "summary": "Reduced maximum health in Hardcore modes from 30 to 22. Fixed an exploit that allowed players to attach Proximity Mines to Seeker Drones. Fixed an out-of-bounds exploit at Wolves Stadium in Combat Outpost. Fixed an issue where the Cronen Osprey equipped with the Helix MK. II Apex Attachment could clip through the player during Finishing Moves. Fixed an issue where Boksu Prime did not unlock after completing the Classic Prestige 10 Track. Fixed an",
+      "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 5th, 2026"
+    },
+    "7a3d25cd9bc28ad8334bf62c18ad186d9b403bfdcd33ba1ecec4f05b8ef02f71": {
+      "anchor": "",
+      "article_title": "Ready for Launch: Multiplayer Maps and Modes Confirmed",
+      "author": "Call of Duty Staff",
+      "baseline": true,
+      "categories": [
+        "news",
+        "news-announcements"
+      ],
+      "digest": null,
+      "event_date": "2026-10-21T12:00:00-07:00",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:7a3d25cd9bc28ad8334bf62c18ad186d9b403bfdcd33ba1ecec4f05b8ef02f71",
+      "id": "7a3d25cd9bc28ad8334bf62c18ad186d9b403bfdcd33ba1ecec4f05b8ef02f71",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/rfl-maps-modes/MW4-MAPS-MODES-TOUT.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-maps-modes",
+      "precision": "datetime",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-10-21T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-maps-modes",
+      "summary": "Prepare for the October 23 release of Modern Warfare 4 with intel on every Multiplayer map and mode arriving at launch.",
+      "title": "Ready for Launch: Multiplayer Maps and Modes Confirmed"
+    },
+    "7f3d1de14e3124b9e9ab00f509feb98035479bf432ab03663b46bc97f6e2a67b": {
+      "anchor": "oct25",
+      "article_title": "Call of Duty: Modern Warfare 4 Launch Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": true,
+      "categories": [
+        "patch-notes"
+      ],
+      "digest": "ae5dd1af54c90ca9ba8a591834cff00652d5fca3acbe4635c54ade6786a8c1d5",
+      "event_date": "2026-10-25",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:7f3d1de14e3124b9e9ab00f509feb98035479bf432ab03663b46bc97f6e2a67b",
+      "id": "7f3d1de14e3124b9e9ab00f509feb98035479bf432ab03663b46bc97f6e2a67b",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/launch/MW4-00-LAUNCH-PATCH-NOTES-TOUT-C.webp",
+      "image_type": "image/webp",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:oct25",
+      "source_date": "2026-10-25",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes#oct25",
+      "summary": "Fixed an issue on XBOX and PC where players using the full Korean language setting could not launch Black Ops 7 from MW4. Fixed an issue where weapon stats were not displayed for locked Attachments in Gunsmith. Updated the Prestige reset process to ensure Loadouts are properly cleared when Prestiging. Fixed a visual issue in the Optic Rail Placement menu. Fixed an issue where the Resource Management Trait description would scroll too fast to read",
+      "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 25, 2026"
+    },
+    "8b82e73780202fa5df175fd12c4cb039773469916a535b2d81a1bb683842b864": {
+      "anchor": "",
+      "article_title": "Ready for Launch: Modern Warfare 4 Progression and Prestige",
+      "author": "Call of Duty Staff",
+      "baseline": true,
+      "categories": [
+        "news",
+        "news-announcements",
+        "dmz"
+      ],
+      "digest": null,
+      "event_date": "2026-10-19T12:00:00-07:00",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:8b82e73780202fa5df175fd12c4cb039773469916a535b2d81a1bb683842b864",
+      "id": "8b82e73780202fa5df175fd12c4cb039773469916a535b2d81a1bb683842b864",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/rfl-progression/MW4-RFL-PROGRESSION-TOUT.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige",
+      "precision": "datetime",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-10-19T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige",
+      "summary": "Get insight on the journey ahead with full intel on your Modern Warfare 4 Career, including details on Level Unlocks, Prestige, Weapon Prestige, Camos, Calling Cards, and more!",
+      "title": "Ready for Launch: Modern Warfare 4 Progression and Prestige"
+    },
+    "990d4a53633a9acc1b2ab323a128aeeeec1de61cdb7252f7853721b6e9bf7a32": {
+      "anchor": "nov6",
+      "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": true,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "2b86c668be7810708f068da9da1b922c1acd3ad75791ad463de263078ec92f09",
+      "event_date": "2026-11-06",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:990d4a53633a9acc1b2ab323a128aeeeec1de61cdb7252f7853721b6e9bf7a32",
+      "id": "990d4a53633a9acc1b2ab323a128aeeeec1de61cdb7252f7853721b6e9bf7a32",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:nov6",
+      "source_date": "2026-11-06",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov6",
+      "summary": "Shransit (New). Shipment, Shoot House, and Transit 213. Hardcore is also available via Quickplay. Fixed an issue that could cause a brief freeze when editing a Loadout for the first time during a match. Fixed an issue that could cause Loadouts to enter a broken state after Prestiging. Fixed an issue where completed Events did not count toward Event Mastery Camo Challenge progression. Fixed an issue that prevented players from purchasing certain R",
+      "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 6, 2026"
+    },
+    "9e52a6f632cabd7ca953005f6479226b2248b1316bdc7585fe45a2cd5b5cbb35": {
+      "anchor": "oct28",
+      "article_title": "Call of Duty: Modern Warfare 4 Launch Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": true,
+      "categories": [
+        "patch-notes"
+      ],
+      "digest": "2dbf95ed9519c14e8ffdff9df2a7560c061c230816f74da42a6cafe226cd7c66",
+      "event_date": "2026-10-28",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:9e52a6f632cabd7ca953005f6479226b2248b1316bdc7585fe45a2cd5b5cbb35",
+      "id": "9e52a6f632cabd7ca953005f6479226b2248b1316bdc7585fe45a2cd5b5cbb35",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/launch/MW4-00-LAUNCH-PATCH-NOTES-TOUT-C.webp",
+      "image_type": "image/webp",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:oct28",
+      "source_date": "2026-10-28",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes#oct28",
+      "summary": "Updated Oct 27. Shipment 24/7 (New). Frontline. Inflation. Collateral. Kill Block: 6v6 Gunfight (New). Gun Game (New). Playlist Update: Free For All. Score limit remains at 30. Maximum 2 player party limit. Fixed an issue where progress counters were missing from Camo and Special Camo unlock requirements across several weapon categories. Fixed an issue where the Fungal Grid Camo was not visible in the Camo selection menu. Fixed an issue where, in",
+      "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 28, 2026"
+    },
+    "b9f4c808882bb3b3672043ade40a1d8a2b31166cb0c22d129eaad09b9ba6a8c1": {
+      "anchor": "",
+      "article_title": "Call of Duty: Modern Warfare 4 is Live Worldwide — Play Now!",
+      "author": "Call of Duty Staff",
+      "baseline": true,
+      "categories": [
+        "news",
+        "news-announcements"
+      ],
+      "digest": null,
+      "event_date": "2026-10-23T12:00:00-07:00",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:b9f4c808882bb3b3672043ade40a1d8a2b31166cb0c22d129eaad09b9ba6a8c1",
+      "id": "b9f4c808882bb3b3672043ade40a1d8a2b31166cb0c22d129eaad09b9ba6a8c1",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/MW4-LAUNCH-TOUT.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-live-worldwide-now",
+      "precision": "datetime",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-10-23T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-live-worldwide-now",
+      "summary": "Modern Warfare 4 is now live! Experience a brand-new Campaign, deploy across 20 Multiplayer maps, and drop into Hajin in the DMZ extraction mode.",
+      "title": "Call of Duty: Modern Warfare 4 is Live Worldwide — Play Now!"
+    },
+    "ba86bfd3b3363fff3e67bea7b670e062908f878cd510a05d112847c8f086f5ac": {
+      "anchor": "",
+      "article_title": "Intel Drop: All You Need to Know about the Modern Warfare 4 Season 1 Battle Pass System, BlackCell, and New Store Bundles",
+      "author": "Call of Duty Staff",
+      "baseline": true,
+      "categories": [
+        "news",
+        "news-announcements",
+        "season-1",
+        "dmz"
+      ],
+      "digest": null,
+      "event_date": "2026-11-05T12:00:00-07:00",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:ba86bfd3b3363fff3e67bea7b670e062908f878cd510a05d112847c8f086f5ac",
+      "id": "ba86bfd3b3363fff3e67bea7b670e062908f878cd510a05d112847c8f086f5ac",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-bc-bp-mtx/MW4-SEASON-1-BP-BC-BUNDLES-TOUT.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-season-1-battle-pass-blackcell-store-bundles",
+      "precision": "datetime",
+      "product_categories": [
+        "Modern Warfare 4",
+        "Warzone"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-11-05T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-season-1-battle-pass-blackcell-store-bundles",
+      "summary": "Access is granted to a vast selection of Battle Pass content. Deploy as the BlackCell Agent XERO, claim two new free weapons, and select new Store Bundles. Earn rewards across Multiplayer, DMZ, and Call of Duty: Warzone.",
+      "title": "Intel Drop: All You Need to Know about the Modern Warfare 4 Season 1 Battle Pass System, BlackCell, and New Store Bundles"
+    },
+    "baec6e7457a54ff34e13709dd96ab70e2a913a37734ef3463828680c9b81b2b2": {
+      "anchor": "nov5",
+      "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": true,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "453620e1e029bf373d92c1715220391b9b3c6a56a0c4e438225ec77c0bee3318",
+      "event_date": "2026-11-05",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:baec6e7457a54ff34e13709dd96ab70e2a913a37734ef3463828680c9b81b2b2",
+      "id": "baec6e7457a54ff34e13709dd96ab70e2a913a37734ef3463828680c9b81b2b2",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:nov5",
+      "source_date": "2026-11-05",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov5",
+      "summary": "We have opened up \"Performance Mode (120Hz)\" for all PlayStation 5 & XBOX Series X|S players with 120hz displays, regardless of VRR support. For the best experience, VRR is recommended. Beginning with Season 1, we are implementing the following enforcement measures: Software Detection: Players attempting to launch or access Warzone while running Warzone Agent will receive a notification instructing them to close the unauthorized software. Access ",
+      "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — Season 1 Intro"
+    },
+    "bb3fff776aa21740f32107ea8c2277e352beeab28110cb99ab5dc8dd08a3d7a9": {
+      "anchor": "",
+      "article_title": "Call of Duty: Modern Warfare 4 and Call of Duty: Warzone Season 1: All You Need to Know",
+      "author": "Call of Duty Staff",
+      "baseline": true,
+      "categories": [
+        "news",
+        "news-announcements",
+        "season-1"
+      ],
+      "digest": null,
+      "event_date": "2026-10-28T12:00:00-07:00",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:bb3fff776aa21740f32107ea8c2277e352beeab28110cb99ab5dc8dd08a3d7a9",
+      "id": "bb3fff776aa21740f32107ea8c2277e352beeab28110cb99ab5dc8dd08a3d7a9",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-mp-dmz-announcement/MW4-SEASON-1-ANNOUNCEMENT-TOUT.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement",
+      "precision": "datetime",
+      "product_categories": [
+        "Modern Warfare 4",
+        "Warzone"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-10-28T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement",
+      "summary": "All Operators: Get ready for Season 1, with new maps, modes, events and rewards across Multiplayer and DMZ, along with the integration of Call of Duty: Warzone. Explore the unforgiving corridors of X01, uncovering secrets in this new DMZ map, wield new weapons and Attachments, acquire new Operator Skins, Weapon Blueprints, DMZ Survival Kits, and more. Welcome to Modern Warfare 4 Season 1.",
+      "title": "Call of Duty: Modern Warfare 4 and Call of Duty: Warzone Season 1: All You Need to Know"
+    },
+    "bc5c234cb417dce7435a3c83d25cc0226d97b6b36696f60edef39f8dd3b556c4": {
+      "anchor": "nov7",
+      "article_title": "Call of Duty: Warzone Season 1 Patch Notes",
+      "author": "Raven Software",
+      "baseline": true,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "b1104bdf11a672ca18b5ca70c17c29408cf28384803fde5c14d8a589a945207b",
+      "event_date": "2026-11-07",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:bc5c234cb417dce7435a3c83d25cc0226d97b6b36696f60edef39f8dd3b556c4",
+      "id": "bc5c234cb417dce7435a3c83d25cc0226d97b6b36696f60edef39f8dd3b556c4",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:nov7",
+      "source_date": "2026-11-07",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov7",
+      "summary": "XP Adjustments. XP gains have been adjusted across all modes to match intended values. Teammate Footstep Audio. Lowered the volume of teammate footsteps so enemy movement is easier to hear during combat. Fixed an issue preventing players from purchasing an Elite Perk after they already own one. Fixed an issue where Grinding for Royalty progress incorrectly showed the Daily Challenge timer. Fixed an issue where a Drone Intercept crate icon could a",
+      "title": "Call of Duty: Warzone Season 1 Patch Notes — SATURDAY NOVEMBER 7"
+    },
+    "dbce6d67e1a3271490da0eff447a403d4f0b17229eef383d020611874ca1911e": {
+      "anchor": "nov5",
+      "article_title": "Call of Duty: Warzone Season 1 Patch Notes",
+      "author": "Raven Software",
+      "baseline": true,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "415a57dfc47fff3035753b57ea61ca5ec8c7a93b20aa8b8e8cab2bd8b5d937a6",
+      "event_date": "2026-11-05",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:dbce6d67e1a3271490da0eff447a403d4f0b17229eef383d020611874ca1911e",
+      "id": "dbce6d67e1a3271490da0eff447a403d4f0b17229eef383d020611874ca1911e",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "precision": "date",
+      "revision": false,
+      "section_key": "anchor:nov5",
+      "source_date": "2026-11-05",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov5",
+      "summary": "Beginning with Season 1, we are implementing the following enforcement measures: Software Detection: Players attempting to launch or access Warzone while running Warzone Agent will receive a notification instructing them to close the unauthorized software. Access Restrictions: Players who do not close Warzone Agent will be prevented from accessing Multiplayer modes. Campaign access will remain unaffected. Enforcement: Players who attempt to circu",
+      "title": "Call of Duty: Warzone Season 1 Patch Notes — THURSDAY NOVEMBER 5"
+    },
+    "e1a5b37f2ddd5712e475bd39122d35bb2e564567021f4403a358e6724d3ca024": {
+      "anchor": "",
+      "article_title": "Ready for Launch: All Modern Warfare 4 Operators, Weapons, Equipment, and Multiplayer Create-a-Class Features",
+      "author": "Call of Duty Staff",
+      "baseline": true,
+      "categories": [
+        "news",
+        "news-announcements",
+        "dmz"
+      ],
+      "digest": null,
+      "event_date": "2026-10-19T12:00:00-07:00",
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:e1a5b37f2ddd5712e475bd39122d35bb2e564567021f4403a358e6724d3ca024",
+      "id": "e1a5b37f2ddd5712e475bd39122d35bb2e564567021f4403a358e6724d3ca024",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/rfl-ops-and-weapons/MW4-RFL-OPS-WEAPONS-TOUT.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-launch-multiplayer-operators-weapons-equipment-create-a-class",
+      "precision": "datetime",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-10-19T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-launch-multiplayer-operators-weapons-equipment-create-a-class",
+      "summary": "Get details on every launch Operator and each aspect of your Multiplayer Loadout, including intel on every weapon available in MP and DMZ, Field Upgrades, Tactical and Lethal Equipment, Killstreaks, and Perks. Find out when this content unlocks across the player journey and prepare for warfare without limits when Modern Warfare 4 launches on October 23.",
+      "title": "Ready for Launch: All Modern Warfare 4 Operators, Weapons, Equipment, and Multiplayer Create-a-Class Features"
+    }
+  },
+  "feeds": {
+    "news": {
+      "fingerprint": "4fbefe3c9afcaea57a0c30731fc4415269db43f95fc11ae5dc6517b2b5b0d275",
+      "ids": [
+        "ba86bfd3b3363fff3e67bea7b670e062908f878cd510a05d112847c8f086f5ac",
+        "2a369e762855ec002d364a0c73421868eba675f7489a49776e1eac7edbf0f715",
+        "bb3fff776aa21740f32107ea8c2277e352beeab28110cb99ab5dc8dd08a3d7a9",
+        "b9f4c808882bb3b3672043ade40a1d8a2b31166cb0c22d129eaad09b9ba6a8c1",
+        "7a3d25cd9bc28ad8334bf62c18ad186d9b403bfdcd33ba1ecec4f05b8ef02f71",
+        "6181d78aa4d262928f68580f97d0f8e91cd4eff2c74d03ed6864395c87214c58",
+        "e1a5b37f2ddd5712e475bd39122d35bb2e564567021f4403a358e6724d3ca024",
+        "8b82e73780202fa5df175fd12c4cb039773469916a535b2d81a1bb683842b864",
+        "3fb51f1cde4ff187f396d26ac45373f8757a45f9f595f9a2cf19ecb1aed4a895",
+        "00eb2368a4095ef51514f0f55ddedf13b84a40c993ec367cd8e170eb6315d314"
+      ],
+      "last_build": "2026-11-08T21:28:56+00:00"
+    },
+    "patch": {
+      "fingerprint": "00e2754adcb6c83e89c2bd9a7e222038e6d8c9b4a2c10725c60a70940055f135",
+      "ids": [
+        "bc5c234cb417dce7435a3c83d25cc0226d97b6b36696f60edef39f8dd3b556c4",
+        "07e4a47a6d6261bd08187903f35eba65f0e575ee151981f9176d21a64f928343",
+        "990d4a53633a9acc1b2ab323a128aeeeec1de61cdb7252f7853721b6e9bf7a32",
+        "dbce6d67e1a3271490da0eff447a403d4f0b17229eef383d020611874ca1911e",
+        "baec6e7457a54ff34e13709dd96ab70e2a913a37734ef3463828680c9b81b2b2",
+        "6c0f264b707081b888795e96ee6a2fb15bb24560206e10e1a20c6311894e430c",
+        "6a013c06bc1e521d79d2a62b576966c95120fb869a392a5b27b297620c145f7d",
+        "4f5258cbb816e36921fe89f80f60089ee3b58b81b2b88811e89de4ec05f8b250",
+        "402a8260509bff563b3443789e8d70a88beac4052667b08e6ac475d52c7f1749",
+        "9e52a6f632cabd7ca953005f6479226b2248b1316bdc7585fe45a2cd5b5cbb35",
+        "7f3d1de14e3124b9e9ab00f509feb98035479bf432ab03663b46bc97f6e2a67b",
+        "28926ad5885f94ca17248d128672e3ff5cf0c5bc31c298a0c21583ce343ef91a",
+        "021b1e2443f5d9c80cd61104ce64a70bc4397c530a055f1f9d59999499a6b939",
+        "004110105b90e68b91123f59a74fd380b0cf0115fcd5fd651cfd2c968393bb64"
+      ],
+      "last_build": "2026-11-08T21:28:56+00:00"
+    }
+  },
+  "image_types": {
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-001-TOUT_(2).jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/MW4-CODE-FORGED-IN-VALOR-TOUT.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/MW4-LAUNCH-TOUT.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/campaign-live/MW4-CAMPAIGNLIVE-TOUT.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/rfl-maps-modes/MW4-MAPS-MODES-TOUT.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/rfl-ops-and-weapons/MW4-RFL-OPS-WEAPONS-TOUT.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/rfl-progression/MW4-RFL-PROGRESSION-TOUT.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-bc-bp-mtx/MW4-SEASON-1-BP-BC-BUNDLES-TOUT.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-mp-dmz-announcement/MW4-SEASON-1-ANNOUNCEMENT-TOUT.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-wz-announcement/MW4-SEASON-1-WARZONE-TOUT.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/launch/MW4-00-LAUNCH-PATCH-NOTES-TOUT-C.webp": "image/webp",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg": "image/jpeg"
+  },
+  "initialized": true,
+  "operational_history": [
+    {
+      "day": "2026-11-08",
+      "item_counts": {
+        "news": 10,
+        "patch": 14
+      },
+      "successful_source_checks": 22
+    }
+  ],
+  "parser_version": 1,
+  "presentation_signature": "538ecd6f35cf44509e3f96207b897fdbf71152aeb3c9e4f72665cdd06a716ae8",
+  "presentation_version": 2,
+  "schema_version": 1,
+  "sections": {
+    "1c138fb42e4685c592055c6122856d0ca82b2a151a7888386df4a6e35c957060": {
+      "aliases": [],
+      "anchor": "oct30",
+      "digest": "020bf78a746e2e936e33de5149bfe5d213443a5260ac6cd3c90b0437f1672dba",
+      "digests": [
+        "020bf78a746e2e936e33de5149bfe5d213443a5260ac6cd3c90b0437f1672dba"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:oct30",
+      "label": "October 30, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-10-30"
+    },
+    "45722a90609755e10adf0f2c5ff560451c5ad77332859edfce0436fce1ff937b": {
+      "aliases": [],
+      "anchor": "oct25",
+      "digest": "ae5dd1af54c90ca9ba8a591834cff00652d5fca3acbe4635c54ade6786a8c1d5",
+      "digests": [
+        "ae5dd1af54c90ca9ba8a591834cff00652d5fca3acbe4635c54ade6786a8c1d5"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:oct25",
+      "label": "October 25, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-10-25"
+    },
+    "4ccdd322e83c9fee58b366e3f4f42ca0ea7bb2c78f8dcfcec57fcabdc8246009": {
+      "aliases": [],
+      "anchor": "oct21",
+      "digest": "f9765c98931c2fe9414be68e16d3e9547f216fda625e21ab487bd7743ebb7157",
+      "digests": [
+        "f9765c98931c2fe9414be68e16d3e9547f216fda625e21ab487bd7743ebb7157"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:oct21",
+      "label": "October 21",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-10-21"
+    },
+    "5cb2ec546bd2571a2e5bb175162c41b8fe8b1800a9bef9c529fc264685eddd1f": {
+      "aliases": [],
+      "anchor": "oct28",
+      "digest": "2dbf95ed9519c14e8ffdff9df2a7560c061c230816f74da42a6cafe226cd7c66",
+      "digests": [
+        "2dbf95ed9519c14e8ffdff9df2a7560c061c230816f74da42a6cafe226cd7c66"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:oct28",
+      "label": "October 28, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-10-28"
+    },
+    "67d1b2f24ad4f58fec51432d9d3a2a95899071327ddbd421a32757829f3c77eb": {
+      "aliases": [],
+      "anchor": "nov5",
+      "digest": "453620e1e029bf373d92c1715220391b9b3c6a56a0c4e438225ec77c0bee3318",
+      "digests": [
+        "453620e1e029bf373d92c1715220391b9b3c6a56a0c4e438225ec77c0bee3318"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:nov5",
+      "label": "Season 1 Intro",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-11-05"
+    },
+    "814c3b4e2dbf12a4b414a25c364cbe1c51faee99e06a0721fba563fc5711c882": {
+      "aliases": [],
+      "anchor": "nov7",
+      "digest": "b1104bdf11a672ca18b5ca70c17c29408cf28384803fde5c14d8a589a945207b",
+      "digests": [
+        "b1104bdf11a672ca18b5ca70c17c29408cf28384803fde5c14d8a589a945207b"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:nov7",
+      "label": "SATURDAY NOVEMBER 7",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-11-07"
+    },
+    "93386ecad5ee68f752ea658495f4076ad7a255aecf77eccad3e0c3013fa9bc0c": {
+      "aliases": [],
+      "anchor": null,
+      "digest": "260da5a962163dccf048b262d4c448d95d829807f1a45258d16e7c3b777d741e",
+      "digests": [
+        "260da5a962163dccf048b262d4c448d95d829807f1a45258d16e7c3b777d741e"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "date:2026-10-29:label:october-29-2026",
+      "label": "October 29, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-10-29"
+    },
+    "9d42064727736eb3feefefa827fb0b79f5ffe140bbd260d6f736ac348945630f": {
+      "aliases": [],
+      "anchor": "nov6",
+      "digest": "2b86c668be7810708f068da9da1b922c1acd3ad75791ad463de263078ec92f09",
+      "digests": [
+        "2b86c668be7810708f068da9da1b922c1acd3ad75791ad463de263078ec92f09"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:nov6",
+      "label": "November 6, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-11-06"
+    },
+    "a36cd206364ecd4997147798ac15151297477ac0f8761c1c54059940d9d77570": {
+      "aliases": [],
+      "anchor": "addnov5",
+      "digest": "792fcaab29de7c48ae51995d852dbc5a643b34f1e21017c309359476e4232393",
+      "digests": [
+        "792fcaab29de7c48ae51995d852dbc5a643b34f1e21017c309359476e4232393"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:addnov5",
+      "label": "November 5th, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-11-05"
+    },
+    "c592c7e4e2a1be2f445982bc0d9dc12755d50edb8a20c36d7be311c2faf9577f": {
+      "aliases": [],
+      "anchor": "oct23",
+      "digest": "faf4fbe239d2958a2ae932cdf64e290e60fb61ca68f1503e9bd50da5ae757ac7",
+      "digests": [
+        "faf4fbe239d2958a2ae932cdf64e290e60fb61ca68f1503e9bd50da5ae757ac7"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:oct23",
+      "label": "October 23, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-10-23"
+    },
+    "c70cd8587c988833ae003aafc8959b05993f23837d2bf1c97110c54803d90576": {
+      "aliases": [],
+      "anchor": "oct24",
+      "digest": "e7cab57d6704a328f0c6ff2533c97de9ff0a284ce6b9c189f5223a76f85818b7",
+      "digests": [
+        "e7cab57d6704a328f0c6ff2533c97de9ff0a284ce6b9c189f5223a76f85818b7"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:oct24",
+      "label": "October 24, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-10-24"
+    },
+    "c7bdaff7c22784fba6d3fa4076621b8ce745e738d75ac8b18591bcd9cb87ccb8": {
+      "aliases": [],
+      "anchor": "nov2",
+      "digest": "860e7558a3fc12f4be9267d60a1bf6168d9720af9f675ff3ee905a3be5734bf3",
+      "digests": [
+        "860e7558a3fc12f4be9267d60a1bf6168d9720af9f675ff3ee905a3be5734bf3"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:nov2",
+      "label": "November 2, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-11-02"
+    },
+    "e436a373aa8e58e0e058324d6e81c29f0af964dea16222992eac64c273fc10b9": {
+      "aliases": [],
+      "anchor": "nov5",
+      "digest": "415a57dfc47fff3035753b57ea61ca5ec8c7a93b20aa8b8e8cab2bd8b5d937a6",
+      "digests": [
+        "415a57dfc47fff3035753b57ea61ca5ec8c7a93b20aa8b8e8cab2bd8b5d937a6"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:nov5",
+      "label": "THURSDAY NOVEMBER 5",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-11-05"
+    },
+    "fc99b68b260a12478260a9b873c90a2f80ed1316acfe01f7683a4af3a11fd4d2": {
+      "aliases": [],
+      "anchor": "nov7",
+      "digest": "54591f13bb1b56078a83d8bd4e3cbf9f385cc074b077e2eddc4a98c1dd7a07e6",
+      "digests": [
+        "54591f13bb1b56078a83d8bd4e3cbf9f385cc074b077e2eddc4a98c1dd7a07e6"
+      ],
+      "first_observed": "2026-11-08T20:41:46+00:00",
+      "key": "anchor:nov7",
+      "label": "November 7, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "parser_version": 1,
+      "precision": "date",
+      "source_date": "2026-11-07"
+    }
+  }
+}

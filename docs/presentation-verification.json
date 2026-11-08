@@ -1,0 +1,33 @@
+{
+  "news": {
+    "shared_items": 10,
+    "all_presentation_fields_match": true
+  },
+  "patch": {
+    "shared_items": 12,
+    "all_presentation_fields_match": true
+  },
+  "all_24_notification_identities_and_dates_preserved": true,
+  "verified_image_types": 13,
+  "verified_at": "2026-11-08T21:05:54+00:00",
+  "compared_fields": [
+    "title",
+    "description HTML",
+    "content:encoded HTML",
+    "dc:creator",
+    "categories",
+    "media:content attributes",
+    "media:thumbnail attributes"
+  ],
+  "fixture_tests_passed": 46,
+  "intentional_differences": [
+    "Existing item GUIDs and source/event dates retained; project event links use this repository's Pages base.",
+    "Correct GitHub Atom self-links and independent-hosting attribution.",
+    "Current scopes exclude Mobile, old Warzone eras, and patch documents in news.",
+    "Separate genuine same-day sections and revision events remain supported.",
+    "Source-date precision and detection metadata are retained on permanent event pages."
+  ],
+  "repeat_refresh_kept_feed_hashes_and_no_new_events": true,
+  "reference_description": "Previously hosted public news and patch feeds, used only as presentation references.",
+  "verification_note": "Presentation comparison results migrated; replacement deployment verification recorded separately."
+}

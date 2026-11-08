@@ -1,0 +1,21 @@
+{
+  "base_url": "https://ember-kace.github.io/cod-rss-feeds-v2/",
+  "repository": "ember-kace/cod-rss-feeds-v2",
+  "allowed_hosts": ["www.callofduty.com", "callofduty.com"],
+  "product_aliases": {"mw4": ["modern warfare 4", "modernwarfare4", "modern-warfare-4", "mw4"], "warzone": ["warzone"]},
+  "current_warzone_aliases": ["mw4", "modern warfare 4", "modern-warfare-4"],
+  "discovery_sources": ["https://www.callofduty.com/blog/modernwarfare4", "https://www.callofduty.com/blog/warzone", "https://www.callofduty.com/patchnotes", "https://www.callofduty.com/blog"],
+  "robots_url": "https://www.callofduty.com/robots.txt",
+  "sitemap_url": "https://www.callofduty.com/sitemap.xml",
+  "initial_days": 30,
+  "initial_limit": 20,
+  "retention": 60,
+  "active_overlap_days": 14,
+  "summary_length": 350,
+  "max_requests": 80,
+  "max_candidates": 60,
+  "max_sitemaps": 3,
+  "catchup_days": 7,
+  "timeout_seconds": 25,
+  "user_agent": "cod-rss-feeds/1.0 source-verification"
+}

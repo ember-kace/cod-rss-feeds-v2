@@ -1,0 +1,2 @@
+Modern Warfare 4 news: https://ember-kace.github.io/cod-rss-feeds-v2/feeds/modern-warfare-4.xml
+MW4 & Warzone patch updates: https://ember-kace.github.io/cod-rss-feeds-v2/feeds/patch-updates.xml
