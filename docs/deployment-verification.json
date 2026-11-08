@@ -1,4 +1,71 @@
 {
+  "verified_at": "2026-11-08T21:33:14+00:00",
   "repository": "https://github.com/ember-kace/cod-rss-feeds-v2",
-  "verification_status": "Awaiting the first verified deployment of this replacement repository"
+  "landing_page": "https://ember-kace.github.io/cod-rss-feeds-v2/",
+  "fresh_repository_history": true,
+  "privacy_check": "passed",
+  "fixture_tests_passed": 53,
+  "anonymous_verification": {
+    "base_url": "https://ember-kace.github.io/cod-rss-feeds-v2/",
+    "anonymous": true,
+    "feeds": {
+      "feeds/modern-warfare-4.xml": {
+        "url": "https://ember-kace.github.io/cod-rss-feeds-v2/feeds/modern-warfare-4.xml",
+        "http_status": 200,
+        "content_type": "application/xml",
+        "sha256": "49534b21d2da0979b3b69be6c1fe96623a5a5516a7937cf92302aa28c3c0d46d",
+        "items": 10,
+        "latest_event_date": "Thu, 05 Nov 2026 19:00:00 GMT"
+      },
+      "feeds/patch-updates.xml": {
+        "url": "https://ember-kace.github.io/cod-rss-feeds-v2/feeds/patch-updates.xml",
+        "http_status": 200,
+        "content_type": "application/xml",
+        "sha256": "a66f57cd9e7d220993a5d4fdd1959020eaa395268e35d17648aa7913cf5f4aab",
+        "items": 14,
+        "latest_event_date": "Sat, 07 Nov 2026 00:00:00 GMT"
+      }
+    },
+    "verified_event_pages": 14
+  },
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 42525522013,
+      "event": "push",
+      "headBranch": "main",
+      "headSha": "49c52bf649940164411abda578261882d6c23753",
+      "status": "completed",
+      "url": "https://github.com/ember-kace/cod-rss-feeds-v2/actions/runs/42525522013"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 42525521801,
+      "event": "workflow_dispatch",
+      "headBranch": "main",
+      "headSha": "49c52bf649940164411abda578261882d6c23753",
+      "status": "completed",
+      "url": "https://github.com/ember-kace/cod-rss-feeds-v2/actions/runs/42525521801"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 42525669268,
+      "event": "workflow_dispatch",
+      "headBranch": "main",
+      "headSha": "49c52bf649940164411abda578261882d6c23753",
+      "status": "completed",
+      "url": "https://github.com/ember-kace/cod-rss-feeds-v2/actions/runs/42525669268"
+    }
+  ],
+  "two_manual_refreshes_preserved_feed_hashes_and_item_identities": true,
+  "schedule": {
+    "cron": "7,22,37,52 * * * *",
+    "workflow_state": "active",
+    "scheduled_run_observed": false
+  },
+  "latest_source_dates": {
+    "news": "2026-11-05T12:00:00-07:00",
+    "patch": "2026-11-07"
+  },
+  "yourbot_discord_posting_tested": false
 }

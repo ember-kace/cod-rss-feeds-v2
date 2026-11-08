@@ -19,7 +19,7 @@
     "media:content attributes",
     "media:thumbnail attributes"
   ],
-  "fixture_tests_passed": 46,
+  "fixture_tests_passed": 53,
   "intentional_differences": [
     "Existing item GUIDs and source/event dates retained; project event links use this repository's Pages base.",
     "Correct GitHub Atom self-links and independent-hosting attribution.",
@@ -29,5 +29,29 @@
   ],
   "repeat_refresh_kept_feed_hashes_and_no_new_events": true,
   "reference_description": "Previously hosted public news and patch feeds, used only as presentation references.",
-  "verification_note": "Presentation comparison results migrated; replacement deployment verification recorded separately."
+  "verification_note": "Original presentation retained and independently verified at this repository's production endpoints.",
+  "deployment_verified_at": "2026-11-08T21:33:14+00:00",
+  "deployment_verification": {
+    "base_url": "https://ember-kace.github.io/cod-rss-feeds-v2/",
+    "anonymous": true,
+    "feeds": {
+      "feeds/modern-warfare-4.xml": {
+        "url": "https://ember-kace.github.io/cod-rss-feeds-v2/feeds/modern-warfare-4.xml",
+        "http_status": 200,
+        "content_type": "application/xml",
+        "sha256": "49534b21d2da0979b3b69be6c1fe96623a5a5516a7937cf92302aa28c3c0d46d",
+        "items": 10,
+        "latest_event_date": "Thu, 05 Nov 2026 19:00:00 GMT"
+      },
+      "feeds/patch-updates.xml": {
+        "url": "https://ember-kace.github.io/cod-rss-feeds-v2/feeds/patch-updates.xml",
+        "http_status": 200,
+        "content_type": "application/xml",
+        "sha256": "a66f57cd9e7d220993a5d4fdd1959020eaa395268e35d17648aa7913cf5f4aab",
+        "items": 14,
+        "latest_event_date": "Sat, 07 Nov 2026 00:00:00 GMT"
+      }
+    },
+    "verified_event_pages": 14
+  }
 }
