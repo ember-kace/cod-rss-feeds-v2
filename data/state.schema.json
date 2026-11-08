@@ -10,7 +10,11 @@
     "initialized": {"type": "boolean"},
     "created_at": {"type": "string", "minLength": 10},
     "articles": {"type": "object", "additionalProperties": {"type": "object", "required": ["kind", "title", "source_date", "first_observed"]}},
-    "sections": {"type": "object", "additionalProperties": {"type": "object", "required": ["page_url", "key", "source_date", "digest", "digests", "first_observed"], "properties": {"digests": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}}}},
+    "sections": {"type": "object", "additionalProperties": {"type": "object", "required": ["page_url", "key", "source_date", "digest", "digests", "first_observed"], "properties": {
+      "digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+      "digests": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "uniqueItems": true},
+      "digest_aliases": {"type": "object", "propertyNames": {"pattern": "^[a-f0-9]{64}$"}, "additionalProperties": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}
+    }}},
     "events": {"type": "object", "additionalProperties": {"type": "object", "required": ["id", "guid", "kind", "title", "source_url", "page_url", "source_date", "precision", "event_date", "first_observed", "revision", "baseline", "game"], "properties": {"kind": {"enum": ["news", "patch"]}, "revision": {"type": "boolean"}, "baseline": {"type": "boolean"}, "precision": {"enum": ["date", "datetime"]}}}},
     "feeds": {"type": "object", "required": ["news", "patch"], "properties": {"news": {"$ref": "#/$defs/feed"}, "patch": {"$ref": "#/$defs/feed"}}},
     "checkpoint": {"type": "object"},

@@ -20,7 +20,7 @@ RSS 2.0 is serialized as UTF-8 XML and independently checked with feedparser. Ea
 
 The presentation matches the previous Call of Duty Feed Desk feeds: a short summary, the publisher's original CDN image, and “Read the official update,” with matching CDATA descriptions, concise dated patch titles, bylines, product categories, and verified Media RSS image types. Source/detection details stay on permanent patch event pages, which also provide the correct image in Open Graph previews. This repository preserves the event GUIDs, source and observation timestamps, semantic digests, and revision history. Patch permalinks and Atom self-links use this repository's Pages base URL. It retains the current feed scopes and separate same-day updates rather than copying old Mobile/historical entries or merging distinct updates. Use `scripts/refresh.py --refresh-metadata` when repairing current article metadata; this refetches current news without reinitializing identities.
 
-The entire candidate publication is staged and both feeds are validated before tracked output changes. Invalid XML, partial source outages, challenge/error pages, corrupt state, or suspicious extraction loss fail the run and leave the last valid public feeds intact. `public/manifest.json` records deterministic publication hashes, excluding itself and operational status. Every successful build compares the served manifest and feed/event bytes, so a failed deployment is retried even if the valid state/output commit already succeeded.
+The entire candidate publication is staged and both feeds are validated before tracked output changes. Invalid XML, partial source outages, challenge/error pages, corrupt state, or suspicious extraction loss fail the run and leave the last valid public feeds intact. `public/manifest.json` hashes served content, excluding itself, operational status, and the deployment-only `.nojekyll` marker. Every successful build compares the served manifest and feed/event bytes, so a failed deployment is retried even if the valid state/output commit already succeeded. Post-deployment verification checks the landing page and every retained event page against the complete manifest, using the exact commit that produced the uploaded artifact.
 
 ## Run locally
 
@@ -37,7 +37,7 @@ uv pip install --python .venv\Scripts\python.exe -r requirements.txt
 .venv\Scripts\python.exe scripts/check_privacy.py
 .venv\Scripts\python.exe scripts/refresh.py
 .venv\Scripts\python.exe scripts/validate.py
-.venv\Scripts\python.exe scripts/verify_deployment.py
+.venv\Scripts\python.exe scripts/verify_deployment.py --full-manifest
 ```
 
 On Linux/macOS, create a virtual environment with `python3.13 -m venv .venv`, install using `.venv/bin/python -m pip install -r requirements.txt`, and use `.venv/bin/python` for the same commands. A fresh installation requires an explicit `scripts/refresh.py --initialize`; an established installation must restore its ledger rather than initialize again. No credentials are needed for source fetching or endpoint verification. GitHub publishing uses the existing GitHub CLI login or the repository's scoped Actions token; never store access tokens in project files.
@@ -76,4 +76,6 @@ Endpoint validation is separate from Discord delivery. This project does not sen
 
 The [deployment verification record](docs/deployment-verification.json) records observed results for this repository's production endpoints. Verification checks anonymous HTTPS access, XML content type, independent RSS parsing, self-links, GUIDs, images, feed hashes, and referenced patch pages. The [presentation comparison](docs/presentation-verification.json) records matching images, summaries, titles, bylines, categories, and description markup. Workflow history shows actual publishing and repeat-refresh results; a configured schedule does not establish that a scheduled run has occurred.
 
-The privacy check rejects credentials, personal email and hosting references, private tracked files, and unexpected Git author identities. GitHub Actions runs it before collection and again on the generated publication. Use the repository-local handle and no-reply identity shown above for human commits.
+The privacy check rejects credentials, personal email and hosting references, private tracked files, and unexpected Git author identities, including removed historical content and commit messages. GitHub Actions runs it before collection, on staged generated output before committing, and on the final commit before pushing. Use the repository-local handle and no-reply identity shown above for human commits.
+
+Parser migrations retain digest aliases so an existing update keeps its GUID and dates when date-heading presentation changes. Corrupt or incomplete section histories fail validation and can recover from the last complete Git version rather than replaying updates. Same-day sections with identical displayed labels remain distinct when they have different real source anchors.

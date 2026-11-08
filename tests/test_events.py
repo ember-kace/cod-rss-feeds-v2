@@ -81,6 +81,109 @@ class EventTests(unittest.TestCase):
         reverted = update_state(fourth, [patch()], "2026-11-08T19:00:00+00:00", CONFIG)
         self.assertEqual(len(reverted["events"]), len(third["events"]))
 
+    def test_same_day_identical_labels_do_not_steal_distinct_real_anchors(self):
+        baseline = patch()
+        first = update_state(new_state(), [baseline], NOW, CONFIG, initialize=True)
+        updated = copy.deepcopy(baseline)
+        newest = copy.deepcopy(updated["sections"][0])
+        newest.update(key="nov8-evening", anchor="nov8-evening")
+        # Newest-first publisher order exposes aliasing before the old section
+        # has been visited; both genuine headings have exactly the same label.
+        updated["sections"].insert(0, newest)
+        second = update_state(first, [updated], LATER, CONFIG)
+        self.assertEqual(len(second["feeds"]["patch"]["ids"]), 2)
+        self.assertEqual(len(second["sections"]), 2)
+        anchors = {event["anchor"] for event in second["events"].values()}
+        self.assertEqual(anchors, {"nov8", "nov8-evening"})
+        combined = merge_pending_state(first, second, CONFIG)
+        self.assertEqual(len(combined["sections"]), 2)
+        third = update_state(combined, [updated], "2026-11-08T18:30:00+00:00", CONFIG)
+        self.assertEqual(combined["events"], third["events"])
+
+    def test_corrupt_section_history_cannot_recreate_published_event_dates(self):
+        baseline = update_state(new_state(), [patch()], NOW, CONFIG, initialize=True)
+        for damage in ("sections", "digests", "guid", "feed"):
+            with self.subTest(damage=damage):
+                corrupt = copy.deepcopy(baseline)
+                identity = next(iter(corrupt["events"]))
+                if damage == "sections":
+                    corrupt["sections"] = {}
+                elif damage == "digests":
+                    next(iter(corrupt["sections"].values()))["digests"] = []
+                elif damage == "guid":
+                    corrupt["events"][identity]["guid"] = "urn:unexpected:event"
+                else:
+                    corrupt["feeds"]["news"]["ids"] = [identity]
+                with self.assertRaises(ValueError):
+                    update_state(corrupt, [patch()], LATER, CONFIG)
+        self.assertEqual(next(iter(baseline["events"].values()))["first_observed"], NOW)
+
+    def test_preexisting_future_event_dates_fail_against_collection_clock(self):
+        baseline = update_state(new_state(), [patch()], NOW, CONFIG, initialize=True)
+        for field in ("event_date", "source_date", "first_observed"):
+            with self.subTest(field=field):
+                corrupt = copy.deepcopy(baseline)
+                next(iter(corrupt["events"].values()))[field] = "2028-01-01T00:00:00+00:00"
+                with self.assertRaisesRegex(ValueError, "future date"):
+                    update_state(corrupt, [], LATER, CONFIG)
+
+    def test_legacy_date_heading_migration_keeps_published_guids_and_real_revisions(self):
+        from codrss.parse import parse_article
+        from test_parse import PATCH_BODY, PATCH_URL, article
+
+        parsed = parse_article(article(PATCH_BODY), PATCH_URL)
+        legacy = copy.deepcopy(parsed)
+        for section in legacy["sections"]:
+            section["digest"] = section.pop("legacy_digest")
+        baseline = update_state(new_state(), [legacy], NOW, CONFIG, initialize=True)
+        baseline["parser_version"] = 1
+        for section in baseline["sections"].values():
+            section["parser_version"] = 1
+        migrated = update_state(json.loads(json.dumps(baseline)), [parsed], LATER, CONFIG)
+        self.assertEqual(baseline["events"], migrated["events"])
+        self.assertEqual(baseline["feeds"], migrated["feeds"])
+        self.assertEqual(migrated["parser_version"], 2)
+        for section in migrated["sections"].values():
+            self.assertEqual(len(section["digests"]), 2)
+            self.assertIn(section["digest"], section["digest_aliases"])
+        reformatted = parse_article(article(PATCH_BODY.replace("November 7, 2026", "SATURDAY NOV 7, 2026")), PATCH_URL)
+        cosmetic = update_state(migrated, [reformatted], "2026-11-08T18:30:00+00:00", CONFIG)
+        self.assertEqual(migrated["events"], cosmetic["events"])
+        self.assertEqual(migrated["feeds"], cosmetic["feeds"])
+        changed = parse_article(article(PATCH_BODY.replace("+10.5%", "+11.5%")), PATCH_URL)
+        revised = update_state(cosmetic, [changed], "2026-11-08T18:45:00+00:00", CONFIG)
+        self.assertEqual(len(revised["events"]), len(baseline["events"]) + 1)
+        revision = next(event for event in revised["events"].values() if event["revision"])
+        self.assertEqual(revision["event_date"], "2026-11-08T18:45:00+00:00")
+        repeated = update_state(revised, [changed], "2026-11-08T19:00:00+00:00", CONFIG)
+        self.assertEqual(revised["events"], repeated["events"])
+        reverted = update_state(repeated, [parsed], "2026-11-08T19:15:00+00:00", CONFIG)
+        self.assertEqual(repeated["events"], reverted["events"])
+        # A genuine body edit made before the first migration is still detected;
+        # a legacy label hash is not blindly treated as an unchanged baseline.
+        immediate_revision = update_state(baseline, [changed], LATER, CONFIG)
+        self.assertEqual(len(immediate_revision["events"]), len(baseline["events"]) + 1)
+
+    def test_anchorless_date_spelling_migration_keeps_update_qualifiers_distinct(self):
+        from codrss.parse import parse_article
+        from test_parse import PATCH_URL, article
+
+        body = '''<h2>November 7, 2026 — Morning hotfix</h2><p>Resolved a stability issue during morning multiplayer matches.</p>
+        <h2>November 7, 2026 — Evening hotfix</h2><p>Corrected a distinct weapon damage issue in the evening.</p>'''
+        parsed = parse_article(article(body), PATCH_URL)
+        baseline = update_state(new_state(), [parsed], NOW, CONFIG, initialize=True)
+        changed = parse_article(article(body.replace("November 7, 2026", "SATURDAY NOV7, 2026")), PATCH_URL)
+        after = update_state(baseline, [changed], LATER, CONFIG)
+        self.assertEqual(baseline["events"], after["events"])
+        self.assertEqual(baseline["feeds"], after["feeds"])
+        self.assertEqual(len(after["sections"]), 2)
+        self.assertTrue(all(section["aliases"] for section in after["sections"].values()))
+        plain = "<h2>November 7, 2026</h2><p>Resolved stability issues in this one dated update.</p>"
+        first = update_state(new_state(), [parse_article(article(plain), PATCH_URL)], NOW, CONFIG, initialize=True)
+        same = update_state(first, [parse_article(article(plain.replace("November 7, 2026", "NOV7, 2026")), PATCH_URL)], LATER, CONFIG)
+        self.assertEqual(first["events"], same["events"])
+        self.assertEqual(first["feeds"], same["feeds"])
+
     def test_retention_preserves_ledger_and_does_not_replay_pruned_items(self):
         config = dict(CONFIG, initial_limit=1, retention=1)
         first = update_state(new_state(), [patch()], NOW, config, initialize=True)

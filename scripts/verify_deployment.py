@@ -56,18 +56,45 @@ def absolute_https(url: str) -> bool:
     return parts.scheme == "https" and bool(parts.netloc) and not parts.username
 
 
-def verify(base_url: str, public: Path, require_items: bool = True) -> dict:
+def verify(base_url: str, public: Path, require_items: bool = True, full_manifest: bool = False) -> dict:
     base_url = base_url.rstrip("/") + "/"
     report = {"base_url": base_url, "anonymous": True, "feeds": {}}
     with session() as client:
         local_manifest = json.loads((public / "manifest.json").read_text(encoding="utf-8"))
+        manifest_files = local_manifest.get("files")
+        if not isinstance(manifest_files, dict):
+            raise ValueError("Candidate manifest lacks file hashes")
+        if full_manifest:
+            content_files = {
+                path.relative_to(public).as_posix()
+                for path in public.rglob("*")
+                if path.is_file() and path.relative_to(public).as_posix()
+                not in {"manifest.json", "status.json", ".nojekyll"}
+            }
+            if set(manifest_files) != content_files:
+                raise ValueError("Candidate manifest does not cover the complete publication")
+        for relative, digest in manifest_files.items():
+            if not isinstance(relative, str) or not isinstance(digest, str):
+                raise ValueError("Invalid candidate manifest entry")
+            local = (public / relative).resolve()
+            if (not local.is_relative_to(public.resolve()) or not local.is_file()
+                    or urlsplit(relative).scheme or relative.startswith(("/", "\\"))
+                    or "\\" in relative):
+                raise ValueError("Invalid candidate manifest path")
+            if hashlib.sha256(local.read_bytes()).hexdigest() != digest:
+                raise ValueError(f"Candidate manifest hash mismatch: {relative}")
         remote_bytes, _ = fetch(client, urljoin(base_url, "manifest.json"))
         if json.loads(remote_bytes) != local_manifest:
             raise ValueError("Served manifest differs from candidate publication")
-        if (public / "status.json").exists():
-            status_bytes, _ = fetch(client, urljoin(base_url, "status.json"))
-            if status_bytes != (public / "status.json").read_bytes():
-                raise ValueError("Served operational checkpoint differs from candidate")
+        checked_files: set[str] = set()
+        for relative, label in (("index.html", "landing page"), ("status.json", "operational checkpoint")):
+            if (public / relative).exists():
+                body, mime = fetch(client, urljoin(base_url, relative))
+                if body != (public / relative).read_bytes():
+                    raise ValueError(f"Served {label} differs from candidate")
+                if relative.endswith(".html") and mime != "text/html":
+                    raise ValueError("Unexpected landing page Content-Type")
+                checked_files.add(relative)
         checked_pages: set[str] = set()
         for relative in FEEDS:
             url = urljoin(base_url, relative)
@@ -76,6 +103,7 @@ def verify(base_url: str, public: Path, require_items: bool = True) -> dict:
                 raise ValueError(f"Unexpected XML Content-Type {mime!r}: {url}")
             if body != (public / relative).read_bytes():
                 raise ValueError(f"Served feed hash differs from candidate: {url}")
+            checked_files.add(relative)
             root = ET.fromstring(body)
             if root.tag != "rss" or root.attrib.get("version") != "2.0":
                 raise ValueError(f"Not RSS 2.0: {url}")
@@ -107,6 +135,7 @@ def verify(base_url: str, public: Path, require_items: bool = True) -> dict:
                         if page_type != "text/html" or page != (public / page_relative).read_bytes():
                             raise ValueError(f"Missing or mismatched event page: {link}")
                         checked_pages.add(page_relative)
+                        checked_files.add(page_relative)
             report["feeds"][relative] = {
                 "url": url,
                 "http_status": 200,
@@ -116,6 +145,21 @@ def verify(base_url: str, public: Path, require_items: bool = True) -> dict:
                 "latest_event_date": parsed.entries[0].get("published") if parsed.entries else None,
             }
         report["verified_event_pages"] = len(checked_pages)
+        if full_manifest:
+            for relative in sorted(manifest_files):
+                if relative in checked_files:
+                    continue
+                body, mime = fetch(client, urljoin(base_url, relative))
+                if hashlib.sha256(body).hexdigest() != manifest_files[relative]:
+                    raise ValueError(f"Served manifest content differs from candidate: {relative}")
+                if relative.endswith(".html") and mime != "text/html":
+                    raise ValueError(f"Unexpected HTML Content-Type: {relative}")
+                checked_files.add(relative)
+                if relative.startswith("updates/") and relative.endswith(".html"):
+                    checked_pages.add(relative)
+            report["verified_event_pages"] = len(checked_pages)
+            report["full_manifest_verified"] = True
+        report["verified_content_files"] = len(checked_files)
     return report
 
 
@@ -137,6 +181,7 @@ def main() -> int:
     parser.add_argument("--delay", type=float, default=10)
     parser.add_argument("--needs-deployment", action="store_true")
     parser.add_argument("--github-output", action="store_true")
+    parser.add_argument("--full-manifest", action="store_true", help="Verify every retained public file, including historical patch pages")
     args = parser.parse_args()
     base_url = args.base_url or json.loads(args.config.read_text(encoding="utf-8"))["base_url"]
     if args.needs_deployment:
@@ -150,7 +195,7 @@ def main() -> int:
         return 0
     for attempt in range(args.attempts):
         try:
-            print(json.dumps(verify(base_url, args.public_dir), indent=2, ensure_ascii=False))
+            print(json.dumps(verify(base_url, args.public_dir, full_manifest=args.full_manifest), indent=2, ensure_ascii=False))
             return 0
         except (OSError, ValueError, requests.RequestException, ET.ParseError) as exc:
             if attempt + 1 == args.attempts:

@@ -5,10 +5,11 @@ from __future__ import annotations
 import copy
 import hashlib
 import json
+import re
 from datetime import datetime, timedelta, timezone
 
 SCHEMA_VERSION = 1
-PARSER_VERSION = 1
+PARSER_VERSION = 2
 
 
 def stable_hash(value):
@@ -42,24 +43,57 @@ def new_state():
     }
 
 
-def validate_state(state):
+def validate_state(state, now=None):
     if not isinstance(state, dict) or state.get("schema_version") != SCHEMA_VERSION:
         raise ValueError("Unsupported or corrupt state; restore the last valid Git state")
     for name in ("articles", "sections", "events", "feeds", "checkpoint"):
         if not isinstance(state.get(name), dict):
             raise ValueError(f"Corrupt state: missing {name}")
+    clock = as_datetime(now) if now else None
+    section_records = {}
+    for section in state["sections"].values():
+        if not isinstance(section, dict) or not section.get("page_url") or not section.get("key"):
+            raise ValueError("Corrupt section identity")
+        digests = section.get("digests")
+        if not isinstance(digests, list) or not digests or len(set(digests)) != len(digests) or section.get("digest") not in digests:
+            raise ValueError("Corrupt section digest history")
+        aliases = section.get("digest_aliases", {})
+        if not isinstance(aliases, dict) or any(key not in digests or value not in digests for key, value in aliases.items()):
+            raise ValueError("Corrupt section digest aliases")
+        for key in [section["key"], *section.get("aliases", [])]:
+            identity = (section["page_url"], key)
+            if identity in section_records and section_records[identity] is not section:
+                raise ValueError("Ambiguous stored section identity")
+            section_records[identity] = section
     for name in ("news", "patch"):
         feed = state["feeds"].get(name)
         if not isinstance(feed, dict) or not isinstance(feed.get("ids"), list):
             raise ValueError(f"Corrupt state: missing {name} feed")
+        if len(set(feed["ids"])) != len(feed["ids"]):
+            raise ValueError("Corrupt state: duplicate feed identity")
         for identity in feed["ids"]:
             if identity not in state["events"]:
                 raise ValueError("Corrupt state: feed refers to a missing event")
+            if state["events"][identity].get("kind") != name:
+                raise ValueError("Corrupt state: event is in the wrong feed")
     for identity, event in state["events"].items():
         if event.get("id") != identity or event.get("kind") not in ("news", "patch"):
             raise ValueError("Corrupt event identity")
-        as_datetime(event["event_date"])
-        as_datetime(event["source_date"])
+        if event.get("guid") != "urn:cod-rss:" + identity:
+            raise ValueError("Corrupt event GUID")
+        for field in ("event_date", "source_date", "first_observed"):
+            dated = as_datetime(event[field])
+            if clock and dated > clock:
+                raise ValueError("Unexplained future date in durable event state")
+        if event["kind"] == "news":
+            expected = stable_hash(event["page_url"])
+        else:
+            section = section_records.get((event["page_url"], event.get("section_key")))
+            if section is None or event.get("digest") not in section["digests"]:
+                raise ValueError("Corrupt state: published patch event lacks its section digest history")
+            expected = stable_hash([event["page_url"], event["section_key"], event["digest"]])
+        if identity != expected:
+            raise ValueError("Corrupt deterministic event identity")
     return state
 
 
@@ -114,7 +148,17 @@ def _event(article, now, section=None, revision=False, baseline=False):
     }
 
 
-def _find_section(state, url, section):
+def _update_label_identity(label):
+    """Keep update qualifiers while ignoring date and weekday presentation."""
+    from .parse import DATE_RE
+
+    value = DATE_RE.sub(" ", str(label))
+    value = re.sub(r"\b\d{4}-\d{2}-\d{2}\b", " ", value)
+    value = re.sub(r"\b(?:mon(?:day)?|tue(?:sday)?|wed(?:nesday)?|thu(?:rsday)?|fri(?:day)?|sat(?:urday)?|sun(?:day)?)\b", " ", value, flags=re.I)
+    return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
+
+
+def _find_section(state, url, section, live_keys=None):
     identity = stable_hash([url, section["key"]])
     if identity in state["sections"]:
         return identity, state["sections"][identity]
@@ -124,10 +168,14 @@ def _find_section(state, url, section):
             continue
         if section["key"] in known.get("aliases", []):
             return known_id, known
+        if live_keys and known["key"] != section["key"] and known["key"] in live_keys:
+            # A label match must not steal a different update that is still
+            # explicitly present in this same source document or pending ledger.
+            continue
         if known["source_date"] != section["source_date"]:
             continue
         anchor_match = section.get("anchor") and known.get("anchor") == section["anchor"]
-        label_match = known.get("label", "").casefold() == section["label"].casefold()
+        label_match = _update_label_identity(known.get("label", "")) == _update_label_identity(section["label"])
         if anchor_match or label_match:
             candidates.append((known_id, known))
     if len(candidates) == 1:
@@ -141,7 +189,7 @@ def _find_section(state, url, section):
 
 def update_state(state, articles, now, config, initialize=False):
     """Apply one complete successful collection, preserving every published event."""
-    validate_state(state)
+    validate_state(state, now)
     result = copy.deepcopy(state)
     clock = as_datetime(now)
     first_run = not result.get("initialized")
@@ -206,12 +254,13 @@ def update_state(state, articles, now, config, initialize=False):
                 "anchor": "", "semantic": semantic, "summary": article.get("summary", ""),
             }]
         section_ids = set()
+        live_keys = {section["key"] for section in sections}
         for original_section in sections:
             section = copy.deepcopy(original_section)
             dated = _source_date(section.get("source_date"), clock)
             if not section.get("key") or not section.get("label"):
                 raise ValueError("Patch section lacks stable identity and source label")
-            section_id, known = _find_section(result, url, section)
+            section_id, known = _find_section(result, url, section, live_keys)
             if section_id in section_ids:
                 raise ValueError("Two patch updates have the same stable identity")
             section_ids.add(section_id)
@@ -220,12 +269,22 @@ def update_state(state, articles, now, config, initialize=False):
                 raise ValueError("Patch section has no semantic content")
             section["digest"] = digest
             prior_digests = list(known.get("digests", [])) if known else []
+            digest_aliases = dict(known.get("digest_aliases", {})) if known else {}
             already_seen = digest in prior_digests
+            legacy_digest = section.get("legacy_digest")
+            if not already_seen and legacy_digest and legacy_digest in prior_digests:
+                # This exact previously observed body was hashed by the older
+                # parser with its presentation-only dateline included. Alias the
+                # new digest to the published legacy event instead of replaying.
+                digest_aliases[digest] = digest_aliases.get(legacy_digest, legacy_digest)
+                prior_digests.append(digest)
+                already_seen = True
             if known:
                 # Keep the original identity through parser/anchor migrations.
                 section["key"] = known["key"]
             if already_seen:
-                identity = stable_hash([url, section["key"], digest])
+                event_digest = digest_aliases.get(digest, digest)
+                identity = stable_hash([url, section["key"], event_digest])
                 if identity in result["events"] and section.get("summary"):
                     result["events"][identity]["summary"] = section["summary"]
             if not already_seen:
@@ -238,6 +297,7 @@ def update_state(state, articles, now, config, initialize=False):
                 "page_url": url, "key": section["key"], "label": section["label"],
                 "source_date": section["source_date"], "precision": section.get("precision", "date"),
                 "anchor": section.get("anchor", ""), "digest": digest, "digests": prior_digests,
+                "digest_aliases": digest_aliases,
                 "first_observed": known["first_observed"] if known else now,
                 "aliases": known.get("aliases", []) if known else [],
                 "parser_version": PARSER_VERSION,
@@ -254,7 +314,7 @@ def update_state(state, articles, now, config, initialize=False):
             feed["last_build"] = now
     result["initialized"] = True
     result["parser_version"] = PARSER_VERSION
-    validate_state(result)
+    validate_state(result, now)
     return result
 
 
@@ -288,7 +348,8 @@ def merge_pending_state(latest, pending, config):
             known["aliases"] = sorted(set(known.get("aliases", [])) | set(incoming.get("aliases", [])))
     for incoming_id, original in pending["sections"].items():
         incoming = copy.deepcopy(original)
-        identity, known = _find_section(result, incoming["page_url"], incoming)
+        live_keys = {section["key"] for section in pending["sections"].values() if section["page_url"] == incoming["page_url"]}
+        identity, known = _find_section(result, incoming["page_url"], incoming, live_keys)
         if known is None:
             # Usually incoming_id == identity. Preserve its published stable key
             # even when an older parser used a different ledger-key algorithm.
@@ -297,6 +358,9 @@ def merge_pending_state(latest, pending, config):
         if incoming["page_url"] != known["page_url"]:
             raise ValueError("Conflicting pending section page identity")
         known["digests"] = list(dict.fromkeys(known["digests"] + incoming["digests"]))
+        digest_aliases = known.setdefault("digest_aliases", {})
+        for digest, legacy in incoming.get("digest_aliases", {}).items():
+            digest_aliases.setdefault(digest, legacy)
         aliases = set(known.get("aliases", [])) | set(incoming.get("aliases", []))
         if incoming["key"] != known["key"]:
             aliases.add(incoming["key"])

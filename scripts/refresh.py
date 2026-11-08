@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -16,9 +17,9 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 import jsonschema
-from codrss.events import merge_pending_state, new_state, stable_hash, update_state
+from codrss.events import merge_pending_state, new_state, stable_hash, update_state, validate_state
 from codrss.fetch import Fetcher, SourceError
-from codrss.parse import canonical_url, parse_article, parse_index
+from codrss.parse import SourceParseError, canonical_url, parse_article, parse_index
 from codrss.render import PRESENTATION_VERSION, render_public, validate_public
 
 
@@ -29,6 +30,7 @@ def read_json(path):
 def valid_state(state):
     schema = read_json(ROOT / "data/state.schema.json")
     jsonschema.validate(state, schema)
+    validate_state(state)
     if not state.get("initialized"):
         raise ValueError("Established state is not initialized")
     for name in ("news", "patch"):
@@ -61,7 +63,7 @@ def load_state(initialize=False):
         return new_state()
     try:
         return preserves_public_identities(valid_state(read_json(state_path)))
-    except (OSError, ValueError, KeyError, ET.ParseError, jsonschema.ValidationError) as error:
+    except (OSError, ValueError, KeyError, TypeError, ET.ParseError, jsonschema.ValidationError) as error:
         for revision in revisions:
             result = subprocess.run(["git", "show", f"{revision}:data/state.json"], cwd=ROOT, capture_output=True, text=True, encoding="utf-8")
             if result.returncode != 0:
@@ -72,7 +74,7 @@ def load_state(initialize=False):
                 preserves_public_identities(state)
                 print(f"Recovered last valid durable state from Git {revision}", file=sys.stderr)
                 return state
-            except (ValueError, KeyError, ET.ParseError, jsonschema.ValidationError):
+            except (ValueError, KeyError, TypeError, ET.ParseError, jsonschema.ValidationError):
                 continue
         raise ValueError("Missing/corrupt established state; restore data/state.json from a valid Git backup. Fresh setup requires explicit --initialize.") from error
 
@@ -89,22 +91,35 @@ def parse_date(value):
 
 def sitemap_candidates(fetcher, config):
     """Bound sitemap discovery; lastmod is deliberately never used as a source date."""
-    queue, result = [config["sitemap_url"]], []
+    queue, result, visited = [config["sitemap_url"]], {}, set()
     for _ in range(config["max_sitemaps"]):
         if not queue:
             break
-        root = ET.fromstring(fetcher.get(queue.pop(0), html=False))
+        sitemap_url = queue.pop(0)
+        if sitemap_url in visited:
+            continue
+        visited.add(sitemap_url)
+        root = ET.fromstring(fetcher.get(sitemap_url, html=False))
         for node in root:
             loc = node.find("{*}loc")
             if loc is None or not loc.text:
                 continue
-            url = loc.text.strip()
+            try:
+                url = canonical_url(loc.text.strip(), sitemap_url, config["allowed_hosts"])
+            except ValueError:
+                continue
             if root.tag.endswith("sitemapindex"):
                 if any(tag in url.lower() for tag in ("blog", "patch", "en_", "en-", "sitemap")):
                     queue.append(url)
-            elif "/patchnotes/" in url or ("/blog/" in url and any(alias in url.lower() for alias in config["product_aliases"]["mw4"])):
-                result.append({"url": url, "title": ""})
-    return result[:config["max_candidates"]]
+            elif re.search(r"^https://[^/]+/(?:blog|patchnotes)/20\d{2}/\d{2}/", url):
+                # Only canonical English paths, never locale-prefixed versions.
+                if "/patchnotes/" in url or any(alias in url.lower() for alias in config["product_aliases"]["mw4"]):
+                    result[url] = {"url": url, "title": ""}
+    # URL year/month is only a bounded fetch priority, never a publication date.
+    def priority(url):
+        match = re.search(r"/(20\d{2})/(\d{2})/", url)
+        return (int(match[1]), int(match[2]), url)
+    return [result[url] for url in sorted(result, key=priority, reverse=True)[:config["max_candidates"]]]
 
 
 def collect(state, config, now, fetcher):
@@ -112,12 +127,20 @@ def collect(state, config, now, fetcher):
     candidates, counts, current_patches = {}, {}, set()
     for url in config["discovery_sources"]:
         body = fetcher.get(url)
-        cards = parse_index(body, url)
+        try:
+            cards = parse_index(body, url)
+        except SourceParseError:
+            # The parser deliberately raises on lost card selectors. The
+            # verified sitemap is still a bounded discovery fallback; if its
+            # article/date parsing also fails the whole publication fails safely.
+            cards = []
         counts[url] = len(cards)
+        used_fallback = not cards
         if not cards:
             cards = sitemap_candidates(fetcher, config)
             if not cards:
                 raise SourceError(f"No article cards or sitemap fallback: selector/source failure at {url}")
+            print(f"Article card extraction changed at {url}; using bounded verified sitemap discovery", file=sys.stderr)
         previous = state.get("collection", {}).get("index_counts", {}).get(url, 0)
         if previous >= 10 and len(cards) < previous * 0.30:
             raise SourceError(f"Suspicious extraction loss at {url}: {len(cards)} vs {previous}")
@@ -129,7 +152,7 @@ def collect(state, config, now, fetcher):
             if not identity:
                 continue
             card["url"] = identity
-            if url.rstrip("/") == "https://www.callofduty.com/patchnotes" and "/patchnotes/" in identity:
+            if not used_fallback and url.rstrip("/") == "https://www.callofduty.com/patchnotes":
                 current_patches.add(identity)
             if identity not in candidates:
                 candidates[identity] = card
@@ -150,7 +173,11 @@ def collect(state, config, now, fetcher):
     catchup = state.get("presentation_version") != PRESENTATION_VERSION or not last_catchup or now - last_catchup >= timedelta(days=config["catchup_days"])
     fetched = 0
     for url, hint in candidates.items():
-        patch_hint = "/patchnotes/" in url
+        patch_tags = {str(value).casefold() for value in hint.get("categories", [])}
+        patch_hint = ("/patchnotes/" in url
+                      or state.get("articles", {}).get(url, {}).get("kind") == "patch"
+                      or bool(patch_tags & {"patch-notes", "patch-updates", "hotfix"})
+                      or any(term in hint.get("title", "").casefold() for term in ("patch notes", "hotfix")))
         known = url in state.get("articles", {})
         dated = parse_date(hint.get("source_date") or hint.get("date"))
         if dated and dated < cutoff and url not in previous_pages and url not in current_patches:
@@ -171,6 +198,10 @@ def collect(state, config, now, fetcher):
             diagnostics.append({"url": url, "reason": "quarantined: no verified source date"})
             continue
         if article["kind"] == "patch":
+            if url not in current_patches and url not in previous_pages:
+                section_dates = [parse_date(section.get("source_date")) for section in article.get("sections", [])]
+                if section_dates and all(date is not None and date < cutoff for date in section_dates):
+                    continue  # A historical sitemap entry is not an active page.
             # Pages in current indexes continue observation; removed pages retain
             # their original last-indexed time so the overlap expires.
             active_pages[url] = now.isoformat() if url in current_patches or url not in previous_pages else previous_pages[url]

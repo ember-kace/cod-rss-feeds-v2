@@ -40,6 +40,9 @@ class PrivacyTextTests(unittest.TestCase):
         text = "https://www.callofduty.com/blog https://yourbot.gg/docs/social-feeds https://docs.github.com/en/pages"
         self.assertEqual(PRIVACY.scan_text(text, "SOURCES.md"), [])
 
+    def test_domain_only_suffix_is_not_a_personal_email(self):
+        self.assertEqual(PRIVACY.scan_text("email.endswith('@users.noreply.github.com')", "scripts/helper.py"), [])
+
     def test_local_and_credential_files_are_never_publishable(self):
         for path in (".env", ".env.example", ".scratch/capture.html", ".venv/lib.py", ".cache/request.json", ".git/config", "private/id_ed25519", "local/credentials.json"):
             with self.subTest(path=path):
@@ -54,6 +57,30 @@ class PrivacyTextTests(unittest.TestCase):
 
 
 class PrivacyRepositoryTests(unittest.TestCase):
+    def test_secret_removed_from_current_files_is_still_rejected_in_history(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            self.git(root, "init", "-b", "main")
+            self.git(root, "config", "user.name", "sample")
+            self.git(root, "config", "user.email", "123+sample@users.noreply.github.com")
+            (root / "config").mkdir()
+            (root / "config/feeds.json").write_text('{"repository":"sample/feeds"}\n', encoding="utf-8")
+            (root / ".env").write_bytes((root / "config/feeds.json").read_bytes())
+            secret = "ghp_" + "S" * 36
+            leaked = root / "config/session.txt"
+            leaked.write_text("session=" + secret, encoding="utf-8")
+            self.git(root, "add", "--all")
+            contact = "reader@" + "work.example"
+            self.git(root, "commit", "-m", "Fixture baseline\n\nContact " + contact)
+            self.git(root, "rm", "config/session.txt", ".env")
+            self.git(root, "commit", "-m", "Remove fixture file")
+            findings = PRIVACY.audit_repository(root)
+            self.assertTrue(any(finding["kind"] == "github-token" and "historical_blob" in finding for finding in findings))
+            self.assertTrue(any(finding["kind"] == "historical-sensitive-path" and finding["path"] == ".env" for finding in findings))
+            self.assertTrue(any(finding["kind"] == "personal-email" and finding["path"].startswith("commit:") for finding in findings))
+            self.assertNotIn(secret, json.dumps(findings))
+            self.assertNotIn(contact, json.dumps(findings))
+
     def test_reachable_commit_identity_is_checked_even_when_files_are_clean(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

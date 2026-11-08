@@ -10,13 +10,13 @@ from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup, Tag
 
-PARSER_VERSION = 1
+PARSER_VERSION = 2
 HOSTS = {"www.callofduty.com", "callofduty.com"}
 MONTHS = {name.lower(): index for index, name in enumerate(
     ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], 1)}
 MONTHS.update({name[:3]: value for name, value in list(MONTHS.items())})
 MONTH_RE = "|".join(sorted(MONTHS, key=len, reverse=True))
-DATE_RE = re.compile(rf"\b({MONTH_RE})\s+(\d{{1,2}})(?:st|nd|rd|th)?(?:\s*,?\s*(20\d{{2}}))?\b", re.I)
+DATE_RE = re.compile(rf"\b({MONTH_RE})\s*(\d{{1,2}})(?:st|nd|rd|th)?(?:\s*,?\s*(20\d{{2}}))?\b", re.I)
 MW4_RE = re.compile(r"\b(?:modern\s*warfare\s*[®™]?\s*4|mw\s*4)\b|modernwarfare4", re.I)
 PATCH_RE = re.compile(r"\b(?:patch\s+notes?|hotfix(?:es)?)\b", re.I)
 
@@ -126,7 +126,11 @@ def _metadata(soup):
             if not isinstance(obj, dict):
                 continue
             for candidate in obj.get("@graph", [obj]):
-                if isinstance(candidate, dict) and candidate.get("@type") in {"BlogPosting", "NewsArticle", "Article"}:
+                if not isinstance(candidate, dict):
+                    continue
+                types = candidate.get("@type", [])
+                types = [types] if isinstance(types, str) else types
+                if isinstance(types, list) and any(value in {"BlogPosting", "NewsArticle", "Article"} for value in types if isinstance(value, str)):
                     result.update({key: value for key, value in candidate.items() if value})
     return result
 
@@ -210,7 +214,9 @@ def _semantic_blocks(body):
                         span = f"[rows={cell.get('rowspan', '1')},cols={cell.get('colspan', '1')}]"
                     cells.append(span + clean(cell.get_text(" ", strip=True)))
                 rows.append(" | ".join(cells))
-            text = "TABLE\n" + "\n".join(rows)
+            captions = [clean(caption.get_text(" ", strip=True)) for caption in node.find_all("caption", recursive=False)]
+            caption_text = "".join("CAPTION: " + caption + "\n" for caption in captions if caption)
+            text = "TABLE\n" + caption_text + "\n".join(rows)
         elif node.name == "li":
             # Each list item is its own record, keeping nested bullet boundaries.
             copy = BeautifulSoup(str(node), "html.parser").li
@@ -232,10 +238,25 @@ def _anchor(node):
     candidate = node.find(attrs={"id": True}) or node.find("a", attrs={"name": True})
     if candidate:
         return candidate.get("id") or candidate.get("name")
-    previous = node.previous_sibling
+    previous = node.find_previous_sibling()
     if isinstance(previous, Tag) and previous.name == "a":
         return previous.get("id") or previous.get("name")
     return None
+
+
+def _dated_update_heading(label, year):
+    """Distinguish update datelines from headings that merely mention a date."""
+    match = DATE_RE.search(label)
+    if not match:
+        return None, None
+    prefix = clean(label[:match.start()]).strip(" ,:–—-")
+    suffix = clean(label[match.end():]).strip(" ,:–—-.")
+    weekday = r"(?:mon(?:day)?|tue(?:sday)?|wed(?:nesday)?|thu(?:rsday)?|fri(?:day)?|sat(?:urday)?|sun(?:day)?)"
+    if prefix and not re.fullmatch(weekday, prefix, re.I):
+        return None, None
+    if suffix and not re.search(r"\b(?:patch|update|updates|hotfix|hotfixes)\b", suffix, re.I):
+        return None, None
+    return parse_date(label, year)
 
 
 def _sections(body, main, source_date, url):
@@ -246,7 +267,7 @@ def _sections(body, main, source_date, url):
     markers = []
     for index, (node, text) in enumerate(blocks):
         label = clean(node.get_text(" ", strip=True))
-        value, precision = parse_date(label, year)
+        value, precision = _dated_update_heading(label, year)
         anchor = _anchor(node)
         if node.name.startswith("h") and value and len(label) < 130:
             markers.append((index, label, value, precision, anchor))
@@ -261,9 +282,13 @@ def _sections(body, main, source_date, url):
     for pos, (start, label, value, precision, anchor) in enumerate(markers):
         end = markers[pos + 1][0] if pos + 1 < len(markers) else len(blocks)
         content_blocks = blocks[start:end]
-        semantic = "\n".join(text for _, text in content_blocks)
-        if len(semantic) < 30:
+        legacy_semantic = "\n".join(text for _, text in content_blocks)
+        if len(legacy_semantic) < 30:
             raise SourceParseError(f"Suspiciously empty dated section {label} at {url}")
+        semantic_blocks = content_blocks
+        if content_blocks[0][0].name.startswith("h"):
+            semantic_blocks = content_blocks[1:]
+        semantic = "UPDATE DATE: " + value + "\n" + "\n".join(text for _, text in semantic_blocks)
         normalized_label = re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
         key = "anchor:" + anchor if anchor else "date:" + value + ":label:" + normalized_label
         # The reference feed previews actual changes, rather than the page's
@@ -280,6 +305,7 @@ def _sections(body, main, source_date, url):
         sections.append({"key": key, "label": label, "source_date": value, "precision": precision,
                          "anchor": anchor, "semantic": semantic,
                          "digest": hashlib.sha256(semantic.encode("utf-8")).hexdigest(),
+                         "legacy_digest": hashlib.sha256(legacy_semantic.encode("utf-8")).hexdigest(),
                          "summary": summary or "Official patch notes describe this dated update. Read the official notes for the full details."})
     if len({item["key"] for item in sections}) != len(sections):
         raise SourceParseError(f"Ambiguous duplicate update identities at {url}")

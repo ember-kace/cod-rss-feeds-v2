@@ -97,6 +97,15 @@ class RenderTests(unittest.TestCase):
             page.unlink()
             with self.assertRaises(ValueError):
                 validate_public(temporary, SETTINGS)
+
+    def test_manifest_must_cover_unreferenced_retained_public_files(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            render_public(self.state(), SETTINGS, temporary, NOW)
+            manifest = json.loads(Path(temporary, "manifest.json").read_text(encoding="utf-8"))
+            self.assertNotIn(".nojekyll", manifest["files"])
+            Path(temporary, "updates/historical.html").write_text("<title>Retained event</title>", encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "complete publication"):
+                validate_public(temporary, SETTINGS)
         with tempfile.TemporaryDirectory() as temporary:
             render_public(self.state(), SETTINGS, temporary, NOW)
             Path(temporary, "index.html").write_text("changed", encoding="utf-8")

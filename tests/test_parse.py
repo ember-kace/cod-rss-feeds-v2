@@ -1,6 +1,10 @@
 """Small synthetic publisher-shaped fixtures; never used as live feed data."""
 
 import unittest
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from codrss.parse import SourceParseError, canonical_url, parse_article, parse_date, parse_index
 
@@ -99,6 +103,42 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(parsed["source_date"], "2026-11-07")
         self.assertEqual(parsed["precision"], "date")
         self.assertEqual(parsed["author"], "Infinity Ward")
+
+    def test_json_ld_type_array_uses_populated_article_metadata(self):
+        extra = '<script type="application/ld+json">{"@type":["NewsArticle","Article"],"datePublished":"2026-11-05T19:00:00Z","description":"Verified publisher summary."}</script>'
+        parsed = parse_article(article(PATCH_BODY, extra=extra), PATCH_URL)
+        self.assertEqual(parsed["source_date"], "2026-11-05T19:00:00+00:00")
+        self.assertEqual(parsed["precision"], "datetime")
+
+    def test_whitespace_before_heading_preserves_actual_same_day_anchors(self):
+        body = '''<a id="morning"></a>\n<h2>November 7, 2026</h2><p>Resolved stability issues in the morning update.</p>
+        <a id="evening"></a>\n<h2>November 7, 2026</h2><p>Corrected weapon damage in the evening update.</p>'''
+        sections = parse_article(article(body), PATCH_URL)["sections"]
+        self.assertEqual([section["anchor"] for section in sections], ["morning", "evening"])
+        self.assertEqual([section["key"] for section in sections], ["anchor:morning", "anchor:evening"])
+
+    def test_table_caption_weapon_change_is_semantic_and_markup_is_cosmetic(self):
+        body = PATCH_BODY.replace("<table>", "<table><caption>M4 weapon changes</caption>")
+        baseline = parse_article(article(body), PATCH_URL)["sections"][0]
+        cosmetic = parse_article(article(body.replace("M4 weapon changes</caption>", "<strong>M4</strong> weapon   changes</caption>")), PATCH_URL)["sections"][0]
+        changed = parse_article(article(body.replace("M4 weapon changes</caption>", "AK-47 weapon changes</caption>")), PATCH_URL)["sections"][0]
+        self.assertIn("CAPTION: M4 weapon changes", baseline["semantic"])
+        self.assertEqual(baseline["digest"], cosmetic["digest"])
+        self.assertNotEqual(baseline["digest"], changed["digest"])
+
+    def test_heading_that_mentions_release_date_does_not_split_update(self):
+        body = PATCH_BODY.replace("<h2>GLOBAL</h2>", "<h2>GLOBAL</h2><h3>Weapons arriving November 6</h3><p>These weapon adjustments belong to the November 7 update.</p>")
+        sections = parse_article(article(body), PATCH_URL)["sections"]
+        self.assertEqual(len(sections), 3)
+        self.assertIn("Weapons arriving November 6", sections[0]["semantic"])
+        self.assertIn("M4 | +10.5% | 30.25 m", sections[0]["semantic"])
+
+    def test_dated_heading_presentation_does_not_change_body_digest(self):
+        original = parse_article(article(PATCH_BODY), PATCH_URL)["sections"][0]
+        reformatted = parse_article(article(PATCH_BODY.replace("November 7, 2026", "SATURDAY NOV 7, 2026")), PATCH_URL)["sections"][0]
+        self.assertEqual(original["digest"], reformatted["digest"])
+        self.assertNotEqual(original["legacy_digest"], reformatted["legacy_digest"])
+        self.assertIn("UPDATE DATE: 2026-11-07", original["semantic"])
 
     def test_whole_article_fallback(self):
         body = "<h2>GLOBAL</h2><p>Resolved several stability problems and updated multiplayer weapon balance for the current season.</p>"

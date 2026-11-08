@@ -244,7 +244,7 @@ def render_public(state, config, destination, now=None):
     files = {
         path.relative_to(target).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
         for path in sorted(target.rglob("*"))
-        if path.is_file() and path.name not in ("manifest.json", "status.json")
+        if path.is_file() and path.relative_to(target).as_posix() not in ("manifest.json", "status.json", ".nojekyll")
     }
     manifest = {"schema_version": 1, "algorithm": "sha256", "files": files, "content_digest": stable_hash(files)}
     (target / "manifest.json").write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
@@ -335,6 +335,13 @@ def validate_public(path, config):
             "sha256": hashlib.sha256(body).hexdigest(),
         }
     manifest = json.loads((target / "manifest.json").read_text(encoding="utf-8"))
+    expected_files = {
+        file.relative_to(target).as_posix()
+        for file in target.rglob("*")
+        if file.is_file() and file.relative_to(target).as_posix() not in ("manifest.json", "status.json", ".nojekyll")
+    }
+    if set(manifest.get("files", {})) != expected_files:
+        raise ValueError("Manifest does not cover the complete publication")
     if manifest.get("content_digest") != stable_hash(manifest["files"]):
         raise ValueError("Invalid manifest content digest")
     for relative, digest in manifest["files"].items():

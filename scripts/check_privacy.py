@@ -67,7 +67,10 @@ def scan_text(text: str, path: str) -> list[dict]:
         for match in pattern.finditer(normalized):
             add(kind, match.start())
     for match in EMAIL.finditer(normalized):
-        if not allowed_email(match.group(), path):
+        address = match.group().strip("'\"`")
+        if address.startswith("@"):
+            continue  # A quoted domain suffix used by code is not an address.
+        if not allowed_email(address, path):
             add("personal-email", match.start())
     for match in URL.finditer(normalized):
         try:
@@ -93,6 +96,71 @@ def _git(root: Path, *args) -> bytes:
     if result.returncode:
         raise RuntimeError("Git query failed during privacy verification")
     return result.stdout
+
+
+def historical_content_findings(root: Path, ref: str) -> list[dict]:
+    """Scan reachable unique blobs, including files later removed from HEAD.
+
+    One batch process avoids spawning Git for every object. Only one bounded
+    representation is held at a time; diagnostics never include blob contents.
+    """
+    entries = {}
+    for line in _git(root, "rev-list", "--objects", ref).splitlines():
+        parts = line.split(b" ", 1)
+        if len(parts) == 2:
+            entries.setdefault(parts[0], parts[1].decode("utf-8", errors="replace"))
+    findings = []
+    # Object enumeration keeps only one path for shared blobs. Inspect changed
+    # paths separately so a removed private file cannot hide behind a clean copy
+    # with identical bytes under another filename.
+    historical_paths = {
+        path.decode("utf-8", errors="replace").strip("\n")
+        for path in _git(root, "log", "--format=", "--name-only", "-z", ref).split(b"\0")
+        if path.strip(b"\n")
+    }
+    findings.extend({"kind": "historical-sensitive-path", "path": path}
+                    for path in sorted(historical_paths) if sensitive_path(path))
+    process = subprocess.Popen(["git", "cat-file", "--batch"], cwd=root,
+                               stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                               stderr=subprocess.PIPE)
+    try:
+        for identity, path in entries.items():
+            process.stdin.write(identity + b"\n")
+            process.stdin.flush()
+            header = process.stdout.readline().split()
+            if len(header) != 3:
+                raise RuntimeError("Malformed historical Git object during privacy verification")
+            kind, size = header[1], int(header[2])
+            if kind != b"blob" or size > 8 * 1024 * 1024:
+                remaining = size
+                while remaining:
+                    chunk = process.stdout.read(min(remaining, 65536))
+                    if not chunk:
+                        raise RuntimeError("Incomplete historical Git object during privacy verification")
+                    remaining -= len(chunk)
+                if kind == b"blob" and size > 8 * 1024 * 1024:
+                    findings.append({"kind": "historical-file-exceeds-scan-bound", "path": path})
+                data = b""
+            else:
+                data = process.stdout.read(size)
+                if len(data) != size:
+                    raise RuntimeError("Incomplete historical Git object during privacy verification")
+            if process.stdout.read(1) != b"\n":
+                raise RuntimeError("Malformed historical Git object delimiter")
+            if kind != b"blob":
+                continue
+            if not sensitive_path(path) and b"\0" not in data:
+                for finding in scan_text(data.decode("utf-8", errors="replace"), path):
+                    finding["historical_blob"] = identity.decode()[:12]
+                    findings.append(finding)
+    finally:
+        process.stdin.close()
+        process.stdout.close()
+        process.stderr.close()
+        process.wait()
+    if process.returncode:
+        raise RuntimeError("Git history query failed during privacy verification")
+    return findings
 
 
 def audit_repository(root: Path, ref: str = "HEAD") -> list[dict]:
@@ -121,16 +189,18 @@ def audit_repository(root: Path, ref: str = "HEAD") -> list[dict]:
         data = source.read_bytes()
         if b"\0" not in data:
             findings.extend(scan_text(data.decode("utf-8", errors="replace"), path))
-    fields = _git(root, "log", "-z", "--format=%H%x00%an%x00%ae%x00%cn%x00%ce", ref).split(b"\0")
+    fields = _git(root, "log", "-z", "--format=%H%x00%an%x00%ae%x00%cn%x00%ce%x00%B", ref).split(b"\0")
     if fields and not fields[-1]:
         fields.pop()
-    if len(fields) % 5:
+    if len(fields) % 6:
         raise RuntimeError("Malformed commit metadata during privacy verification")
-    for index in range(0, len(fields), 5):
-        commit, author, author_email, committer, committer_email = [value.decode("utf-8", errors="replace") for value in fields[index:index + 5]]
+    for index in range(0, len(fields), 6):
+        commit, author, author_email, committer, committer_email, message = [value.decode("utf-8", errors="replace") for value in fields[index:index + 6]]
         for role, name, email in (("author", author, author_email), ("committer", committer, committer_email)):
             for kind in check_commit_identity(name, email, allowed_names):
                 findings.append({"kind": kind.replace("author", role), "path": "commit:" + commit[:12]})
+        findings.extend(scan_text(message, "commit:" + commit[:12]))
+    findings.extend(historical_content_findings(root, ref))
     return findings
 
 

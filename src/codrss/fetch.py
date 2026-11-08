@@ -42,6 +42,8 @@ class Fetcher:
     def load_robots(self):
         url = self.config["robots_url"]
         body = self.get(url, html=False, enforce_robots=False)
+        if body.lstrip().startswith("<"):
+            raise SourceError("Publisher robots.txt returned HTML instead of access rules")
         self.robots = RobotFileParser(url)
         self.robots.parse(body.splitlines())
         if not self.robots.can_fetch(self.config["user_agent"], self.config["discovery_sources"][0]):
@@ -51,7 +53,8 @@ class Fetcher:
         if _redirects > 5:
             raise SourceError(f"Source redirect limit exceeded: {url}")
         parts = urlparse(url)
-        if parts.scheme != "https" or parts.hostname not in self.config["allowed_hosts"]:
+        if (parts.scheme != "https" or parts.hostname not in self.config["allowed_hosts"]
+                or parts.username or parts.password):
             raise SourceError(f"Rejected source URL: {url}")
         if enforce_robots and self.robots and not self.robots.can_fetch(self.config["user_agent"], url):
             raise SourceError(f"Publisher robots rules disallow {url}")
@@ -61,13 +64,21 @@ class Fetcher:
             cached = json.loads(path.read_text(encoding="utf-8"))
         except (OSError, ValueError):
             cached = {}
+        if not isinstance(cached, dict) or not isinstance(cached.get("body"), str):
+            cached = {}
+        if html and cached.get("body", "").strip():
+            try:
+                check_html(cached["body"], url)
+            except SourceError:
+                cached = {}  # An error/challenge page is not a usable 304 body.
         headers = {}
         if cached.get("body", "").strip():
-            if cached.get("etag"):
+            if isinstance(cached.get("etag"), str) and cached["etag"]:
                 headers["If-None-Match"] = cached["etag"]
-            if cached.get("modified"):
+            if isinstance(cached.get("modified"), str) and cached["modified"]:
                 headers["If-Modified-Since"] = cached["modified"]
         for attempt in range(3):
+            response = None
             self.count += 1
             if self.count > self.config["max_requests"]:
                 raise SourceError("HTTP request budget exhausted; adjust verified discovery bounds")
@@ -98,6 +109,7 @@ class Fetcher:
                     if delay > 45:
                         raise SourceError(f"Source requests retry after {delay:.0f}s: {url}")
                     if attempt < 2:
+                        response.close()
                         time.sleep(max(delay, 2 ** attempt))
                         continue
                 response.raise_for_status()
@@ -114,9 +126,14 @@ class Fetcher:
                 path.write_text(json.dumps({"url": url, "body": body, "etag": response.headers.get("ETag"), "modified": response.headers.get("Last-Modified")}, ensure_ascii=False), encoding="utf-8")
                 break
             except requests.RequestException as exc:
+                if response is not None:
+                    response.close()
                 if attempt == 2 or (getattr(exc, "response", None) is not None and exc.response.status_code < 500 and exc.response.status_code != 429):
                     raise SourceError(f"Source fetch failed: {url}: {exc}") from exc
                 time.sleep(2 ** attempt)
+            finally:
+                if response is not None:
+                    response.close()
         else:
             raise SourceError(f"No usable representation: {url}")
         if html:
