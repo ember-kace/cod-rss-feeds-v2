@@ -1,8 +1,7 @@
 {
   "algorithm": "sha256",
-  "content_digest": "a811422a780c3a5734d5bc7d27f3f46eb75819f3277740c2098a7a08fe433627",
+  "content_digest": "781aa83c163f340c47d798ee49748b83ccfe1b51f3ebee46037192590b52cf3d",
   "files": {
-    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "feeds/modern-warfare-4.xml": "49534b21d2da0979b3b69be6c1fe96623a5a5516a7937cf92302aa28c3c0d46d",
     "feeds/patch-updates.xml": "a66f57cd9e7d220993a5d4fdd1959020eaa395268e35d17648aa7913cf5f4aab",
     "index.html": "da94e70859644957a86df6ed10ae479af041cb3017b941195820fb468f74c5e8",

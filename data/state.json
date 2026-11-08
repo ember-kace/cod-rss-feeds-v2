@@ -901,7 +901,7 @@
       "successful_source_checks": 22
     }
   ],
-  "parser_version": 1,
+  "parser_version": 2,
   "presentation_signature": "538ecd6f35cf44509e3f96207b897fdbf71152aeb3c9e4f72665cdd06a716ae8",
   "presentation_version": 2,
   "schema_version": 1,
@@ -909,210 +909,266 @@
     "1c138fb42e4685c592055c6122856d0ca82b2a151a7888386df4a6e35c957060": {
       "aliases": [],
       "anchor": "oct30",
-      "digest": "020bf78a746e2e936e33de5149bfe5d213443a5260ac6cd3c90b0437f1672dba",
+      "digest": "06f78a852a63a0e2fec36c393b7f8c93ef5f11a8bbddc79a101b0c13ed38a7b7",
+      "digest_aliases": {
+        "06f78a852a63a0e2fec36c393b7f8c93ef5f11a8bbddc79a101b0c13ed38a7b7": "020bf78a746e2e936e33de5149bfe5d213443a5260ac6cd3c90b0437f1672dba"
+      },
       "digests": [
-        "020bf78a746e2e936e33de5149bfe5d213443a5260ac6cd3c90b0437f1672dba"
+        "020bf78a746e2e936e33de5149bfe5d213443a5260ac6cd3c90b0437f1672dba",
+        "06f78a852a63a0e2fec36c393b7f8c93ef5f11a8bbddc79a101b0c13ed38a7b7"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:oct30",
       "label": "October 30, 2026",
       "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-10-30"
     },
     "45722a90609755e10adf0f2c5ff560451c5ad77332859edfce0436fce1ff937b": {
       "aliases": [],
       "anchor": "oct25",
-      "digest": "ae5dd1af54c90ca9ba8a591834cff00652d5fca3acbe4635c54ade6786a8c1d5",
+      "digest": "b7fc699e6b96b36f2539198e4a2ba866d1bc0a8a7e6581a8689553767478002f",
+      "digest_aliases": {
+        "b7fc699e6b96b36f2539198e4a2ba866d1bc0a8a7e6581a8689553767478002f": "ae5dd1af54c90ca9ba8a591834cff00652d5fca3acbe4635c54ade6786a8c1d5"
+      },
       "digests": [
-        "ae5dd1af54c90ca9ba8a591834cff00652d5fca3acbe4635c54ade6786a8c1d5"
+        "ae5dd1af54c90ca9ba8a591834cff00652d5fca3acbe4635c54ade6786a8c1d5",
+        "b7fc699e6b96b36f2539198e4a2ba866d1bc0a8a7e6581a8689553767478002f"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:oct25",
       "label": "October 25, 2026",
       "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-10-25"
     },
     "4ccdd322e83c9fee58b366e3f4f42ca0ea7bb2c78f8dcfcec57fcabdc8246009": {
       "aliases": [],
       "anchor": "oct21",
-      "digest": "f9765c98931c2fe9414be68e16d3e9547f216fda625e21ab487bd7743ebb7157",
+      "digest": "8a797f4236025f650b18f75d10365a19fef0b3a3a9b0d59f9f6316cd82420d7d",
+      "digest_aliases": {
+        "8a797f4236025f650b18f75d10365a19fef0b3a3a9b0d59f9f6316cd82420d7d": "f9765c98931c2fe9414be68e16d3e9547f216fda625e21ab487bd7743ebb7157"
+      },
       "digests": [
-        "f9765c98931c2fe9414be68e16d3e9547f216fda625e21ab487bd7743ebb7157"
+        "f9765c98931c2fe9414be68e16d3e9547f216fda625e21ab487bd7743ebb7157",
+        "8a797f4236025f650b18f75d10365a19fef0b3a3a9b0d59f9f6316cd82420d7d"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:oct21",
       "label": "October 21",
       "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-10-21"
     },
     "5cb2ec546bd2571a2e5bb175162c41b8fe8b1800a9bef9c529fc264685eddd1f": {
       "aliases": [],
       "anchor": "oct28",
-      "digest": "2dbf95ed9519c14e8ffdff9df2a7560c061c230816f74da42a6cafe226cd7c66",
+      "digest": "291fcc64c4a58957bd090c10fd6d3552a10200f4f4188b724a04c3c6ae791a13",
+      "digest_aliases": {
+        "291fcc64c4a58957bd090c10fd6d3552a10200f4f4188b724a04c3c6ae791a13": "2dbf95ed9519c14e8ffdff9df2a7560c061c230816f74da42a6cafe226cd7c66"
+      },
       "digests": [
-        "2dbf95ed9519c14e8ffdff9df2a7560c061c230816f74da42a6cafe226cd7c66"
+        "2dbf95ed9519c14e8ffdff9df2a7560c061c230816f74da42a6cafe226cd7c66",
+        "291fcc64c4a58957bd090c10fd6d3552a10200f4f4188b724a04c3c6ae791a13"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:oct28",
       "label": "October 28, 2026",
       "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-10-28"
     },
     "67d1b2f24ad4f58fec51432d9d3a2a95899071327ddbd421a32757829f3c77eb": {
       "aliases": [],
       "anchor": "nov5",
-      "digest": "453620e1e029bf373d92c1715220391b9b3c6a56a0c4e438225ec77c0bee3318",
+      "digest": "1e481bb2d59ed9da1fe7a714f6071ab9d3f9fadcc6a6d22c5b5dd013c45dcff7",
+      "digest_aliases": {
+        "1e481bb2d59ed9da1fe7a714f6071ab9d3f9fadcc6a6d22c5b5dd013c45dcff7": "453620e1e029bf373d92c1715220391b9b3c6a56a0c4e438225ec77c0bee3318"
+      },
       "digests": [
-        "453620e1e029bf373d92c1715220391b9b3c6a56a0c4e438225ec77c0bee3318"
+        "453620e1e029bf373d92c1715220391b9b3c6a56a0c4e438225ec77c0bee3318",
+        "1e481bb2d59ed9da1fe7a714f6071ab9d3f9fadcc6a6d22c5b5dd013c45dcff7"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:nov5",
       "label": "Season 1 Intro",
       "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-05"
     },
     "814c3b4e2dbf12a4b414a25c364cbe1c51faee99e06a0721fba563fc5711c882": {
       "aliases": [],
       "anchor": "nov7",
-      "digest": "b1104bdf11a672ca18b5ca70c17c29408cf28384803fde5c14d8a589a945207b",
+      "digest": "283da068d1dc253c89bfab2b1a5576c88823d344442f9c4c0ea5805cf2a84395",
+      "digest_aliases": {
+        "283da068d1dc253c89bfab2b1a5576c88823d344442f9c4c0ea5805cf2a84395": "b1104bdf11a672ca18b5ca70c17c29408cf28384803fde5c14d8a589a945207b"
+      },
       "digests": [
-        "b1104bdf11a672ca18b5ca70c17c29408cf28384803fde5c14d8a589a945207b"
+        "b1104bdf11a672ca18b5ca70c17c29408cf28384803fde5c14d8a589a945207b",
+        "283da068d1dc253c89bfab2b1a5576c88823d344442f9c4c0ea5805cf2a84395"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:nov7",
       "label": "SATURDAY NOVEMBER 7",
       "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-07"
     },
     "93386ecad5ee68f752ea658495f4076ad7a255aecf77eccad3e0c3013fa9bc0c": {
       "aliases": [],
       "anchor": null,
-      "digest": "260da5a962163dccf048b262d4c448d95d829807f1a45258d16e7c3b777d741e",
+      "digest": "e35005fff69d5656c64be12f75db40350a54ac7ea0e7b7c7a77d5de28b0bbd47",
+      "digest_aliases": {
+        "e35005fff69d5656c64be12f75db40350a54ac7ea0e7b7c7a77d5de28b0bbd47": "260da5a962163dccf048b262d4c448d95d829807f1a45258d16e7c3b777d741e"
+      },
       "digests": [
-        "260da5a962163dccf048b262d4c448d95d829807f1a45258d16e7c3b777d741e"
+        "260da5a962163dccf048b262d4c448d95d829807f1a45258d16e7c3b777d741e",
+        "e35005fff69d5656c64be12f75db40350a54ac7ea0e7b7c7a77d5de28b0bbd47"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "date:2026-10-29:label:october-29-2026",
       "label": "October 29, 2026",
       "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-10-29"
     },
     "9d42064727736eb3feefefa827fb0b79f5ffe140bbd260d6f736ac348945630f": {
       "aliases": [],
       "anchor": "nov6",
-      "digest": "2b86c668be7810708f068da9da1b922c1acd3ad75791ad463de263078ec92f09",
+      "digest": "460f946a280088b285b119fca15460d18b9f3d4a8990dbce65fe82cd7390cbe9",
+      "digest_aliases": {
+        "460f946a280088b285b119fca15460d18b9f3d4a8990dbce65fe82cd7390cbe9": "2b86c668be7810708f068da9da1b922c1acd3ad75791ad463de263078ec92f09"
+      },
       "digests": [
-        "2b86c668be7810708f068da9da1b922c1acd3ad75791ad463de263078ec92f09"
+        "2b86c668be7810708f068da9da1b922c1acd3ad75791ad463de263078ec92f09",
+        "460f946a280088b285b119fca15460d18b9f3d4a8990dbce65fe82cd7390cbe9"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:nov6",
       "label": "November 6, 2026",
       "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-06"
     },
     "a36cd206364ecd4997147798ac15151297477ac0f8761c1c54059940d9d77570": {
       "aliases": [],
       "anchor": "addnov5",
-      "digest": "792fcaab29de7c48ae51995d852dbc5a643b34f1e21017c309359476e4232393",
+      "digest": "5327e601a529d2699e63d92a4116a07d8b75484ce4321330b56f30db6a4b560a",
+      "digest_aliases": {
+        "5327e601a529d2699e63d92a4116a07d8b75484ce4321330b56f30db6a4b560a": "792fcaab29de7c48ae51995d852dbc5a643b34f1e21017c309359476e4232393"
+      },
       "digests": [
-        "792fcaab29de7c48ae51995d852dbc5a643b34f1e21017c309359476e4232393"
+        "792fcaab29de7c48ae51995d852dbc5a643b34f1e21017c309359476e4232393",
+        "5327e601a529d2699e63d92a4116a07d8b75484ce4321330b56f30db6a4b560a"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:addnov5",
       "label": "November 5th, 2026",
       "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-05"
     },
     "c592c7e4e2a1be2f445982bc0d9dc12755d50edb8a20c36d7be311c2faf9577f": {
       "aliases": [],
       "anchor": "oct23",
-      "digest": "faf4fbe239d2958a2ae932cdf64e290e60fb61ca68f1503e9bd50da5ae757ac7",
+      "digest": "3c759011c2b31aa0b53be01eb8a69494d9f56d9ad154fa4081b00b0a31b6af18",
+      "digest_aliases": {
+        "3c759011c2b31aa0b53be01eb8a69494d9f56d9ad154fa4081b00b0a31b6af18": "faf4fbe239d2958a2ae932cdf64e290e60fb61ca68f1503e9bd50da5ae757ac7"
+      },
       "digests": [
-        "faf4fbe239d2958a2ae932cdf64e290e60fb61ca68f1503e9bd50da5ae757ac7"
+        "faf4fbe239d2958a2ae932cdf64e290e60fb61ca68f1503e9bd50da5ae757ac7",
+        "3c759011c2b31aa0b53be01eb8a69494d9f56d9ad154fa4081b00b0a31b6af18"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:oct23",
       "label": "October 23, 2026",
       "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-10-23"
     },
     "c70cd8587c988833ae003aafc8959b05993f23837d2bf1c97110c54803d90576": {
       "aliases": [],
       "anchor": "oct24",
-      "digest": "e7cab57d6704a328f0c6ff2533c97de9ff0a284ce6b9c189f5223a76f85818b7",
+      "digest": "0a7b33669863e5613c87359685d0ab6d9b21460cb8202b18fd329cffb4a28431",
+      "digest_aliases": {
+        "0a7b33669863e5613c87359685d0ab6d9b21460cb8202b18fd329cffb4a28431": "e7cab57d6704a328f0c6ff2533c97de9ff0a284ce6b9c189f5223a76f85818b7"
+      },
       "digests": [
-        "e7cab57d6704a328f0c6ff2533c97de9ff0a284ce6b9c189f5223a76f85818b7"
+        "e7cab57d6704a328f0c6ff2533c97de9ff0a284ce6b9c189f5223a76f85818b7",
+        "0a7b33669863e5613c87359685d0ab6d9b21460cb8202b18fd329cffb4a28431"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:oct24",
       "label": "October 24, 2026",
       "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-10-24"
     },
     "c7bdaff7c22784fba6d3fa4076621b8ce745e738d75ac8b18591bcd9cb87ccb8": {
       "aliases": [],
       "anchor": "nov2",
-      "digest": "860e7558a3fc12f4be9267d60a1bf6168d9720af9f675ff3ee905a3be5734bf3",
+      "digest": "a51250e8c5365ea8c9609f1ace74b79cf1d02d70bec9400f4a2ec9e267c739a6",
+      "digest_aliases": {
+        "a51250e8c5365ea8c9609f1ace74b79cf1d02d70bec9400f4a2ec9e267c739a6": "860e7558a3fc12f4be9267d60a1bf6168d9720af9f675ff3ee905a3be5734bf3"
+      },
       "digests": [
-        "860e7558a3fc12f4be9267d60a1bf6168d9720af9f675ff3ee905a3be5734bf3"
+        "860e7558a3fc12f4be9267d60a1bf6168d9720af9f675ff3ee905a3be5734bf3",
+        "a51250e8c5365ea8c9609f1ace74b79cf1d02d70bec9400f4a2ec9e267c739a6"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:nov2",
       "label": "November 2, 2026",
       "page_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-02"
     },
     "e436a373aa8e58e0e058324d6e81c29f0af964dea16222992eac64c273fc10b9": {
       "aliases": [],
       "anchor": "nov5",
-      "digest": "415a57dfc47fff3035753b57ea61ca5ec8c7a93b20aa8b8e8cab2bd8b5d937a6",
+      "digest": "889f40e93ab9ab6588733a4b6dd5b6b6039d9480063e9c78e3c6d3cb36b130f4",
+      "digest_aliases": {
+        "889f40e93ab9ab6588733a4b6dd5b6b6039d9480063e9c78e3c6d3cb36b130f4": "415a57dfc47fff3035753b57ea61ca5ec8c7a93b20aa8b8e8cab2bd8b5d937a6"
+      },
       "digests": [
-        "415a57dfc47fff3035753b57ea61ca5ec8c7a93b20aa8b8e8cab2bd8b5d937a6"
+        "415a57dfc47fff3035753b57ea61ca5ec8c7a93b20aa8b8e8cab2bd8b5d937a6",
+        "889f40e93ab9ab6588733a4b6dd5b6b6039d9480063e9c78e3c6d3cb36b130f4"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:nov5",
       "label": "THURSDAY NOVEMBER 5",
       "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-05"
     },
     "fc99b68b260a12478260a9b873c90a2f80ed1316acfe01f7683a4af3a11fd4d2": {
       "aliases": [],
       "anchor": "nov7",
-      "digest": "54591f13bb1b56078a83d8bd4e3cbf9f385cc074b077e2eddc4a98c1dd7a07e6",
+      "digest": "0d01e85fe63fb2795c88a0fe957ff5b524ca499543185cc367428d443d153c27",
+      "digest_aliases": {
+        "0d01e85fe63fb2795c88a0fe957ff5b524ca499543185cc367428d443d153c27": "54591f13bb1b56078a83d8bd4e3cbf9f385cc074b077e2eddc4a98c1dd7a07e6"
+      },
       "digests": [
-        "54591f13bb1b56078a83d8bd4e3cbf9f385cc074b077e2eddc4a98c1dd7a07e6"
+        "54591f13bb1b56078a83d8bd4e3cbf9f385cc074b077e2eddc4a98c1dd7a07e6",
+        "0d01e85fe63fb2795c88a0fe957ff5b524ca499543185cc367428d443d153c27"
       ],
       "first_observed": "2026-11-08T20:41:46+00:00",
       "key": "anchor:nov7",
       "label": "November 7, 2026",
       "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
-      "parser_version": 1,
+      "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-07"
     }
