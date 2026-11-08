@@ -1,0 +1,135 @@
+{
+  "verified_at": "2026-11-08T22:16:53+00:00",
+  "repository": "https://github.com/ember-kace/cod-rss-feeds-v2",
+  "tested_code_commit": "eab2c2136a5e7804ff86d5800706ea9791417501",
+  "tests_passed": 83,
+  "privacy": {
+    "privacy_check": "passed",
+    "findings": []
+  },
+  "dependency_advisory_audit": {
+    "dependencies_checked": 15,
+    "known_vulnerabilities": 0,
+    "continuous_github_dependabot_alerts_enabled": false
+  },
+  "live_publication": {
+    "base_url": "https://ember-kace.github.io/cod-rss-feeds-v2/",
+    "anonymous": true,
+    "feeds": {
+      "feeds/modern-warfare-4.xml": {
+        "url": "https://ember-kace.github.io/cod-rss-feeds-v2/feeds/modern-warfare-4.xml",
+        "http_status": 200,
+        "content_type": "application/xml",
+        "sha256": "49534b21d2da0979b3b69be6c1fe96623a5a5516a7937cf92302aa28c3c0d46d",
+        "items": 10,
+        "latest_event_date": "Thu, 05 Nov 2026 19:00:00 GMT"
+      },
+      "feeds/patch-updates.xml": {
+        "url": "https://ember-kace.github.io/cod-rss-feeds-v2/feeds/patch-updates.xml",
+        "http_status": 200,
+        "content_type": "application/xml",
+        "sha256": "a66f57cd9e7d220993a5d4fdd1959020eaa395268e35d17648aa7913cf5f4aab",
+        "items": 14,
+        "latest_event_date": "Sat, 07 Nov 2026 00:00:00 GMT"
+      }
+    },
+    "verified_event_pages": 14,
+    "full_manifest_verified": true,
+    "verified_content_files": 18
+  },
+  "source_migration": {
+    "parser_version": 2,
+    "preserved_published_events": 24,
+    "published_item_dates_guids_and_digests_unchanged": true,
+    "rss_feed_bytes_unchanged": true
+  },
+  "actions_persistence": {
+    "actual_bot_commit": "6f0255fbf8d835628d80ab58adb686d34827b2ca",
+    "genuine_changed_files": [
+      "data/state.json",
+      "public/manifest.json"
+    ],
+    "identity": "github-actions[bot] GitHub no-reply",
+    "commit_and_push_succeeded": true
+  },
+  "fresh_anonymous_checkout": {
+    "anonymous_clone": true,
+    "head": "eab2c2136a5e7804ff86d5800706ea9791417501",
+    "state_and_publication_bytes_stable": true,
+    "git_worktree_clean_after_refresh": true
+  },
+  "artifact": {
+    "run_id": 42528849087,
+    "artifact_id": 13636661660,
+    "files": 19,
+    "only_public_output": true,
+    "no_symlinks": true,
+    "matches_validated_publication": true,
+    "created_at": "2026-11-08T22:10:51Z",
+    "expires_at": "2026-11-09T22:10:51Z"
+  },
+  "workflow_runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 42528341257,
+      "event": "push",
+      "headBranch": "main",
+      "headSha": "ac9a5c9bb9e57ab1a8185dcf2e6c59c42115dd11",
+      "status": "completed",
+      "url": "https://github.com/ember-kace/cod-rss-feeds-v2/actions/runs/42528341257"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 42528400856,
+      "event": "workflow_dispatch",
+      "headBranch": "main",
+      "headSha": "6f0255fbf8d835628d80ab58adb686d34827b2ca",
+      "status": "completed",
+      "url": "https://github.com/ember-kace/cod-rss-feeds-v2/actions/runs/42528400856"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 42528849868,
+      "event": "push",
+      "headBranch": "main",
+      "headSha": "eab2c2136a5e7804ff86d5800706ea9791417501",
+      "status": "completed",
+      "url": "https://github.com/ember-kace/cod-rss-feeds-v2/actions/runs/42528849868"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 42528849087,
+      "event": "workflow_dispatch",
+      "headBranch": "main",
+      "headSha": "eab2c2136a5e7804ff86d5800706ea9791417501",
+      "status": "completed",
+      "url": "https://github.com/ember-kace/cod-rss-feeds-v2/actions/runs/42528849087"
+    }
+  ],
+  "schedule": {
+    "workflow_state": "active",
+    "default_branch": "main",
+    "cron": "7,22,37,52 * * * *",
+    "actual_scheduled_runs_observed": [],
+    "verification_limit": "Manual and push execution verified. Actual scheduled triggering is unverified until a schedule event is observed.",
+    "provider_guidance": "https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule"
+  },
+  "fixed_regressions": [
+    "Generated privacy and final Git identity checks before any public push.",
+    "Reconcile remote branch advances even when collection output is unchanged.",
+    "Preserve pending event identity and rerun newer tests after branch races.",
+    "Verify the exact commit that produced the Pages artifact.",
+    "Reachable bounded English sitemap fallback and ongoing blog-path patch monitoring.",
+    "Robust conditional HTTP cache and source access handling.",
+    "Table captions, real anchor whitespace, JSON-LD type arrays and date-boundary parsing.",
+    "Stable identical-label same-day updates and cosmetic-heading digest migrations.",
+    "Reject and recover incomplete state without overwriting published event dates.",
+    "Complete served manifest and retained-page verification.",
+    "Historical-content privacy scanning.",
+    "Byte-stable Windows durable-state serialization."
+  ],
+  "not_tested": [
+    "Actual Discord posting or YourBot Test action.",
+    "Future provider availability or future publisher layout changes."
+  ]
+}
