@@ -2,18 +2,8 @@
   "collection": {
     "checked_sources": [
       "https://www.callofduty.com/blog",
-      "https://www.callofduty.com/blog/2026/10/call-of-duty-endowment-code-forged-in-valor-pack",
-      "https://www.callofduty.com/blog/2026/10/call-of-duty-intel-modern-warfare-4-launch-xbox-game-pass",
       "https://www.callofduty.com/blog/2026/10/call-of-duty-mobile-modern-warfare-4-preorder-bonus",
-      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-campaign-early-access-live-now",
-      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-launch-multiplayer-operators-weapons-equipment-create-a-class",
-      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-live-worldwide-now",
-      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-maps-modes",
-      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-ready-for-launch-progression-prestige",
-      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement",
       "https://www.callofduty.com/blog/2026/11/call-of-duty-mobile-season-10-7th-anniversary",
-      "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-season-1-battle-pass-blackcell-store-bundles",
-      "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1",
       "https://www.callofduty.com/blog/modernwarfare4",
       "https://www.callofduty.com/blog/warzone",
       "https://www.callofduty.com/patchnotes",
@@ -24,13 +14,13 @@
       "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
       "https://www.callofduty.com/robots.txt"
     ],
-    "day": "2026-11-08",
+    "day": "2026-11-09",
     "item_counts": {
       "news": 10,
       "patch": 14
     },
-    "last_success": "2026-11-08T20:41:46+00:00",
-    "observation_time": "2026-11-08T20:41:46+00:00",
+    "last_success": "2026-11-09T01:11:16+00:00",
+    "observation_time": "2026-11-09T01:11:16+00:00",
     "source_data_stale": false
   },
   "feeds": {
@@ -47,9 +37,9 @@
       "name": "MW4 & Warzone — Patch Updates"
     }
   },
-  "last_successful_collection": "2026-11-08T20:41:46+00:00",
+  "last_successful_collection": "2026-11-09T01:11:16+00:00",
   "note": "This deployed snapshot is not independent monitoring. Current failures appear in GitHub Actions.",
-  "observation_time": "2026-11-08T20:41:46+00:00",
+  "observation_time": "2026-11-09T01:11:16+00:00",
   "schema_version": 1,
   "source_data_stale": false
 }
