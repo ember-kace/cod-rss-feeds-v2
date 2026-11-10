@@ -5,10 +5,36 @@
     <description>Dated update sections from current official Modern Warfare 4 and Warzone patch notes, with substantive revision tracking. Independently maintained RSS feeds of official Call of Duty content. Activision does not operate or endorse this hosting project.</description>
     <language>en-us</language>
     <atom:link href="https://ember-kace.github.io/cod-rss-feeds-v2/feeds/patch-updates.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 08 Nov 2026 21:28:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 22:26:06 GMT</lastBuildDate>
     <ttl>15</ttl>
     <generator>Call of Duty Feed Desk</generator>
     <copyright>Original articles and artwork © Activision Publishing, Inc. Feed conversion independently operated.</copyright>
+    <item>
+      <title>MW4 patch update — November 10, 2026</title>
+      <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/c466d7e29be63fd8abaa0a327bf28adbf6ed2d03e73afb318c57e7ac7a35eeb6.html</link>
+      <guid isPermaLink="false">urn:cod-rss:c466d7e29be63fd8abaa0a327bf28adbf6ed2d03e73afb318c57e7ac7a35eeb6</guid>
+      <pubDate>Tue, 10 Nov 2026 22:26:06 GMT</pubDate>
+      <dc:creator>Infinity Ward</dc:creator>
+      <description><![CDATA[<p>Addressed several stability issues for a better experience. Improved Instant Aim Down Sights Sensitivity Transition Timing, so it transitions to hip sensitivity earlier when transitioning out of ADS. Fixed an issue where the Ghost Perk could sometimes conceal players from enemy detection when firing unsuppressed weapons. Fixed an issue where…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" alt="MW4 patch update — November 10, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov10">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>Addressed several stability issues for a better experience. Improved Instant Aim Down Sights Sensitivity Transition Timing, so it transitions to hip sensitivity earlier when transitioning out of ADS. Fixed an issue where the Ghost Perk could sometimes conceal players from enemy detection when firing unsuppressed weapons. Fixed an issue where…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" alt="MW4 patch update — November 10, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov10">Read the official update</a></p>]]></content:encoded>
+      <category>Modern Warfare 4</category>
+      <category>Patch updates</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg"/>
+    </item>
+    <item>
+      <title>Warzone patch update — November 10, 2026</title>
+      <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/ab1ab48c1782d1eaead247245b4dfff4e504e5c10cffb6c134de5d217f77036c.html</link>
+      <guid isPermaLink="false">urn:cod-rss:ab1ab48c1782d1eaead247245b4dfff4e504e5c10cffb6c134de5d217f77036c</guid>
+      <pubDate>Tue, 10 Nov 2026 22:26:06 GMT</pubDate>
+      <dc:creator>Raven Software</dc:creator>
+      <description><![CDATA[<p>ADS Sensitivity Transition. Improved Instant Aim Down Sights Sensitivity Transition Timing, so it transitions to hip sensitivity earlier when transitioning out of ADS. Fixed several stability issues and crashes. Fixed an issue where keeping the pause menu open for a few seconds during a match could close it unexpectedly and leave players without…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" alt="Warzone patch update — November 10, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov10">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>ADS Sensitivity Transition. Improved Instant Aim Down Sights Sensitivity Transition Timing, so it transitions to hip sensitivity earlier when transitioning out of ADS. Fixed several stability issues and crashes. Fixed an issue where keeping the pause menu open for a few seconds during a match could close it unexpectedly and leave players without…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" alt="Warzone patch update — November 10, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov10">Read the official update</a></p>]]></content:encoded>
+      <category>Warzone</category>
+      <category>Patch updates</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg"/>
+    </item>
     <item>
       <title>Warzone patch update — November 7, 2026</title>
       <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/bc5c234cb417dce7435a3c83d25cc0226d97b6b36696f60edef39f8dd3b556c4.html</link>

@@ -93,7 +93,7 @@
       "first_observed": "2026-11-08T20:41:46+00:00",
       "kind": "patch",
       "precision": "datetime",
-      "source_date": "2026-11-07T12:00:00-07:00",
+      "source_date": "2026-11-10T12:00:00-07:00",
       "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes"
     },
     "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": {
@@ -101,7 +101,7 @@
       "first_observed": "2026-11-08T20:41:46+00:00",
       "kind": "patch",
       "precision": "date",
-      "source_date": "2026-11-07",
+      "source_date": "2026-11-10",
       "title": "Call of Duty: Warzone Season 1 Patch Notes"
     }
   },
@@ -619,6 +619,36 @@
       "summary": "Updated Oct 27. Shipment 24/7 (New). Frontline. Inflation. Collateral. Kill Block: 6v6 Gunfight (New). Gun Game (New). Playlist Update: Free For All. Score limit remains at 30. Maximum 2 player party limit. Fixed an issue where progress counters were missing from Camo and Special Camo unlock requirements across several weapon categories. Fixed an issue where the Fungal Grid Camo was not visible in the Camo selection menu. Fixed an issue where, in",
       "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 28, 2026"
     },
+    "ab1ab48c1782d1eaead247245b4dfff4e504e5c10cffb6c134de5d217f77036c": {
+      "anchor": "nov10",
+      "article_title": "Call of Duty: Warzone Season 1 Patch Notes",
+      "author": "Raven Software",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "d785e2677e505b24eb5b0b4a1cbb591a5bb247fd4d8e4cefe3b4dd95637845e7",
+      "event_date": "2026-11-10T22:26:06+00:00",
+      "first_observed": "2026-11-10T22:26:06+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:ab1ab48c1782d1eaead247245b4dfff4e504e5c10cffb6c134de5d217f77036c",
+      "id": "ab1ab48c1782d1eaead247245b4dfff4e504e5c10cffb6c134de5d217f77036c",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Warzone"
+      ],
+      "revision": false,
+      "section_key": "anchor:nov10",
+      "source_date": "2026-11-10",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov10",
+      "summary": "ADS Sensitivity Transition. Improved Instant Aim Down Sights Sensitivity Transition Timing, so it transitions to hip sensitivity earlier when transitioning out of ADS. Fixed several stability issues and crashes. Fixed an issue where keeping the pause menu open for a few seconds during a match could close it unexpectedly and leave players without a HUD. Fixed an issue preventing players from editing Loadouts that had a Legacy weapon equipped. Fixe",
+      "title": "Call of Duty: Warzone Season 1 Patch Notes — TUESDAY NOVEMBER 10"
+    },
     "b9f4c808882bb3b3672043ade40a1d8a2b31166cb0c22d129eaad09b9ba6a8c1": {
       "anchor": "",
       "article_title": "Call of Duty: Modern Warfare 4 is Live Worldwide — Play Now!",
@@ -768,6 +798,36 @@
       "summary": "XP Adjustments. XP gains have been adjusted across all modes to match intended values. Teammate Footstep Audio. Lowered the volume of teammate footsteps so enemy movement is easier to hear during combat. Fixed an issue preventing players from purchasing an Elite Perk after they already own one. Fixed an issue where Grinding for Royalty progress incorrectly showed the Daily Challenge timer. Fixed an issue where a Drone Intercept crate icon could a",
       "title": "Call of Duty: Warzone Season 1 Patch Notes — SATURDAY NOVEMBER 7"
     },
+    "c466d7e29be63fd8abaa0a327bf28adbf6ed2d03e73afb318c57e7ac7a35eeb6": {
+      "anchor": "nov10",
+      "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "cdef2dfbf9939b35490733f7e62f04e0173aa6f4e3ee8e5e5198d5d689e63e3e",
+      "event_date": "2026-11-10T22:26:06+00:00",
+      "first_observed": "2026-11-10T22:26:06+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:c466d7e29be63fd8abaa0a327bf28adbf6ed2d03e73afb318c57e7ac7a35eeb6",
+      "id": "c466d7e29be63fd8abaa0a327bf28adbf6ed2d03e73afb318c57e7ac7a35eeb6",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": "anchor:nov10",
+      "source_date": "2026-11-10",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov10",
+      "summary": "Addressed several stability issues for a better experience. Improved Instant Aim Down Sights Sensitivity Transition Timing, so it transitions to hip sensitivity earlier when transitioning out of ADS. Fixed an issue where the Ghost Perk could sometimes conceal players from enemy detection when firing unsuppressed weapons. Fixed an issue where enemy nameplates could sometimes be visible when the enemy was hidden from view. Fixed an issue where the ",
+      "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 10, 2026"
+    },
     "dbce6d67e1a3271490da0eff447a403d4f0b17229eef383d020611874ca1911e": {
       "anchor": "nov5",
       "article_title": "Call of Duty: Warzone Season 1 Patch Notes",
@@ -845,8 +905,10 @@
       "last_build": "2026-11-08T21:28:56+00:00"
     },
     "patch": {
-      "fingerprint": "00e2754adcb6c83e89c2bd9a7e222038e6d8c9b4a2c10725c60a70940055f135",
+      "fingerprint": "3689ce6341a824865df7a181411ea25176cc761382dfb6873a8e0419b698a16c",
       "ids": [
+        "c466d7e29be63fd8abaa0a327bf28adbf6ed2d03e73afb318c57e7ac7a35eeb6",
+        "ab1ab48c1782d1eaead247245b4dfff4e504e5c10cffb6c134de5d217f77036c",
         "bc5c234cb417dce7435a3c83d25cc0226d97b6b36696f60edef39f8dd3b556c4",
         "07e4a47a6d6261bd08187903f35eba65f0e575ee151981f9176d21a64f928343",
         "990d4a53633a9acc1b2ab323a128aeeeec1de61cdb7252f7853721b6e9bf7a32",
@@ -862,7 +924,7 @@
         "021b1e2443f5d9c80cd61104ce64a70bc4397c530a055f1f9d59999499a6b939",
         "004110105b90e68b91123f59a74fd380b0cf0115fcd5fd651cfd2c968393bb64"
       ],
-      "last_build": "2026-11-08T21:28:56+00:00"
+      "last_build": "2026-11-10T22:26:06+00:00"
     }
   },
   "image_types": {
@@ -1083,6 +1145,22 @@
       "precision": "date",
       "source_date": "2026-11-05"
     },
+    "a9beb830e2741a331213782aa7bb9058711e06c8a1408f9134f684a15e2d7da7": {
+      "aliases": [],
+      "anchor": "nov10",
+      "digest": "d785e2677e505b24eb5b0b4a1cbb591a5bb247fd4d8e4cefe3b4dd95637845e7",
+      "digest_aliases": {},
+      "digests": [
+        "d785e2677e505b24eb5b0b4a1cbb591a5bb247fd4d8e4cefe3b4dd95637845e7"
+      ],
+      "first_observed": "2026-11-10T22:26:06+00:00",
+      "key": "anchor:nov10",
+      "label": "TUESDAY NOVEMBER 10",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "parser_version": 2,
+      "precision": "date",
+      "source_date": "2026-11-10"
+    },
     "c592c7e4e2a1be2f445982bc0d9dc12755d50edb8a20c36d7be311c2faf9577f": {
       "aliases": [],
       "anchor": "oct23",
@@ -1139,6 +1217,22 @@
       "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-02"
+    },
+    "cb508b0266bfa191d63bc1c7233c1c1ea668bd70fbcb5bbf8298264dfa5d0811": {
+      "aliases": [],
+      "anchor": "nov10",
+      "digest": "cdef2dfbf9939b35490733f7e62f04e0173aa6f4e3ee8e5e5198d5d689e63e3e",
+      "digest_aliases": {},
+      "digests": [
+        "cdef2dfbf9939b35490733f7e62f04e0173aa6f4e3ee8e5e5198d5d689e63e3e"
+      ],
+      "first_observed": "2026-11-10T22:26:06+00:00",
+      "key": "anchor:nov10",
+      "label": "November 10, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "parser_version": 2,
+      "precision": "date",
+      "source_date": "2026-11-10"
     },
     "e436a373aa8e58e0e058324d6e81c29f0af964dea16222992eac64c273fc10b9": {
       "aliases": [],
