@@ -5,10 +5,36 @@
     <description>Dated update sections from current official Modern Warfare 4 and Warzone patch notes, with substantive revision tracking. Independently maintained RSS feeds of official Call of Duty content. Activision does not operate or endorse this hosting project.</description>
     <language>en-us</language>
     <atom:link href="https://ember-kace.github.io/cod-rss-feeds-v2/feeds/patch-updates.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 10 Nov 2026 22:26:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 23:41:26 GMT</lastBuildDate>
     <ttl>15</ttl>
     <generator>Call of Duty Feed Desk</generator>
     <copyright>Original articles and artwork © Activision Publishing, Inc. Feed conversion independently operated.</copyright>
+    <item>
+      <title>MW4 patch update — November 11, 2026</title>
+      <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/c8e7233f5bb2b267e0d73ba15114aefe14d255fa81caac102d791b33805c8670.html</link>
+      <guid isPermaLink="false">urn:cod-rss:c8e7233f5bb2b267e0d73ba15114aefe14d255fa81caac102d791b33805c8670</guid>
+      <pubDate>Wed, 11 Nov 2026 23:41:26 GMT</pubDate>
+      <dc:creator>Infinity Ward</dc:creator>
+      <description><![CDATA[<p>All ballistic weapons have had a 3.91x hitscan increase at all ranges. This change pushes the true hitscan range of all bullet weapons significantly further than they were at launch, on average to about 35 meters, making short-range gunfights more responsive. Increases true hitscan distance 288% from launch. We&apos;re also introducing a new…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" alt="MW4 patch update — November 11, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov11">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>All ballistic weapons have had a 3.91x hitscan increase at all ranges. This change pushes the true hitscan range of all bullet weapons significantly further than they were at launch, on average to about 35 meters, making short-range gunfights more responsive. Increases true hitscan distance 288% from launch. We&apos;re also introducing a new…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" alt="MW4 patch update — November 11, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov11">Read the official update</a></p>]]></content:encoded>
+      <category>Modern Warfare 4</category>
+      <category>Patch updates</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg"/>
+    </item>
+    <item>
+      <title>Warzone patch update — November 11, 2026</title>
+      <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/ae6150e2401f7c51df82766c1b78402edecad6a4e280a848abc1511313f77bd8.html</link>
+      <guid isPermaLink="false">urn:cod-rss:ae6150e2401f7c51df82766c1b78402edecad6a4e280a848abc1511313f77bd8</guid>
+      <pubDate>Wed, 11 Nov 2026 23:41:26 GMT</pubDate>
+      <dc:creator>Raven Software</dc:creator>
+      <description><![CDATA[<p>All ballistic weapons have had a 3.91x hitscan increase at all ranges. This change pushes the true hitscan range of all bullet weapons significantly further than they were at launch, on average to about 35 meters, making short-range gunfights more responsive. Increases true hitscan distance 288% from launch. We&apos;re also introducing a new…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" alt="Warzone patch update — November 11, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov11">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>All ballistic weapons have had a 3.91x hitscan increase at all ranges. This change pushes the true hitscan range of all bullet weapons significantly further than they were at launch, on average to about 35 meters, making short-range gunfights more responsive. Increases true hitscan distance 288% from launch. We&apos;re also introducing a new…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" alt="Warzone patch update — November 11, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov11">Read the official update</a></p>]]></content:encoded>
+      <category>Warzone</category>
+      <category>Patch updates</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg"/>
+    </item>
     <item>
       <title>MW4 patch update — November 10, 2026</title>
       <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/c466d7e29be63fd8abaa0a327bf28adbf6ed2d03e73afb318c57e7ac7a35eeb6.html</link>

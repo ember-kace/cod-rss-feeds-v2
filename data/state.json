@@ -64,6 +64,14 @@
       "source_date": "2026-10-28T12:00:00-07:00",
       "title": "Call of Duty: Modern Warfare 4 and Call of Duty: Warzone Season 1: All You Need to Know"
     },
+    "https://www.callofduty.com/blog/2026/11/call-of-duty-endowment-veterans-day-valor-pack": {
+      "aliases": [],
+      "first_observed": "2026-11-11T23:41:26+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-11-11T12:00:00-07:00",
+      "title": "Answer the Call This Veterans Day"
+    },
     "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-season-1-battle-pass-blackcell-store-bundles": {
       "aliases": [],
       "first_observed": "2026-11-08T20:41:46+00:00",
@@ -93,7 +101,7 @@
       "first_observed": "2026-11-08T20:41:46+00:00",
       "kind": "patch",
       "precision": "datetime",
-      "source_date": "2026-11-10T12:00:00-07:00",
+      "source_date": "2026-11-11T12:00:00-07:00",
       "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes"
     },
     "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": {
@@ -101,7 +109,7 @@
       "first_observed": "2026-11-08T20:41:46+00:00",
       "kind": "patch",
       "precision": "date",
-      "source_date": "2026-11-10",
+      "source_date": "2026-11-11",
       "title": "Call of Duty: Warzone Season 1 Patch Notes"
     }
   },
@@ -252,6 +260,39 @@
       "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov7",
       "summary": "Fixed several stability issues for a better experience across all modes. Updated the Operator Selection menu to improve the display and organization of Operator Variants. Fixed an issue on Lithium where Field Upgrade equipment could be lost when deployed on certain surfaces. Fixed an issue where objectives in Grind would not spawn correctly in Private Match. Fixed an issue where players could be removed from the Gunship Killstreak when their Oper",
       "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 7, 2026"
+    },
+    "0b1edc084f0606d1bdbd1c81d725b5a0a4d71ae896acbbfe4ec5b3ea2b3bde46": {
+      "anchor": "",
+      "article_title": "Answer the Call This Veterans Day",
+      "author": "Call of Duty Staff",
+      "baseline": false,
+      "categories": [
+        "news",
+        "news-announcements",
+        "season-1"
+      ],
+      "digest": null,
+      "event_date": "2026-11-11T12:00:00-07:00",
+      "first_observed": "2026-11-11T23:41:26+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:0b1edc084f0606d1bdbd1c81d725b5a0a4d71ae896acbbfe4ec5b3ea2b3bde46",
+      "id": "0b1edc084f0606d1bdbd1c81d725b5a0a4d71ae896acbbfe4ec5b3ea2b3bde46",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/veterans-day-2026/CODE-VETERANS-DAY-26-TOUT.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-endowment-veterans-day-valor-pack",
+      "precision": "datetime",
+      "product_categories": [
+        "Modern Warfare 4",
+        "Warzone",
+        "code"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-11-11T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-endowment-veterans-day-valor-pack",
+      "summary": "From the inspiring story of Medal of Honor recipient and U.S. Marine Corps veteran Kyle Carpenter to new ways to give back, discover how the Call of Duty community is coming together to support former service members this Veterans Day.",
+      "title": "Answer the Call This Veterans Day"
     },
     "28926ad5885f94ca17248d128672e3ff5cf0c5bc31c298a0c21583ce343ef91a": {
       "anchor": "oct24",
@@ -648,6 +689,36 @@
       "summary": "ADS Sensitivity Transition. Improved Instant Aim Down Sights Sensitivity Transition Timing, so it transitions to hip sensitivity earlier when transitioning out of ADS. Fixed several stability issues and crashes. Fixed an issue where keeping the pause menu open for a few seconds during a match could close it unexpectedly and leave players without a HUD. Fixed an issue preventing players from editing Loadouts that had a Legacy weapon equipped. Fixe",
       "title": "Call of Duty: Warzone Season 1 Patch Notes — TUESDAY NOVEMBER 10"
     },
+    "ae6150e2401f7c51df82766c1b78402edecad6a4e280a848abc1511313f77bd8": {
+      "anchor": "nov11",
+      "article_title": "Call of Duty: Warzone Season 1 Patch Notes",
+      "author": "Raven Software",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "5ce6360bc9b4e90981261f667389ace8b85b1233f9c5d5ca4ffbf03f3e99c5f6",
+      "event_date": "2026-11-11T23:41:26+00:00",
+      "first_observed": "2026-11-11T23:41:26+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:ae6150e2401f7c51df82766c1b78402edecad6a4e280a848abc1511313f77bd8",
+      "id": "ae6150e2401f7c51df82766c1b78402edecad6a4e280a848abc1511313f77bd8",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Warzone"
+      ],
+      "revision": false,
+      "section_key": "anchor:nov11",
+      "source_date": "2026-11-11",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov11",
+      "summary": "All ballistic weapons have had a 3.91x hitscan increase at all ranges. This change pushes the true hitscan range of all bullet weapons significantly further than they were at launch, on average to about 35 meters, making short-range gunfights more responsive. Increases true hitscan distance 288% from launch. We're also introducing a new long-range bullet simulation technique that reduces the time it takes ballistic bullets to connect by 34 millis",
+      "title": "Call of Duty: Warzone Season 1 Patch Notes — WEDNESDAY NOVEMBER 11"
+    },
     "b9f4c808882bb3b3672043ade40a1d8a2b31166cb0c22d129eaad09b9ba6a8c1": {
       "anchor": "",
       "article_title": "Call of Duty: Modern Warfare 4 is Live Worldwide — Play Now!",
@@ -827,6 +898,36 @@
       "summary": "Addressed several stability issues for a better experience. Improved Instant Aim Down Sights Sensitivity Transition Timing, so it transitions to hip sensitivity earlier when transitioning out of ADS. Fixed an issue where the Ghost Perk could sometimes conceal players from enemy detection when firing unsuppressed weapons. Fixed an issue where enemy nameplates could sometimes be visible when the enemy was hidden from view. Fixed an issue where the ",
       "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 10, 2026"
     },
+    "c8e7233f5bb2b267e0d73ba15114aefe14d255fa81caac102d791b33805c8670": {
+      "anchor": "nov11",
+      "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "de9154f953f89069050b9f86ad8cd3497caad6377b4ec31ebac87f973f1a36e7",
+      "event_date": "2026-11-11T23:41:26+00:00",
+      "first_observed": "2026-11-11T23:41:26+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:c8e7233f5bb2b267e0d73ba15114aefe14d255fa81caac102d791b33805c8670",
+      "id": "c8e7233f5bb2b267e0d73ba15114aefe14d255fa81caac102d791b33805c8670",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": "anchor:nov11",
+      "source_date": "2026-11-11",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov11",
+      "summary": "All ballistic weapons have had a 3.91x hitscan increase at all ranges. This change pushes the true hitscan range of all bullet weapons significantly further than they were at launch, on average to about 35 meters, making short-range gunfights more responsive. Increases true hitscan distance 288% from launch. We're also introducing a new long-range bullet simulation technique that reduces the time it takes ballistic bullets to connect by 34 millis",
+      "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 11, 2026"
+    },
     "dbce6d67e1a3271490da0eff447a403d4f0b17229eef383d020611874ca1911e": {
       "anchor": "nov5",
       "article_title": "Call of Duty: Warzone Season 1 Patch Notes",
@@ -888,8 +989,9 @@
   },
   "feeds": {
     "news": {
-      "fingerprint": "4fbefe3c9afcaea57a0c30731fc4415269db43f95fc11ae5dc6517b2b5b0d275",
+      "fingerprint": "78f84861b04e614f741d1f22b0d0b9ba150db543a66d3f909ae1577c03886635",
       "ids": [
+        "0b1edc084f0606d1bdbd1c81d725b5a0a4d71ae896acbbfe4ec5b3ea2b3bde46",
         "ba86bfd3b3363fff3e67bea7b670e062908f878cd510a05d112847c8f086f5ac",
         "2a369e762855ec002d364a0c73421868eba675f7489a49776e1eac7edbf0f715",
         "bb3fff776aa21740f32107ea8c2277e352beeab28110cb99ab5dc8dd08a3d7a9",
@@ -901,11 +1003,13 @@
         "3fb51f1cde4ff187f396d26ac45373f8757a45f9f595f9a2cf19ecb1aed4a895",
         "00eb2368a4095ef51514f0f55ddedf13b84a40c993ec367cd8e170eb6315d314"
       ],
-      "last_build": "2026-11-08T21:28:56+00:00"
+      "last_build": "2026-11-11T23:41:26+00:00"
     },
     "patch": {
-      "fingerprint": "3689ce6341a824865df7a181411ea25176cc761382dfb6873a8e0419b698a16c",
+      "fingerprint": "919878977dc3ed24d3ed87bef71b4587a1f4c82e01de0241907f9aba4ee8ed57",
       "ids": [
+        "c8e7233f5bb2b267e0d73ba15114aefe14d255fa81caac102d791b33805c8670",
+        "ae6150e2401f7c51df82766c1b78402edecad6a4e280a848abc1511313f77bd8",
         "c466d7e29be63fd8abaa0a327bf28adbf6ed2d03e73afb318c57e7ac7a35eeb6",
         "ab1ab48c1782d1eaead247245b4dfff4e504e5c10cffb6c134de5d217f77036c",
         "bc5c234cb417dce7435a3c83d25cc0226d97b6b36696f60edef39f8dd3b556c4",
@@ -923,12 +1027,13 @@
         "021b1e2443f5d9c80cd61104ce64a70bc4397c530a055f1f9d59999499a6b939",
         "004110105b90e68b91123f59a74fd380b0cf0115fcd5fd651cfd2c968393bb64"
       ],
-      "last_build": "2026-11-10T22:26:06+00:00"
+      "last_build": "2026-11-11T23:41:26+00:00"
     }
   },
   "image_types": {
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-001-TOUT_(2).jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/MW4-CODE-FORGED-IN-VALOR-TOUT.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/veterans-day-2026/CODE-VETERANS-DAY-26-TOUT.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/MW4-LAUNCH-TOUT.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/campaign-live/MW4-CAMPAIGNLIVE-TOUT.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/rfl-maps-modes/MW4-MAPS-MODES-TOUT.jpg": "image/jpeg",
@@ -999,6 +1104,22 @@
       "parser_version": 2,
       "precision": "date",
       "source_date": "2026-10-30"
+    },
+    "3749d2d651e7645967a6008762951f9dbb5303bc20a11c81d7d5f5362e6d73eb": {
+      "aliases": [],
+      "anchor": "nov11",
+      "digest": "de9154f953f89069050b9f86ad8cd3497caad6377b4ec31ebac87f973f1a36e7",
+      "digest_aliases": {},
+      "digests": [
+        "de9154f953f89069050b9f86ad8cd3497caad6377b4ec31ebac87f973f1a36e7"
+      ],
+      "first_observed": "2026-11-11T23:41:26+00:00",
+      "key": "anchor:nov11",
+      "label": "November 11, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "parser_version": 2,
+      "precision": "date",
+      "source_date": "2026-11-11"
     },
     "45722a90609755e10adf0f2c5ff560451c5ad77332859edfce0436fce1ff937b": {
       "aliases": [],
@@ -1167,6 +1288,22 @@
       "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-10"
+    },
+    "b884c083515c7f0c37568e8f84985b42ce358272932ea869a0da4dfa8707e427": {
+      "aliases": [],
+      "anchor": "nov11",
+      "digest": "5ce6360bc9b4e90981261f667389ace8b85b1233f9c5d5ca4ffbf03f3e99c5f6",
+      "digest_aliases": {},
+      "digests": [
+        "5ce6360bc9b4e90981261f667389ace8b85b1233f9c5d5ca4ffbf03f3e99c5f6"
+      ],
+      "first_observed": "2026-11-11T23:41:26+00:00",
+      "key": "anchor:nov11",
+      "label": "WEDNESDAY NOVEMBER 11",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "parser_version": 2,
+      "precision": "date",
+      "source_date": "2026-11-11"
     },
     "c592c7e4e2a1be2f445982bc0d9dc12755d50edb8a20c36d7be311c2faf9577f": {
       "aliases": [],

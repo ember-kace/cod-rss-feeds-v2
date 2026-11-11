@@ -5,10 +5,24 @@
     <description>Official Call of Duty articles tagged Modern Warfare 4, including shared MW4/Warzone announcements. Independently maintained RSS feeds of official Call of Duty content. Activision does not operate or endorse this hosting project.</description>
     <language>en-us</language>
     <atom:link href="https://ember-kace.github.io/cod-rss-feeds-v2/feeds/modern-warfare-4.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 08 Nov 2026 21:28:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 23:41:26 GMT</lastBuildDate>
     <ttl>15</ttl>
     <generator>Call of Duty Feed Desk</generator>
     <copyright>Original articles and artwork © Activision Publishing, Inc. Feed conversion independently operated.</copyright>
+    <item>
+      <title>Answer the Call This Veterans Day</title>
+      <link>https://www.callofduty.com/blog/2026/11/call-of-duty-endowment-veterans-day-valor-pack</link>
+      <guid isPermaLink="false">urn:cod-rss:0b1edc084f0606d1bdbd1c81d725b5a0a4d71ae896acbbfe4ec5b3ea2b3bde46</guid>
+      <pubDate>Wed, 11 Nov 2026 19:00:00 GMT</pubDate>
+      <dc:creator>Call of Duty Staff</dc:creator>
+      <description><![CDATA[<p>From the inspiring story of Medal of Honor recipient and U.S. Marine Corps veteran Kyle Carpenter to new ways to give back, discover how the Call of Duty community is coming together to support former service members this Veterans Day.</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/veterans-day-2026/CODE-VETERANS-DAY-26-TOUT.jpg" alt="Answer the Call This Veterans Day" /></p><p><a href="https://www.callofduty.com/blog/2026/11/call-of-duty-endowment-veterans-day-valor-pack">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>From the inspiring story of Medal of Honor recipient and U.S. Marine Corps veteran Kyle Carpenter to new ways to give back, discover how the Call of Duty community is coming together to support former service members this Veterans Day.</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/veterans-day-2026/CODE-VETERANS-DAY-26-TOUT.jpg" alt="Answer the Call This Veterans Day" /></p><p><a href="https://www.callofduty.com/blog/2026/11/call-of-duty-endowment-veterans-day-valor-pack">Read the official update</a></p>]]></content:encoded>
+      <category>Modern Warfare 4</category>
+      <category>Warzone</category>
+      <category>code</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/veterans-day-2026/CODE-VETERANS-DAY-26-TOUT.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/veterans-day-2026/CODE-VETERANS-DAY-26-TOUT.jpg"/>
+    </item>
     <item>
       <title>Intel Drop: All You Need to Know about the Modern Warfare 4 Season 1 Battle Pass System, BlackCell, and New Store Bundles</title>
       <link>https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-season-1-battle-pass-blackcell-store-bundles</link>
