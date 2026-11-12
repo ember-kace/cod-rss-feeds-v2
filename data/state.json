@@ -64,6 +64,14 @@
       "source_date": "2026-10-28T12:00:00-07:00",
       "title": "Call of Duty: Modern Warfare 4 and Call of Duty: Warzone Season 1: All You Need to Know"
     },
+    "https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-veterans-day": {
+      "aliases": [],
+      "first_observed": "2026-11-12T20:56:35+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-11-12T12:00:00-07:00",
+      "title": "Veterans Day: Honoring Those Who Served Through Stories of Service and Support"
+    },
     "https://www.callofduty.com/blog/2026/11/call-of-duty-endowment-veterans-day-valor-pack": {
       "aliases": [],
       "first_observed": "2026-11-11T23:41:26+00:00",
@@ -101,7 +109,7 @@
       "first_observed": "2026-11-08T20:41:46+00:00",
       "kind": "patch",
       "precision": "datetime",
-      "source_date": "2026-11-11T12:00:00-07:00",
+      "source_date": "2026-11-12T12:00:00-07:00",
       "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes"
     },
     "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": {
@@ -109,7 +117,7 @@
       "first_observed": "2026-11-08T20:41:46+00:00",
       "kind": "patch",
       "precision": "date",
-      "source_date": "2026-11-11",
+      "source_date": "2026-11-12",
       "title": "Call of Duty: Warzone Season 1 Patch Notes"
     }
   },
@@ -408,6 +416,36 @@
       "summary": "Halloween Party Mode. Fixed several stability and crash issues for a better experience across all modes. Updated the Calling Card menu to not hide unlock requirements after they have been completed. Fixed an issue where the Cash Gathered as HVT stat was formatted incorrectly in the After Action Report for Inflation. Fixed an issue where expanding or collapsing the Quick Nav menu in the DMZ FOB could cause the Progression Track to scroll unexpecte",
       "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 29, 2026"
     },
+    "418a4b0beafc9e5c85fbecd353d94d0bfa8a941605b480afb30d5575a6b75fa5": {
+      "anchor": "nov12",
+      "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "796c32a34ac5eac23e30c19b55914b20b35157e8d41be37ada32faca16ae8e83",
+      "event_date": "2026-11-12T20:56:35+00:00",
+      "first_observed": "2026-11-12T20:56:35+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:418a4b0beafc9e5c85fbecd353d94d0bfa8a941605b480afb30d5575a6b75fa5",
+      "id": "418a4b0beafc9e5c85fbecd353d94d0bfa8a941605b480afb30d5575a6b75fa5",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": "anchor:nov12",
+      "source_date": "2026-11-12",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov12",
+      "summary": "Addressed several stability issues for a better experience. Fixed an issue where the Schlager Indigo-RF optic was missing sniper glint. Fixed an issue where Weapon Attachment Pips could appear white instead of orange. Fixed an issue where the Fast Hands perk did not speed up certain Tactical Equipment animations as intended. Fixed an issue where Wager Match trophies could drop during Private Matches. We’ve updated the maximum player count for Kil",
+      "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 12, 2026"
+    },
     "4f5258cbb816e36921fe89f80f60089ee3b58b81b2b88811e89de4ec05f8b250": {
       "anchor": "oct30",
       "article_title": "Call of Duty: Modern Warfare 4 Launch Patch Notes",
@@ -658,6 +696,39 @@
       "source_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes#oct28",
       "summary": "Updated Oct 27. Shipment 24/7 (New). Frontline. Inflation. Collateral. Kill Block: 6v6 Gunfight (New). Gun Game (New). Playlist Update: Free For All. Score limit remains at 30. Maximum 2 player party limit. Fixed an issue where progress counters were missing from Camo and Special Camo unlock requirements across several weapon categories. Fixed an issue where the Fungal Grid Camo was not visible in the Camo selection menu. Fixed an issue where, in",
       "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 28, 2026"
+    },
+    "9f3dd1dba697b2a0888c4b226892020a471e42b3d900fadb13586ba5eb07620a": {
+      "anchor": "",
+      "article_title": "Veterans Day: Honoring Those Who Served Through Stories of Service and Support",
+      "author": "Call of Duty Staff",
+      "baseline": false,
+      "categories": [
+        "news",
+        "news-announcements",
+        "season-1"
+      ],
+      "digest": null,
+      "event_date": "2026-11-12T12:00:00-07:00",
+      "first_observed": "2026-11-12T20:56:35+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:9f3dd1dba697b2a0888c4b226892020a471e42b3d900fadb13586ba5eb07620a",
+      "id": "9f3dd1dba697b2a0888c4b226892020a471e42b3d900fadb13586ba5eb07620a",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-002-TOUT.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-veterans-day",
+      "precision": "datetime",
+      "product_categories": [
+        "cod-intel",
+        "Modern Warfare 4",
+        "code"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-11-12T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-veterans-day",
+      "summary": "Today we recognize all those who have served, but supporting veterans extends beyond a single day of recognition. The following captures how our team has worked alongside the veteran community to recognize their service and support their futures.",
+      "title": "Veterans Day: Honoring Those Who Served Through Stories of Service and Support"
     },
     "ab1ab48c1782d1eaead247245b4dfff4e504e5c10cffb6c134de5d217f77036c": {
       "anchor": "nov10",
@@ -985,12 +1056,43 @@
       "source_url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-launch-multiplayer-operators-weapons-equipment-create-a-class",
       "summary": "Get details on every launch Operator and each aspect of your Multiplayer Loadout, including intel on every weapon available in MP and DMZ, Field Upgrades, Tactical and Lethal Equipment, Killstreaks, and Perks. Find out when this content unlocks across the player journey and prepare for warfare without limits when Modern Warfare 4 launches on October 23.",
       "title": "Ready for Launch: All Modern Warfare 4 Operators, Weapons, Equipment, and Multiplayer Create-a-Class Features"
+    },
+    "f9a8b69e7ad8cb2d9663b2e3fdf8e32811c9023ea7f7ee40fbe3d583fd2638c9": {
+      "anchor": "nov12",
+      "article_title": "Call of Duty: Warzone Season 1 Patch Notes",
+      "author": "Raven Software",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "b3bc873fcb38ea139cfe6daf2a4bc69a6769b15e27ad14730c434701525cf4bc",
+      "event_date": "2026-11-12T20:56:35+00:00",
+      "first_observed": "2026-11-12T20:56:35+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:f9a8b69e7ad8cb2d9663b2e3fdf8e32811c9023ea7f7ee40fbe3d583fd2638c9",
+      "id": "f9a8b69e7ad8cb2d9663b2e3fdf8e32811c9023ea7f7ee40fbe3d583fd2638c9",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Warzone"
+      ],
+      "revision": false,
+      "section_key": "anchor:nov12",
+      "source_date": "2026-11-12",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov12",
+      "summary": "Smoke Grenades. Aim assist is now disabled when shooting through smoke from Smoke Grenades, even if gunfire or explosions open gaps in the smoke. Fixed an issue where players who Prestiged using the Classic Prestige track would not receive a prestige token. Fixed an issue where the Resurgence category button didn't show squad size (1–4) and player count (45). We're investigating an issue where armor pips in the squad HUD look dim unless the playe",
+      "title": "Call of Duty: Warzone Season 1 Patch Notes — THURSDAY NOVEMBER 12"
     }
   },
   "feeds": {
     "news": {
-      "fingerprint": "78f84861b04e614f741d1f22b0d0b9ba150db543a66d3f909ae1577c03886635",
+      "fingerprint": "ddcd8ad24f176c95c00e6bdc521d60f98cc5ec58cf9b0c0781bfe7636a2210e9",
       "ids": [
+        "9f3dd1dba697b2a0888c4b226892020a471e42b3d900fadb13586ba5eb07620a",
         "0b1edc084f0606d1bdbd1c81d725b5a0a4d71ae896acbbfe4ec5b3ea2b3bde46",
         "ba86bfd3b3363fff3e67bea7b670e062908f878cd510a05d112847c8f086f5ac",
         "2a369e762855ec002d364a0c73421868eba675f7489a49776e1eac7edbf0f715",
@@ -1003,11 +1105,13 @@
         "3fb51f1cde4ff187f396d26ac45373f8757a45f9f595f9a2cf19ecb1aed4a895",
         "00eb2368a4095ef51514f0f55ddedf13b84a40c993ec367cd8e170eb6315d314"
       ],
-      "last_build": "2026-11-11T23:41:26+00:00"
+      "last_build": "2026-11-12T20:56:35+00:00"
     },
     "patch": {
-      "fingerprint": "919878977dc3ed24d3ed87bef71b4587a1f4c82e01de0241907f9aba4ee8ed57",
+      "fingerprint": "30939669221e631d813a34ba27fab9e7f9a9dd2696a0b66702e2dac37a4c5278",
       "ids": [
+        "f9a8b69e7ad8cb2d9663b2e3fdf8e32811c9023ea7f7ee40fbe3d583fd2638c9",
+        "418a4b0beafc9e5c85fbecd353d94d0bfa8a941605b480afb30d5575a6b75fa5",
         "c8e7233f5bb2b267e0d73ba15114aefe14d255fa81caac102d791b33805c8670",
         "ae6150e2401f7c51df82766c1b78402edecad6a4e280a848abc1511313f77bd8",
         "c466d7e29be63fd8abaa0a327bf28adbf6ed2d03e73afb318c57e7ac7a35eeb6",
@@ -1027,11 +1131,12 @@
         "021b1e2443f5d9c80cd61104ce64a70bc4397c530a055f1f9d59999499a6b939",
         "004110105b90e68b91123f59a74fd380b0cf0115fcd5fd651cfd2c968393bb64"
       ],
-      "last_build": "2026-11-11T23:41:26+00:00"
+      "last_build": "2026-11-12T20:56:35+00:00"
     }
   },
   "image_types": {
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-001-TOUT_(2).jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-002-TOUT.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/MW4-CODE-FORGED-IN-VALOR-TOUT.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/veterans-day-2026/CODE-VETERANS-DAY-26-TOUT.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/MW4-LAUNCH-TOUT.jpg": "image/jpeg",
@@ -1128,6 +1233,22 @@
       "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-11"
+    },
+    "3c5d8908d0dcc93a2e4686d337456ee94a7a7c59db27c1ab7c618c4ab5d830e5": {
+      "aliases": [],
+      "anchor": "nov12",
+      "digest": "796c32a34ac5eac23e30c19b55914b20b35157e8d41be37ada32faca16ae8e83",
+      "digest_aliases": {},
+      "digests": [
+        "796c32a34ac5eac23e30c19b55914b20b35157e8d41be37ada32faca16ae8e83"
+      ],
+      "first_observed": "2026-11-12T20:56:35+00:00",
+      "key": "anchor:nov12",
+      "label": "November 12, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "parser_version": 2,
+      "precision": "date",
+      "source_date": "2026-11-12"
     },
     "45722a90609755e10adf0f2c5ff560451c5ad77332859edfce0436fce1ff937b": {
       "aliases": [],
@@ -1404,6 +1525,22 @@
       "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-05"
+    },
+    "f707d463fad62285ab9706f300a8da451b68d159df0d6e4928eca83bf739aec4": {
+      "aliases": [],
+      "anchor": "nov12",
+      "digest": "b3bc873fcb38ea139cfe6daf2a4bc69a6769b15e27ad14730c434701525cf4bc",
+      "digest_aliases": {},
+      "digests": [
+        "b3bc873fcb38ea139cfe6daf2a4bc69a6769b15e27ad14730c434701525cf4bc"
+      ],
+      "first_observed": "2026-11-12T20:56:35+00:00",
+      "key": "anchor:nov12",
+      "label": "THURSDAY NOVEMBER 12",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "parser_version": 2,
+      "precision": "date",
+      "source_date": "2026-11-12"
     },
     "fc99b68b260a12478260a9b873c90a2f80ed1316acfe01f7683a4af3a11fd4d2": {
       "aliases": [],

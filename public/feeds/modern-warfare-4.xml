@@ -5,10 +5,24 @@
     <description>Official Call of Duty articles tagged Modern Warfare 4, including shared MW4/Warzone announcements. Independently maintained RSS feeds of official Call of Duty content. Activision does not operate or endorse this hosting project.</description>
     <language>en-us</language>
     <atom:link href="https://ember-kace.github.io/cod-rss-feeds-v2/feeds/modern-warfare-4.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 11 Nov 2026 23:41:26 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 20:56:35 GMT</lastBuildDate>
     <ttl>15</ttl>
     <generator>Call of Duty Feed Desk</generator>
     <copyright>Original articles and artwork © Activision Publishing, Inc. Feed conversion independently operated.</copyright>
+    <item>
+      <title>Veterans Day: Honoring Those Who Served Through Stories of Service and Support</title>
+      <link>https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-veterans-day</link>
+      <guid isPermaLink="false">urn:cod-rss:9f3dd1dba697b2a0888c4b226892020a471e42b3d900fadb13586ba5eb07620a</guid>
+      <pubDate>Thu, 12 Nov 2026 19:00:00 GMT</pubDate>
+      <dc:creator>Call of Duty Staff</dc:creator>
+      <description><![CDATA[<p>Today we recognize all those who have served, but supporting veterans extends beyond a single day of recognition. The following captures how our team has worked alongside the veteran community to recognize their service and support their futures.</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-002-TOUT.jpg" alt="Veterans Day: Honoring Those Who Served Through Stories of Service and Support" /></p><p><a href="https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-veterans-day">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>Today we recognize all those who have served, but supporting veterans extends beyond a single day of recognition. The following captures how our team has worked alongside the veteran community to recognize their service and support their futures.</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-002-TOUT.jpg" alt="Veterans Day: Honoring Those Who Served Through Stories of Service and Support" /></p><p><a href="https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-veterans-day">Read the official update</a></p>]]></content:encoded>
+      <category>cod-intel</category>
+      <category>Modern Warfare 4</category>
+      <category>code</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-002-TOUT.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-002-TOUT.jpg"/>
+    </item>
     <item>
       <title>Answer the Call This Veterans Day</title>
       <link>https://www.callofduty.com/blog/2026/11/call-of-duty-endowment-veterans-day-valor-pack</link>
