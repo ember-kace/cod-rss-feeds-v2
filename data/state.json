@@ -127,27 +127,27 @@
       "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
       "https://www.callofduty.com/robots.txt"
     ],
-    "day": "2026-11-11",
+    "day": "2026-11-12",
     "item_counts": {
-      "news": 10,
-      "patch": 16
+      "news": 11,
+      "patch": 18
     },
-    "last_success": "2026-11-11T02:13:01+00:00",
-    "observation_time": "2026-11-11T02:13:01+00:00",
+    "last_success": "2026-11-12T04:24:02+00:00",
+    "observation_time": "2026-11-12T04:24:02+00:00",
     "source_data_stale": false
   },
   "collection": {
     "index_counts": {
       "https://www.callofduty.com/blog": 240,
-      "https://www.callofduty.com/blog/modernwarfare4": 37,
+      "https://www.callofduty.com/blog/modernwarfare4": 38,
       "https://www.callofduty.com/blog/warzone": 289,
       "https://www.callofduty.com/patchnotes": 3
     },
     "last_catchup": "2026-11-08T21:01:30+00:00",
     "patch_pages": {
       "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes": "2026-11-08T00:00:00+00:00",
-      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes": "2026-11-11T00:00:00+00:00",
-      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": "2026-11-11T00:00:00+00:00"
+      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes": "2026-11-12T00:00:00+00:00",
+      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": "2026-11-12T00:00:00+00:00"
     }
   },
   "created_at": "2026-11-08T20:41:46+00:00",
@@ -1077,6 +1077,14 @@
       "item_counts": {
         "news": 10,
         "patch": 16
+      },
+      "successful_source_checks": 11
+    },
+    {
+      "day": "2026-11-12",
+      "item_counts": {
+        "news": 11,
+        "patch": 18
       },
       "successful_source_checks": 11
     }
