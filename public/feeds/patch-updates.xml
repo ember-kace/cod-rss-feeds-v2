@@ -5,10 +5,36 @@
     <description>Dated update sections from current official Modern Warfare 4 and Warzone patch notes, with substantive revision tracking. Independently maintained RSS feeds of official Call of Duty content. Activision does not operate or endorse this hosting project.</description>
     <language>en-us</language>
     <atom:link href="https://ember-kace.github.io/cod-rss-feeds-v2/feeds/patch-updates.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 12 Nov 2026 20:56:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 22:15:27 GMT</lastBuildDate>
     <ttl>15</ttl>
     <generator>Call of Duty Feed Desk</generator>
     <copyright>Original articles and artwork © Activision Publishing, Inc. Feed conversion independently operated.</copyright>
+    <item>
+      <title>MW4 patch update — November 13, 2026</title>
+      <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/8758a04f310696ad25d7ab8b186dfa97b1b3a15e5a11537b3b38d9d30b7f49f0.html</link>
+      <guid isPermaLink="false">urn:cod-rss:8758a04f310696ad25d7ab8b186dfa97b1b3a15e5a11537b3b38d9d30b7f49f0</guid>
+      <pubDate>Fri, 13 Nov 2026 22:15:27 GMT</pubDate>
+      <dc:creator>Infinity Ward</dc:creator>
+      <description><![CDATA[<p>Wager Match - All Modes. We’re increasing trophy drop rates across all MP modes. We’re increasing trophy drop rates in DMZ. Resupply Run - DMZ. Smoke Grenades and Smoke Wall. Aim assist is now disabled when shooting through smoke from Smoke Grenades and the Smoke Wall Field Upgrade, including gaps in the smoke from gunfire or explosions. Fixed an…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" alt="MW4 patch update — November 13, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov13">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>Wager Match - All Modes. We’re increasing trophy drop rates across all MP modes. We’re increasing trophy drop rates in DMZ. Resupply Run - DMZ. Smoke Grenades and Smoke Wall. Aim assist is now disabled when shooting through smoke from Smoke Grenades and the Smoke Wall Field Upgrade, including gaps in the smoke from gunfire or explosions. Fixed an…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" alt="MW4 patch update — November 13, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov13">Read the official update</a></p>]]></content:encoded>
+      <category>Modern Warfare 4</category>
+      <category>Patch updates</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg"/>
+    </item>
+    <item>
+      <title>Update detected — Warzone patch update — November 12, 2026</title>
+      <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/222568521db04cd8e3e1e287d7b8d4f729682d0d9745822481818ba39f426dde.html</link>
+      <guid isPermaLink="false">urn:cod-rss:222568521db04cd8e3e1e287d7b8d4f729682d0d9745822481818ba39f426dde</guid>
+      <pubDate>Fri, 13 Nov 2026 22:15:27 GMT</pubDate>
+      <dc:creator>Raven Software</dc:creator>
+      <description><![CDATA[<p>Update detected: the official notes changed. Smoke Grenades and Smoke Wall. Aim assist is now disabled when shooting through smoke from Smoke Grenades and the Smoke Wall, even if gunfire or explosions open gaps in the smoke. Fixed an issue where players who Prestiged using the Classic Prestige track would not receive a prestige token. Fixed an issue where the Resurgence category button…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" alt="Update detected — Warzone patch update — November 12, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov12">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>Update detected: the official notes changed. Smoke Grenades and Smoke Wall. Aim assist is now disabled when shooting through smoke from Smoke Grenades and the Smoke Wall, even if gunfire or explosions open gaps in the smoke. Fixed an issue where players who Prestiged using the Classic Prestige track would not receive a prestige token. Fixed an issue where the Resurgence category button…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" alt="Update detected — Warzone patch update — November 12, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov12">Read the official update</a></p>]]></content:encoded>
+      <category>Warzone</category>
+      <category>Patch updates</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg"/>
+    </item>
     <item>
       <title>Warzone patch update — November 12, 2026</title>
       <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/f9a8b69e7ad8cb2d9663b2e3fdf8e32811c9023ea7f7ee40fbe3d583fd2638c9.html</link>

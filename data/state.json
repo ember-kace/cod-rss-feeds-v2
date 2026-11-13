@@ -109,7 +109,7 @@
       "first_observed": "2026-11-08T20:41:46+00:00",
       "kind": "patch",
       "precision": "datetime",
-      "source_date": "2026-11-12T12:00:00-07:00",
+      "source_date": "2026-11-13T12:00:00-07:00",
       "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes"
     },
     "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": {
@@ -300,6 +300,36 @@
       "source_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-endowment-veterans-day-valor-pack",
       "summary": "From the inspiring story of Medal of Honor recipient and U.S. Marine Corps veteran Kyle Carpenter to new ways to give back, discover how the Call of Duty community is coming together to support former service members this Veterans Day.",
       "title": "Answer the Call This Veterans Day"
+    },
+    "222568521db04cd8e3e1e287d7b8d4f729682d0d9745822481818ba39f426dde": {
+      "anchor": "nov12",
+      "article_title": "Call of Duty: Warzone Season 1 Patch Notes",
+      "author": "Raven Software",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "2e822d54c3867f5847c46737a2f7ffd0dca3dc6dcdc68e284de4642a6b4c9bde",
+      "event_date": "2026-11-13T22:15:27+00:00",
+      "first_observed": "2026-11-13T22:15:27+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:222568521db04cd8e3e1e287d7b8d4f729682d0d9745822481818ba39f426dde",
+      "id": "222568521db04cd8e3e1e287d7b8d4f729682d0d9745822481818ba39f426dde",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Warzone"
+      ],
+      "revision": true,
+      "section_key": "anchor:nov12",
+      "source_date": "2026-11-12",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov12",
+      "summary": "Smoke Grenades and Smoke Wall. Aim assist is now disabled when shooting through smoke from Smoke Grenades and the Smoke Wall, even if gunfire or explosions open gaps in the smoke. Fixed an issue where players who Prestiged using the Classic Prestige track would not receive a prestige token. Fixed an issue where the Resurgence category button didn't show squad size (1–4) and player count (45). We're investigating an issue where armor pips in the s",
+      "title": "Update detected — Call of Duty: Warzone Season 1 Patch Notes — THURSDAY NOVEMBER 12"
     },
     "28926ad5885f94ca17248d128672e3ff5cf0c5bc31c298a0c21583ce343ef91a": {
       "anchor": "oct24",
@@ -611,6 +641,36 @@
       "source_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes#oct25",
       "summary": "Fixed an issue on XBOX and PC where players using the full Korean language setting could not launch Black Ops 7 from MW4. Fixed an issue where weapon stats were not displayed for locked Attachments in Gunsmith. Updated the Prestige reset process to ensure Loadouts are properly cleared when Prestiging. Fixed a visual issue in the Optic Rail Placement menu. Fixed an issue where the Resource Management Trait description would scroll too fast to read",
       "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 25, 2026"
+    },
+    "8758a04f310696ad25d7ab8b186dfa97b1b3a15e5a11537b3b38d9d30b7f49f0": {
+      "anchor": "nov13",
+      "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "d6fa47efbc7d9503069cd0f4df9fcb1c14638444ae4330c76c618bd806239d94",
+      "event_date": "2026-11-13T22:15:27+00:00",
+      "first_observed": "2026-11-13T22:15:27+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:8758a04f310696ad25d7ab8b186dfa97b1b3a15e5a11537b3b38d9d30b7f49f0",
+      "id": "8758a04f310696ad25d7ab8b186dfa97b1b3a15e5a11537b3b38d9d30b7f49f0",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": "anchor:nov13",
+      "source_date": "2026-11-13",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov13",
+      "summary": "Wager Match - All Modes. We’re increasing trophy drop rates across all MP modes. We’re increasing trophy drop rates in DMZ. Resupply Run - DMZ. Smoke Grenades and Smoke Wall. Aim assist is now disabled when shooting through smoke from Smoke Grenades and the Smoke Wall Field Upgrade, including gaps in the smoke from gunfire or explosions. Fixed an issue where heads on the CDL Operator models could appear incorrectly at certain distances. Fixed an ",
+      "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 13, 2026"
     },
     "8b82e73780202fa5df175fd12c4cb039773469916a535b2d81a1bb683842b864": {
       "anchor": "",
@@ -1107,8 +1167,10 @@
       "last_build": "2026-11-12T20:56:35+00:00"
     },
     "patch": {
-      "fingerprint": "30939669221e631d813a34ba27fab9e7f9a9dd2696a0b66702e2dac37a4c5278",
+      "fingerprint": "c89ffdaf605a8f038c7351829fa7120c0ecefe6d9f2a53d2314ba9a570331056",
       "ids": [
+        "8758a04f310696ad25d7ab8b186dfa97b1b3a15e5a11537b3b38d9d30b7f49f0",
+        "222568521db04cd8e3e1e287d7b8d4f729682d0d9745822481818ba39f426dde",
         "f9a8b69e7ad8cb2d9663b2e3fdf8e32811c9023ea7f7ee40fbe3d583fd2638c9",
         "418a4b0beafc9e5c85fbecd353d94d0bfa8a941605b480afb30d5575a6b75fa5",
         "c8e7233f5bb2b267e0d73ba15114aefe14d255fa81caac102d791b33805c8670",
@@ -1130,7 +1192,7 @@
         "021b1e2443f5d9c80cd61104ce64a70bc4397c530a055f1f9d59999499a6b939",
         "004110105b90e68b91123f59a74fd380b0cf0115fcd5fd651cfd2c968393bb64"
       ],
-      "last_build": "2026-11-12T20:56:35+00:00"
+      "last_build": "2026-11-13T22:15:27+00:00"
     }
   },
   "image_types": {
@@ -1441,6 +1503,22 @@
       "precision": "date",
       "source_date": "2026-11-11"
     },
+    "c00a4fe98ea2bdd74fa47a16195681d147ace27dec1d8438a0518677f4615532": {
+      "aliases": [],
+      "anchor": "nov13",
+      "digest": "d6fa47efbc7d9503069cd0f4df9fcb1c14638444ae4330c76c618bd806239d94",
+      "digest_aliases": {},
+      "digests": [
+        "d6fa47efbc7d9503069cd0f4df9fcb1c14638444ae4330c76c618bd806239d94"
+      ],
+      "first_observed": "2026-11-13T22:15:27+00:00",
+      "key": "anchor:nov13",
+      "label": "November 13, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "parser_version": 2,
+      "precision": "date",
+      "source_date": "2026-11-13"
+    },
     "c592c7e4e2a1be2f445982bc0d9dc12755d50edb8a20c36d7be311c2faf9577f": {
       "aliases": [],
       "anchor": "oct23",
@@ -1536,10 +1614,11 @@
     "f707d463fad62285ab9706f300a8da451b68d159df0d6e4928eca83bf739aec4": {
       "aliases": [],
       "anchor": "nov12",
-      "digest": "b3bc873fcb38ea139cfe6daf2a4bc69a6769b15e27ad14730c434701525cf4bc",
+      "digest": "2e822d54c3867f5847c46737a2f7ffd0dca3dc6dcdc68e284de4642a6b4c9bde",
       "digest_aliases": {},
       "digests": [
-        "b3bc873fcb38ea139cfe6daf2a4bc69a6769b15e27ad14730c434701525cf4bc"
+        "b3bc873fcb38ea139cfe6daf2a4bc69a6769b15e27ad14730c434701525cf4bc",
+        "2e822d54c3867f5847c46737a2f7ffd0dca3dc6dcdc68e284de4642a6b4c9bde"
       ],
       "first_observed": "2026-11-12T20:56:35+00:00",
       "key": "anchor:nov12",
