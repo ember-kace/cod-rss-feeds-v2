@@ -1,8 +1,8 @@
 {
   "algorithm": "sha256",
-  "content_digest": "0933418cbba8c8ea65c36c56691e74053c53371a4ec9c0d9dfbcb206995b11cc",
+  "content_digest": "9499e514d678d7a6c72484c165c9ebd9ac3893faa85a475481303eb20582c554",
   "files": {
-    "feeds/modern-warfare-4.xml": "a45a7cc971dea058a834ec4de474e63970fbee7316b447314c914202f907489c",
+    "feeds/modern-warfare-4.xml": "46b7f8db8d8b15a9c1252d75c355f5031d86cd8d9cf2fe5f3146ea0fa27c5ae8",
     "feeds/patch-updates.xml": "9dc1c6f7822e317638e534aa27be037b7f9edb28bdbda606010c8bf0d2d449e2",
     "index.html": "3f8c417393a564238c636e1ae3c45c8f1db431f4f15d77edfa3d14c721e2f24d",
     "updates/004110105b90e68b91123f59a74fd380b0cf0115fcd5fd651cfd2c968393bb64.html": "82e32979f33580b57f393d78e81ba59e362a1c7fbcbba5eee90e8a1abba91356",

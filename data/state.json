@@ -150,7 +150,7 @@
       "https://www.callofduty.com/blog/warzone": 289,
       "https://www.callofduty.com/patchnotes": 3
     },
-    "last_catchup": "2026-11-08T21:01:30+00:00",
+    "last_catchup": "2026-11-15T23:56:11+00:00",
     "patch_pages": {
       "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes": "2026-11-08T00:00:00+00:00",
       "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes": "2026-11-15T00:00:00+00:00",
@@ -759,7 +759,7 @@
     "9f3dd1dba697b2a0888c4b226892020a471e42b3d900fadb13586ba5eb07620a": {
       "anchor": "",
       "article_title": "Veterans Day: Honoring Those Who Served Through Stories of Service and Support",
-      "author": "Call of Duty Staff",
+      "author": "The COD Intel Team",
       "baseline": false,
       "categories": [
         "news",
@@ -1149,7 +1149,7 @@
   },
   "feeds": {
     "news": {
-      "fingerprint": "ddcd8ad24f176c95c00e6bdc521d60f98cc5ec58cf9b0c0781bfe7636a2210e9",
+      "fingerprint": "8666735d49ef12a1626e99e3b13f69c0bbe00ee8cfafc8d1bd8fe8c2ce340087",
       "ids": [
         "9f3dd1dba697b2a0888c4b226892020a471e42b3d900fadb13586ba5eb07620a",
         "0b1edc084f0606d1bdbd1c81d725b5a0a4d71ae896acbbfe4ec5b3ea2b3bde46",
@@ -1164,7 +1164,7 @@
         "3fb51f1cde4ff187f396d26ac45373f8757a45f9f595f9a2cf19ecb1aed4a895",
         "00eb2368a4095ef51514f0f55ddedf13b84a40c993ec367cd8e170eb6315d314"
       ],
-      "last_build": "2026-11-12T20:56:35+00:00"
+      "last_build": "2026-11-15T23:56:11+00:00"
     },
     "patch": {
       "fingerprint": "c89ffdaf605a8f038c7351829fa7120c0ecefe6d9f2a53d2314ba9a570331056",
