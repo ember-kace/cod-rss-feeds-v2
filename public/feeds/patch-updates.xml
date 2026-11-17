@@ -5,10 +5,36 @@
     <description>Dated update sections from current official Modern Warfare 4 and Warzone patch notes, with substantive revision tracking. Independently maintained RSS feeds of official Call of Duty content. Activision does not operate or endorse this hosting project.</description>
     <language>en-us</language>
     <atom:link href="https://ember-kace.github.io/cod-rss-feeds-v2/feeds/patch-updates.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 13 Nov 2026 22:15:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:13:02 GMT</lastBuildDate>
     <ttl>15</ttl>
     <generator>Call of Duty Feed Desk</generator>
     <copyright>Original articles and artwork © Activision Publishing, Inc. Feed conversion independently operated.</copyright>
+    <item>
+      <title>MW4 patch update — November 16, 2026</title>
+      <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/9f65fd1b6f92f514579d5b0eed53c00392b9f751dbea102d9d4c61a286a2a4dc.html</link>
+      <guid isPermaLink="false">urn:cod-rss:9f65fd1b6f92f514579d5b0eed53c00392b9f751dbea102d9d4c61a286a2a4dc</guid>
+      <pubDate>Tue, 17 Nov 2026 00:13:02 GMT</pubDate>
+      <dc:creator>Infinity Ward</dc:creator>
+      <description><![CDATA[<p>Fixed several stability issues for a better experience. Fixed an issue where the Joint Fire event displayed an incorrect end time. Joint Fire will run for 24 hours every Friday through Season 1. Fixed an issue where execution previews were missing some elements in DMZ or Warzone. Fixed an issue where some preview images could display low…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" alt="MW4 patch update — November 16, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov16">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>Fixed several stability issues for a better experience. Fixed an issue where the Joint Fire event displayed an incorrect end time. Joint Fire will run for 24 hours every Friday through Season 1. Fixed an issue where execution previews were missing some elements in DMZ or Warzone. Fixed an issue where some preview images could display low…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" alt="MW4 patch update — November 16, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov16">Read the official update</a></p>]]></content:encoded>
+      <category>Modern Warfare 4</category>
+      <category>Patch updates</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg"/>
+    </item>
+    <item>
+      <title>Warzone patch update — November 16, 2026</title>
+      <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/7ee2386cdff21fffee0f42452087b502b3ef226f10270018a1262e6e6ba439ba.html</link>
+      <guid isPermaLink="false">urn:cod-rss:7ee2386cdff21fffee0f42452087b502b3ef226f10270018a1262e6e6ba439ba</guid>
+      <pubDate>Tue, 17 Nov 2026 00:13:02 GMT</pubDate>
+      <dc:creator>Raven Software</dc:creator>
+      <description><![CDATA[<p>Fixed an issue where the Win Streaks did not track correctly in Grinding for Royalty. Fixed an issue where the final circles could close over open water in Hajin. Fixed an issue where reward notifications didn&apos;t appear when leveling up during a match. Fixed an issue where large &quot;Scavenger Supply Box&quot; text appeared above Scavenger Contract icons.…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" alt="Warzone patch update — November 16, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>Fixed an issue where the Win Streaks did not track correctly in Grinding for Royalty. Fixed an issue where the final circles could close over open water in Hajin. Fixed an issue where reward notifications didn&apos;t appear when leveling up during a match. Fixed an issue where large &quot;Scavenger Supply Box&quot; text appeared above Scavenger Contract icons.…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" alt="Warzone patch update — November 16, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes">Read the official update</a></p>]]></content:encoded>
+      <category>Warzone</category>
+      <category>Patch updates</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg"/>
+    </item>
     <item>
       <title>MW4 patch update — November 13, 2026</title>
       <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/8758a04f310696ad25d7ab8b186dfa97b1b3a15e5a11537b3b38d9d30b7f49f0.html</link>

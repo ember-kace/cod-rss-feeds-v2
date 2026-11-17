@@ -109,7 +109,7 @@
       "first_observed": "2026-11-08T20:41:46+00:00",
       "kind": "patch",
       "precision": "datetime",
-      "source_date": "2026-11-13T12:00:00-07:00",
+      "source_date": "2026-11-16T12:00:00-07:00",
       "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes"
     },
     "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": {
@@ -117,7 +117,7 @@
       "first_observed": "2026-11-08T20:41:46+00:00",
       "kind": "patch",
       "precision": "date",
-      "source_date": "2026-11-12",
+      "source_date": "2026-11-16",
       "title": "Call of Duty: Warzone Season 1 Patch Notes"
     }
   },
@@ -134,13 +134,13 @@
       "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
       "https://www.callofduty.com/robots.txt"
     ],
-    "day": "2026-11-16",
+    "day": "2026-11-17",
     "item_counts": {
       "news": 12,
-      "patch": 22
+      "patch": 24
     },
-    "last_success": "2026-11-16T06:13:36+00:00",
-    "observation_time": "2026-11-16T06:13:36+00:00",
+    "last_success": "2026-11-17T00:13:02+00:00",
+    "observation_time": "2026-11-17T00:13:02+00:00",
     "source_data_stale": false
   },
   "collection": {
@@ -153,8 +153,8 @@
     "last_catchup": "2026-11-15T23:56:11+00:00",
     "patch_pages": {
       "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes": "2026-11-08T00:00:00+00:00",
-      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes": "2026-11-16T00:00:00+00:00",
-      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": "2026-11-16T00:00:00+00:00"
+      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes": "2026-11-17T00:00:00+00:00",
+      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": "2026-11-17T00:00:00+00:00"
     }
   },
   "created_at": "2026-11-08T20:41:46+00:00",
@@ -616,6 +616,36 @@
       "summary": "Prepare for the October 23 release of Modern Warfare 4 with intel on every Multiplayer map and mode arriving at launch.",
       "title": "Ready for Launch: Multiplayer Maps and Modes Confirmed"
     },
+    "7ee2386cdff21fffee0f42452087b502b3ef226f10270018a1262e6e6ba439ba": {
+      "anchor": null,
+      "article_title": "Call of Duty: Warzone Season 1 Patch Notes",
+      "author": "Raven Software",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "9f90f089067a4b61bdcbcc236666a165aebbbc20049249005337b5c82187242b",
+      "event_date": "2026-11-17T00:13:02+00:00",
+      "first_observed": "2026-11-17T00:13:02+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:7ee2386cdff21fffee0f42452087b502b3ef226f10270018a1262e6e6ba439ba",
+      "id": "7ee2386cdff21fffee0f42452087b502b3ef226f10270018a1262e6e6ba439ba",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Warzone"
+      ],
+      "revision": false,
+      "section_key": "date:2026-11-16:label:monday-november-16",
+      "source_date": "2026-11-16",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "summary": "Fixed an issue where the Win Streaks did not track correctly in Grinding for Royalty. Fixed an issue where the final circles could close over open water in Hajin. Fixed an issue where reward notifications didn't appear when leveling up during a match. Fixed an issue where large \"Scavenger Supply Box\" text appeared above Scavenger Contract icons. Fixed an issue where Safe Crack Ground Ops did not spawn on Zodiac. Fixed an issue where some complete",
+      "title": "Call of Duty: Warzone Season 1 Patch Notes — MONDAY NOVEMBER 16"
+    },
     "7f3d1de14e3124b9e9ab00f509feb98035479bf432ab03663b46bc97f6e2a67b": {
       "anchor": "oct25",
       "article_title": "Call of Duty: Modern Warfare 4 Launch Patch Notes",
@@ -788,6 +818,36 @@
       "source_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-veterans-day",
       "summary": "Today we recognize all those who have served, but supporting veterans extends beyond a single day of recognition. The following captures how our team has worked alongside the veteran community to recognize their service and support their futures.",
       "title": "Veterans Day: Honoring Those Who Served Through Stories of Service and Support"
+    },
+    "9f65fd1b6f92f514579d5b0eed53c00392b9f751dbea102d9d4c61a286a2a4dc": {
+      "anchor": "nov16",
+      "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "eff32c8ce94d5f46e4d06eb6e75fe8fb2028e185e6ff8c363b377f400499c9db",
+      "event_date": "2026-11-17T00:13:02+00:00",
+      "first_observed": "2026-11-17T00:13:02+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:9f65fd1b6f92f514579d5b0eed53c00392b9f751dbea102d9d4c61a286a2a4dc",
+      "id": "9f65fd1b6f92f514579d5b0eed53c00392b9f751dbea102d9d4c61a286a2a4dc",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": "anchor:nov16",
+      "source_date": "2026-11-16",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov16",
+      "summary": "Fixed several stability issues for a better experience. Fixed an issue where the Joint Fire event displayed an incorrect end time. Joint Fire will run for 24 hours every Friday through Season 1. Fixed an issue where execution previews were missing some elements in DMZ or Warzone. Fixed an issue where some preview images could display low resolution on certain platforms. Decreased Drill Charge impact damage at range by 75%. Close range damage is n",
+      "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 16, 2026"
     },
     "ab1ab48c1782d1eaead247245b4dfff4e504e5c10cffb6c134de5d217f77036c": {
       "anchor": "nov10",
@@ -1167,8 +1227,10 @@
       "last_build": "2026-11-15T23:56:11+00:00"
     },
     "patch": {
-      "fingerprint": "c89ffdaf605a8f038c7351829fa7120c0ecefe6d9f2a53d2314ba9a570331056",
+      "fingerprint": "9a7a20796371a426b483f290e76717707ba7e59adb5252f1e7c8fffd10021712",
       "ids": [
+        "9f65fd1b6f92f514579d5b0eed53c00392b9f751dbea102d9d4c61a286a2a4dc",
+        "7ee2386cdff21fffee0f42452087b502b3ef226f10270018a1262e6e6ba439ba",
         "8758a04f310696ad25d7ab8b186dfa97b1b3a15e5a11537b3b38d9d30b7f49f0",
         "222568521db04cd8e3e1e287d7b8d4f729682d0d9745822481818ba39f426dde",
         "f9a8b69e7ad8cb2d9663b2e3fdf8e32811c9023ea7f7ee40fbe3d583fd2638c9",
@@ -1192,7 +1254,7 @@
         "021b1e2443f5d9c80cd61104ce64a70bc4397c530a055f1f9d59999499a6b939",
         "004110105b90e68b91123f59a74fd380b0cf0115fcd5fd651cfd2c968393bb64"
       ],
-      "last_build": "2026-11-13T22:15:27+00:00"
+      "last_build": "2026-11-17T00:13:02+00:00"
     }
   },
   "image_types": {
@@ -1285,6 +1347,14 @@
         "patch": 22
       },
       "successful_source_checks": 10
+    },
+    {
+      "day": "2026-11-17",
+      "item_counts": {
+        "news": 12,
+        "patch": 24
+      },
+      "successful_source_checks": 10
     }
   ],
   "parser_version": 2,
@@ -1292,6 +1362,22 @@
   "presentation_version": 2,
   "schema_version": 1,
   "sections": {
+    "0925a13ff475213e1e7bde1a19f19b1ced025f0ce0e1205a7f760184dc7c7710": {
+      "aliases": [],
+      "anchor": null,
+      "digest": "9f90f089067a4b61bdcbcc236666a165aebbbc20049249005337b5c82187242b",
+      "digest_aliases": {},
+      "digests": [
+        "9f90f089067a4b61bdcbcc236666a165aebbbc20049249005337b5c82187242b"
+      ],
+      "first_observed": "2026-11-17T00:13:02+00:00",
+      "key": "date:2026-11-16:label:monday-november-16",
+      "label": "MONDAY NOVEMBER 16",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "parser_version": 2,
+      "precision": "date",
+      "source_date": "2026-11-16"
+    },
     "1c138fb42e4685c592055c6122856d0ca82b2a151a7888386df4a6e35c957060": {
       "aliases": [],
       "anchor": "oct30",
@@ -1510,6 +1596,22 @@
       "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-10"
+    },
+    "ac7cce54ef93c1c2842c7ef392e270364ab9001a0ea08d91e4e9c07bfa7671d7": {
+      "aliases": [],
+      "anchor": "nov16",
+      "digest": "eff32c8ce94d5f46e4d06eb6e75fe8fb2028e185e6ff8c363b377f400499c9db",
+      "digest_aliases": {},
+      "digests": [
+        "eff32c8ce94d5f46e4d06eb6e75fe8fb2028e185e6ff8c363b377f400499c9db"
+      ],
+      "first_observed": "2026-11-17T00:13:02+00:00",
+      "key": "anchor:nov16",
+      "label": "November 16, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "parser_version": 2,
+      "precision": "date",
+      "source_date": "2026-11-16"
     },
     "b884c083515c7f0c37568e8f84985b42ce358272932ea869a0da4dfa8707e427": {
       "aliases": [],
