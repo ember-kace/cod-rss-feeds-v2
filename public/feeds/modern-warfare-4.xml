@@ -5,10 +5,23 @@
     <description>Official Call of Duty articles tagged Modern Warfare 4, including shared MW4/Warzone announcements. Independently maintained RSS feeds of official Call of Duty content. Activision does not operate or endorse this hosting project.</description>
     <language>en-us</language>
     <atom:link href="https://ember-kace.github.io/cod-rss-feeds-v2/feeds/modern-warfare-4.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 15 Nov 2026 23:56:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:02:00 GMT</lastBuildDate>
     <ttl>15</ttl>
     <generator>Call of Duty Feed Desk</generator>
     <copyright>Original articles and artwork © Activision Publishing, Inc. Feed conversion independently operated.</copyright>
+    <item>
+      <title>RICOCHET’s Head of Anti-Cheat Discussed War on Cheating in Recent Reddit AMA</title>
+      <link>https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-ricochet-anti-cheat-reddit-ama</link>
+      <guid isPermaLink="false">urn:cod-rss:cc15a57f29fe2c0ce352cc24b02c88c117a3be6c9cb73ca27454b97901f37e67</guid>
+      <pubDate>Tue, 17 Nov 2026 19:00:00 GMT</pubDate>
+      <dc:creator>The COD Intel Team</dc:creator>
+      <description><![CDATA[<p>David Andrews, Senior Director of Game Security at Activision and head of RICOCHET Anti-Cheat, joined r/CallofDuty to answer questions from players about enforcement, cheat sellers, Ranked Play, and more.</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-003-TOUT.jpg" alt="RICOCHET’s Head of Anti-Cheat Discussed War on Cheating in Recent Reddit AMA" /></p><p><a href="https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-ricochet-anti-cheat-reddit-ama">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>David Andrews, Senior Director of Game Security at Activision and head of RICOCHET Anti-Cheat, joined r/CallofDuty to answer questions from players about enforcement, cheat sellers, Ranked Play, and more.</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-003-TOUT.jpg" alt="RICOCHET’s Head of Anti-Cheat Discussed War on Cheating in Recent Reddit AMA" /></p><p><a href="https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-ricochet-anti-cheat-reddit-ama">Read the official update</a></p>]]></content:encoded>
+      <category>cod-intel</category>
+      <category>Modern Warfare 4</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-003-TOUT.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-003-TOUT.jpg"/>
+    </item>
     <item>
       <title>Veterans Day: Honoring Those Who Served Through Stories of Service and Support</title>
       <link>https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-veterans-day</link>

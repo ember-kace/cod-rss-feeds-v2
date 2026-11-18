@@ -64,6 +64,14 @@
       "source_date": "2026-10-28T12:00:00-07:00",
       "title": "Call of Duty: Modern Warfare 4 and Call of Duty: Warzone Season 1: All You Need to Know"
     },
+    "https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-ricochet-anti-cheat-reddit-ama": {
+      "aliases": [],
+      "first_observed": "2026-11-18T00:02:00+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-11-17T12:00:00-07:00",
+      "title": "RICOCHET’s Head of Anti-Cheat Discussed War on Cheating in Recent Reddit AMA"
+    },
     "https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-veterans-day": {
       "aliases": [],
       "first_observed": "2026-11-12T20:56:35+00:00",
@@ -124,6 +132,7 @@
   "checkpoint": {
     "checked_sources": [
       "https://www.callofduty.com/blog",
+      "https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-ricochet-anti-cheat-reddit-ama",
       "https://www.callofduty.com/blog/2026/11/call-of-duty-mobile-season-10-7th-anniversary",
       "https://www.callofduty.com/blog/modernwarfare4",
       "https://www.callofduty.com/blog/warzone",
@@ -134,27 +143,27 @@
       "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
       "https://www.callofduty.com/robots.txt"
     ],
-    "day": "2026-11-17",
+    "day": "2026-11-18",
     "item_counts": {
-      "news": 12,
+      "news": 13,
       "patch": 24
     },
-    "last_success": "2026-11-17T00:13:02+00:00",
-    "observation_time": "2026-11-17T00:13:02+00:00",
+    "last_success": "2026-11-18T00:02:00+00:00",
+    "observation_time": "2026-11-18T00:02:00+00:00",
     "source_data_stale": false
   },
   "collection": {
     "index_counts": {
       "https://www.callofduty.com/blog": 240,
-      "https://www.callofduty.com/blog/modernwarfare4": 38,
+      "https://www.callofduty.com/blog/modernwarfare4": 40,
       "https://www.callofduty.com/blog/warzone": 289,
       "https://www.callofduty.com/patchnotes": 3
     },
     "last_catchup": "2026-11-15T23:56:11+00:00",
     "patch_pages": {
       "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes": "2026-11-08T00:00:00+00:00",
-      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes": "2026-11-17T00:00:00+00:00",
-      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": "2026-11-17T00:00:00+00:00"
+      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes": "2026-11-18T00:00:00+00:00",
+      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": "2026-11-18T00:00:00+00:00"
     }
   },
   "created_at": "2026-11-08T20:41:46+00:00",
@@ -1118,6 +1127,37 @@
       "summary": "All ballistic weapons have had a 3.91x hitscan increase at all ranges. This change pushes the true hitscan range of all bullet weapons significantly further than they were at launch, on average to about 35 meters, making short-range gunfights more responsive. Increases true hitscan distance 288% from launch. We're also introducing a new long-range bullet simulation technique that reduces the time it takes ballistic bullets to connect by 34 millis",
       "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 11, 2026"
     },
+    "cc15a57f29fe2c0ce352cc24b02c88c117a3be6c9cb73ca27454b97901f37e67": {
+      "anchor": "",
+      "article_title": "RICOCHET’s Head of Anti-Cheat Discussed War on Cheating in Recent Reddit AMA",
+      "author": "The COD Intel Team",
+      "baseline": false,
+      "categories": [
+        "news",
+        "season-1"
+      ],
+      "digest": null,
+      "event_date": "2026-11-17T12:00:00-07:00",
+      "first_observed": "2026-11-18T00:02:00+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:cc15a57f29fe2c0ce352cc24b02c88c117a3be6c9cb73ca27454b97901f37e67",
+      "id": "cc15a57f29fe2c0ce352cc24b02c88c117a3be6c9cb73ca27454b97901f37e67",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-003-TOUT.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-ricochet-anti-cheat-reddit-ama",
+      "precision": "datetime",
+      "product_categories": [
+        "cod-intel",
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-11-17T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-ricochet-anti-cheat-reddit-ama",
+      "summary": "David Andrews, Senior Director of Game Security at Activision and head of RICOCHET Anti-Cheat, joined r/CallofDuty to answer questions from players about enforcement, cheat sellers, Ranked Play, and more.",
+      "title": "RICOCHET’s Head of Anti-Cheat Discussed War on Cheating in Recent Reddit AMA"
+    },
     "dbce6d67e1a3271490da0eff447a403d4f0b17229eef383d020611874ca1911e": {
       "anchor": "nov5",
       "article_title": "Call of Duty: Warzone Season 1 Patch Notes",
@@ -1209,8 +1249,9 @@
   },
   "feeds": {
     "news": {
-      "fingerprint": "8666735d49ef12a1626e99e3b13f69c0bbe00ee8cfafc8d1bd8fe8c2ce340087",
+      "fingerprint": "f03a40a7ec9545b3871934d36b7617db9c27f2182ea0dbd16ca307e08d7ab5a6",
       "ids": [
+        "cc15a57f29fe2c0ce352cc24b02c88c117a3be6c9cb73ca27454b97901f37e67",
         "9f3dd1dba697b2a0888c4b226892020a471e42b3d900fadb13586ba5eb07620a",
         "0b1edc084f0606d1bdbd1c81d725b5a0a4d71ae896acbbfe4ec5b3ea2b3bde46",
         "ba86bfd3b3363fff3e67bea7b670e062908f878cd510a05d112847c8f086f5ac",
@@ -1224,7 +1265,7 @@
         "3fb51f1cde4ff187f396d26ac45373f8757a45f9f595f9a2cf19ecb1aed4a895",
         "00eb2368a4095ef51514f0f55ddedf13b84a40c993ec367cd8e170eb6315d314"
       ],
-      "last_build": "2026-11-15T23:56:11+00:00"
+      "last_build": "2026-11-18T00:02:00+00:00"
     },
     "patch": {
       "fingerprint": "9a7a20796371a426b483f290e76717707ba7e59adb5252f1e7c8fffd10021712",
@@ -1260,6 +1301,7 @@
   "image_types": {
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-001-TOUT_(2).jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-002-TOUT.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-003-TOUT.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/MW4-CODE-FORGED-IN-VALOR-TOUT.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/veterans-day-2026/CODE-VETERANS-DAY-26-TOUT.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/MW4-LAUNCH-TOUT.jpg": "image/jpeg",
@@ -1355,6 +1397,14 @@
         "patch": 24
       },
       "successful_source_checks": 10
+    },
+    {
+      "day": "2026-11-18",
+      "item_counts": {
+        "news": 13,
+        "patch": 24
+      },
+      "successful_source_checks": 11
     }
   ],
   "parser_version": 2,

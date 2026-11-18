@@ -2,6 +2,7 @@
   "collection": {
     "checked_sources": [
       "https://www.callofduty.com/blog",
+      "https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-ricochet-anti-cheat-reddit-ama",
       "https://www.callofduty.com/blog/2026/11/call-of-duty-mobile-season-10-7th-anniversary",
       "https://www.callofduty.com/blog/modernwarfare4",
       "https://www.callofduty.com/blog/warzone",
@@ -12,20 +13,20 @@
       "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
       "https://www.callofduty.com/robots.txt"
     ],
-    "day": "2026-11-17",
+    "day": "2026-11-18",
     "item_counts": {
-      "news": 12,
+      "news": 13,
       "patch": 24
     },
-    "last_success": "2026-11-17T00:13:02+00:00",
-    "observation_time": "2026-11-17T00:13:02+00:00",
+    "last_success": "2026-11-18T00:02:00+00:00",
+    "observation_time": "2026-11-18T00:02:00+00:00",
     "source_data_stale": false
   },
   "feeds": {
     "news": {
-      "count": 12,
-      "last_build": "2026-11-15T23:56:11+00:00",
-      "latest_source_date": "2026-11-12T12:00:00-07:00",
+      "count": 13,
+      "last_build": "2026-11-18T00:02:00+00:00",
+      "latest_source_date": "2026-11-17T12:00:00-07:00",
       "name": "Modern Warfare 4 — Official Blog"
     },
     "patch": {
@@ -35,9 +36,9 @@
       "name": "MW4 & Warzone — Patch Updates"
     }
   },
-  "last_successful_collection": "2026-11-17T00:13:02+00:00",
+  "last_successful_collection": "2026-11-18T00:02:00+00:00",
   "note": "This deployed snapshot is not independent monitoring. Current failures appear in GitHub Actions.",
-  "observation_time": "2026-11-17T00:13:02+00:00",
+  "observation_time": "2026-11-18T00:02:00+00:00",
   "schema_version": 1,
   "source_data_stale": false
 }
