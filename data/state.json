@@ -117,7 +117,7 @@
       "first_observed": "2026-11-08T20:41:46+00:00",
       "kind": "patch",
       "precision": "datetime",
-      "source_date": "2026-11-16T12:00:00-07:00",
+      "source_date": "2026-11-19T12:00:00-07:00",
       "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes"
     },
     "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": {
@@ -125,7 +125,7 @@
       "first_observed": "2026-11-08T20:41:46+00:00",
       "kind": "patch",
       "precision": "date",
-      "source_date": "2026-11-16",
+      "source_date": "2026-11-19",
       "title": "Call of Duty: Warzone Season 1 Patch Notes"
     }
   },
@@ -192,6 +192,36 @@
       "source_url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes#oct21",
       "summary": "Core 6v6 Maps. Cachette. Coal. Lithium. Lotus. Mumbai. Munition. Nautical. Reactor U92. Rooftops. Sentry. Silkworm. Transit 213. Ground War 32v32 Maps. Imjin Farmland. Wolves Stadium. Forest. Gunfight 2v2 Maps. Cafe. Library. NYC. Smuggler. New dynamic Multiplayer map. Supports 3v3 and 10v10 Gunfight at launch. 6v6 modes supported post-launch. New Slabs and configurations coming post-launch. Inflation. Eliminate enemies and collect their cash. Th",
       "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 21"
+    },
+    "00ab9df7bef53f47732d3c107618acafd46fa4392dfb3e74fb5fecd523f34c93": {
+      "anchor": "nov19",
+      "article_title": "Call of Duty: Warzone Season 1 Patch Notes",
+      "author": "Raven Software",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "1a2fee3820013a7cd78d7460186bd20553137244637fecab2245b8f8c7ff7a85",
+      "event_date": "2026-11-19T21:46:42+00:00",
+      "first_observed": "2026-11-19T21:46:42+00:00",
+      "game": "Modern Warfare 4 & Warzone",
+      "guid": "urn:cod-rss:00ab9df7bef53f47732d3c107618acafd46fa4392dfb3e74fb5fecd523f34c93",
+      "id": "00ab9df7bef53f47732d3c107618acafd46fa4392dfb3e74fb5fecd523f34c93",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Warzone"
+      ],
+      "revision": false,
+      "section_key": "anchor:nov19",
+      "source_date": "2026-11-19",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov19",
+      "summary": "Implemented some performance improvements for overall stability and gameplay experience for players on Steam. Fixed an issue where players couldn't use or cook Lethal Equipment while inside vehicles. Fixed an issue where the Locus PX3 Canted Optic did not list Sniper Glint as a drawback in Gunsmith. Fixed an issue where the ZLR Swordfish Optic did have the intended Sniper Glint. Fixed an issue where completing Natural Concealment Challenges did n",
+      "title": "Call of Duty: Warzone Season 1 Patch Notes — THURSDAY NOVEMBER 19"
     },
     "00eb2368a4095ef51514f0f55ddedf13b84a40c993ec367cd8e170eb6315d314": {
       "anchor": "",
@@ -482,6 +512,36 @@
       "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov12",
       "summary": "Addressed several stability issues for a better experience. Fixed an issue where the Schlager Indigo-RF optic was missing sniper glint. Fixed an issue where Weapon Attachment Pips could appear white instead of orange. Fixed an issue where the Fast Hands perk did not speed up certain Tactical Equipment animations as intended. Fixed an issue where Wager Match trophies could drop during Private Matches. We’ve updated the maximum player count for Kil",
       "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 12, 2026"
+    },
+    "4d4890b8f7c83b2439c6d1af8a38ac5c15ec0575183ae5ec272d5b0567afaba7": {
+      "anchor": null,
+      "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "e1ba4f23a9401af019d8ab3c348a6fa0eacf6660926bae6ea1e52a9d6c7a020a",
+      "event_date": "2026-11-19T21:46:42+00:00",
+      "first_observed": "2026-11-19T21:46:42+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:4d4890b8f7c83b2439c6d1af8a38ac5c15ec0575183ae5ec272d5b0567afaba7",
+      "id": "4d4890b8f7c83b2439c6d1af8a38ac5c15ec0575183ae5ec272d5b0567afaba7",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": "date:2026-11-19:label:november-19-2026",
+      "source_date": "2026-11-19",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "summary": "War Chest - DMZ (New today). Open containers and safes during DMZ deployments to earn points and climb the Leaderboard. Earn 5 points for opening regular containers and 50 points for opening safes. Compete for rewards including Fulton Exfils, Tempered Armor Vests, UAVs, and more. Leaderboards last 3 hours and reset every 4 hours, giving players another opportunity to climb the ranks. Each reward can only be earned once, even after the leaderboard",
+      "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 19, 2026"
     },
     "4f5258cbb816e36921fe89f80f60089ee3b58b81b2b88811e89de4ec05f8b250": {
       "anchor": "oct30",
@@ -1267,8 +1327,10 @@
       "last_build": "2026-11-18T00:02:00+00:00"
     },
     "patch": {
-      "fingerprint": "9a7a20796371a426b483f290e76717707ba7e59adb5252f1e7c8fffd10021712",
+      "fingerprint": "cc2db33afe3355de725d6e8085809c096809c625cea15f47ea5f0670e01eeb25",
       "ids": [
+        "4d4890b8f7c83b2439c6d1af8a38ac5c15ec0575183ae5ec272d5b0567afaba7",
+        "00ab9df7bef53f47732d3c107618acafd46fa4392dfb3e74fb5fecd523f34c93",
         "9f65fd1b6f92f514579d5b0eed53c00392b9f751dbea102d9d4c61a286a2a4dc",
         "7ee2386cdff21fffee0f42452087b502b3ef226f10270018a1262e6e6ba439ba",
         "8758a04f310696ad25d7ab8b186dfa97b1b3a15e5a11537b3b38d9d30b7f49f0",
@@ -1294,7 +1356,7 @@
         "021b1e2443f5d9c80cd61104ce64a70bc4397c530a055f1f9d59999499a6b939",
         "004110105b90e68b91123f59a74fd380b0cf0115fcd5fd651cfd2c968393bb64"
       ],
-      "last_build": "2026-11-17T00:13:02+00:00"
+      "last_build": "2026-11-19T21:46:42+00:00"
     }
   },
   "image_types": {
@@ -1420,8 +1482,10 @@
   "schema_version": 1,
   "sections": {
     "0925a13ff475213e1e7bde1a19f19b1ced025f0ce0e1205a7f760184dc7c7710": {
-      "aliases": [],
-      "anchor": null,
+      "aliases": [
+        "anchor:nov16"
+      ],
+      "anchor": "nov16",
       "digest": "9f90f089067a4b61bdcbcc236666a165aebbbc20049249005337b5c82187242b",
       "digest_aliases": {},
       "digests": [
@@ -1434,6 +1498,22 @@
       "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-16"
+    },
+    "18dfddd56ec33a0c6428b92cc915c1fd4324abd1a6ee7049f590c43733c6c41c": {
+      "aliases": [],
+      "anchor": "nov19",
+      "digest": "1a2fee3820013a7cd78d7460186bd20553137244637fecab2245b8f8c7ff7a85",
+      "digest_aliases": {},
+      "digests": [
+        "1a2fee3820013a7cd78d7460186bd20553137244637fecab2245b8f8c7ff7a85"
+      ],
+      "first_observed": "2026-11-19T21:46:42+00:00",
+      "key": "anchor:nov19",
+      "label": "THURSDAY NOVEMBER 19",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
+      "parser_version": 2,
+      "precision": "date",
+      "source_date": "2026-11-19"
     },
     "1c138fb42e4685c592055c6122856d0ca82b2a151a7888386df4a6e35c957060": {
       "aliases": [],
@@ -1774,6 +1854,22 @@
       "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-10"
+    },
+    "e27e1c713dbdf95be990e74e830087a90b88540d366c9751c33eeb4ce6e1938b": {
+      "aliases": [],
+      "anchor": null,
+      "digest": "e1ba4f23a9401af019d8ab3c348a6fa0eacf6660926bae6ea1e52a9d6c7a020a",
+      "digest_aliases": {},
+      "digests": [
+        "e1ba4f23a9401af019d8ab3c348a6fa0eacf6660926bae6ea1e52a9d6c7a020a"
+      ],
+      "first_observed": "2026-11-19T21:46:42+00:00",
+      "key": "date:2026-11-19:label:november-19-2026",
+      "label": "November 19, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "parser_version": 2,
+      "precision": "date",
+      "source_date": "2026-11-19"
     },
     "e436a373aa8e58e0e058324d6e81c29f0af964dea16222992eac64c273fc10b9": {
       "aliases": [],

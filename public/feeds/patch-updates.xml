@@ -5,10 +5,36 @@
     <description>Dated update sections from current official Modern Warfare 4 and Warzone patch notes, with substantive revision tracking. Independently maintained RSS feeds of official Call of Duty content. Activision does not operate or endorse this hosting project.</description>
     <language>en-us</language>
     <atom:link href="https://ember-kace.github.io/cod-rss-feeds-v2/feeds/patch-updates.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 17 Nov 2026 00:13:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 21:46:42 GMT</lastBuildDate>
     <ttl>15</ttl>
     <generator>Call of Duty Feed Desk</generator>
     <copyright>Original articles and artwork © Activision Publishing, Inc. Feed conversion independently operated.</copyright>
+    <item>
+      <title>MW4 patch update — November 19, 2026</title>
+      <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/4d4890b8f7c83b2439c6d1af8a38ac5c15ec0575183ae5ec272d5b0567afaba7.html</link>
+      <guid isPermaLink="false">urn:cod-rss:4d4890b8f7c83b2439c6d1af8a38ac5c15ec0575183ae5ec272d5b0567afaba7</guid>
+      <pubDate>Thu, 19 Nov 2026 21:46:42 GMT</pubDate>
+      <dc:creator>Infinity Ward</dc:creator>
+      <description><![CDATA[<p>War Chest - DMZ (New today). Open containers and safes during DMZ deployments to earn points and climb the Leaderboard. Earn 5 points for opening regular containers and 50 points for opening safes. Compete for rewards including Fulton Exfils, Tempered Armor Vests, UAVs, and more. Leaderboards last 3 hours and reset every 4 hours, giving players…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" alt="MW4 patch update — November 19, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>War Chest - DMZ (New today). Open containers and safes during DMZ deployments to earn points and climb the Leaderboard. Earn 5 points for opening regular containers and 50 points for opening safes. Compete for rewards including Fulton Exfils, Tempered Armor Vests, UAVs, and more. Leaderboards last 3 hours and reset every 4 hours, giving players…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" alt="MW4 patch update — November 19, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes">Read the official update</a></p>]]></content:encoded>
+      <category>Modern Warfare 4</category>
+      <category>Patch updates</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg"/>
+    </item>
+    <item>
+      <title>Warzone patch update — November 19, 2026</title>
+      <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/00ab9df7bef53f47732d3c107618acafd46fa4392dfb3e74fb5fecd523f34c93.html</link>
+      <guid isPermaLink="false">urn:cod-rss:00ab9df7bef53f47732d3c107618acafd46fa4392dfb3e74fb5fecd523f34c93</guid>
+      <pubDate>Thu, 19 Nov 2026 21:46:42 GMT</pubDate>
+      <dc:creator>Raven Software</dc:creator>
+      <description><![CDATA[<p>Implemented some performance improvements for overall stability and gameplay experience for players on Steam. Fixed an issue where players couldn&apos;t use or cook Lethal Equipment while inside vehicles. Fixed an issue where the Locus PX3 Canted Optic did not list Sniper Glint as a drawback in Gunsmith. Fixed an issue where the ZLR Swordfish Optic…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" alt="Warzone patch update — November 19, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov19">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>Implemented some performance improvements for overall stability and gameplay experience for players on Steam. Fixed an issue where players couldn&apos;t use or cook Lethal Equipment while inside vehicles. Fixed an issue where the Locus PX3 Canted Optic did not list Sniper Glint as a drawback in Gunsmith. Fixed an issue where the ZLR Swordfish Optic…</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" alt="Warzone patch update — November 19, 2026" /></p><p><a href="https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes#nov19">Read the official update</a></p>]]></content:encoded>
+      <category>Warzone</category>
+      <category>Patch updates</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/wz/season-1/WZ-Season-1-Patch-Notes.jpg"/>
+    </item>
     <item>
       <title>MW4 patch update — November 16, 2026</title>
       <link>https://ember-kace.github.io/cod-rss-feeds-v2/updates/9f65fd1b6f92f514579d5b0eed53c00392b9f751dbea102d9d4c61a286a2a4dc.html</link>
