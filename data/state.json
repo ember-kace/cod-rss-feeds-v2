@@ -132,13 +132,7 @@
   "checkpoint": {
     "checked_sources": [
       "https://www.callofduty.com/blog",
-      "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-warzone-season-1-announcement",
-      "https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-ricochet-anti-cheat-reddit-ama",
-      "https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-veterans-day",
-      "https://www.callofduty.com/blog/2026/11/call-of-duty-endowment-veterans-day-valor-pack",
       "https://www.callofduty.com/blog/2026/11/call-of-duty-mobile-season-10-7th-anniversary",
-      "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-season-1-battle-pass-blackcell-store-bundles",
-      "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1",
       "https://www.callofduty.com/blog/modernwarfare4",
       "https://www.callofduty.com/blog/warzone",
       "https://www.callofduty.com/patchnotes",
@@ -147,13 +141,13 @@
       "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes",
       "https://www.callofduty.com/robots.txt"
     ],
-    "day": "2026-11-23",
+    "day": "2026-11-24",
     "item_counts": {
       "news": 13,
-      "patch": 26
+      "patch": 28
     },
-    "last_success": "2026-11-23T02:54:54+00:00",
-    "observation_time": "2026-11-23T02:54:54+00:00",
+    "last_success": "2026-11-24T00:04:25+00:00",
+    "observation_time": "2026-11-24T00:04:25+00:00",
     "source_data_stale": false
   },
   "collection": {
@@ -166,8 +160,8 @@
     "last_catchup": "2026-11-23T02:54:54+00:00",
     "patch_pages": {
       "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes": "2026-11-08T00:00:00+00:00",
-      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes": "2026-11-23T00:00:00+00:00",
-      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": "2026-11-23T00:00:00+00:00"
+      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes": "2026-11-24T00:00:00+00:00",
+      "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes": "2026-11-24T00:00:00+00:00"
     }
   },
   "created_at": "2026-11-08T20:41:46+00:00",
@@ -432,6 +426,36 @@
       "summary": "Season 1 marks a major update to Call of Duty: Warzone as the free-to-play combat experience becomes fully integrated with Call of Duty: Modern Warfare 4. Deploy to Hajin and Zodiac, play with new gear like the Zipline Launcher and Grabber Drone, buff your Operator with new Elite Perks, and more. Season 1 arrives November 6.",
       "title": "Call of Duty: Warzone Season 1: Everything You Need to Know"
     },
+    "308a62f1fd72247e1ef9174c3a1464383f2838b9f29585feb3acd7f682eca63b": {
+      "anchor": "nov19",
+      "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "d70a754dc5e74b34f75580c580d05dfb2be829f25b8d4cd14c9367c0ee1c7e55",
+      "event_date": "2026-11-24T00:04:25+00:00",
+      "first_observed": "2026-11-24T00:04:25+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:308a62f1fd72247e1ef9174c3a1464383f2838b9f29585feb3acd7f682eca63b",
+      "id": "308a62f1fd72247e1ef9174c3a1464383f2838b9f29585feb3acd7f682eca63b",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": true,
+      "section_key": "date:2026-11-19:label:november-19-2026",
+      "source_date": "2026-11-19",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov19",
+      "summary": "War Chest - DMZ (New today). Open containers and safes during DMZ deployments to earn points and climb the Leaderboard. Earn 5 points for opening regular containers and 50 points for opening safes. Compete for rewards including Fulton Exfils, Tempered Armor Vests, UAVs, and more. Leaderboards last 3 hours and reset every 4 hours, giving players another opportunity to climb the ranks. Each reward can only be earned once, even after the leaderboard",
+      "title": "Update detected — Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 19, 2026"
+    },
     "3fb51f1cde4ff187f396d26ac45373f8757a45f9f595f9a2cf19ecb1aed4a895": {
       "anchor": "",
       "article_title": "Modern Warfare 4: Campaign Early Access Now Live",
@@ -517,6 +541,36 @@
       "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov12",
       "summary": "Addressed several stability issues for a better experience. Fixed an issue where the Schlager Indigo-RF optic was missing sniper glint. Fixed an issue where Weapon Attachment Pips could appear white instead of orange. Fixed an issue where the Fast Hands perk did not speed up certain Tactical Equipment animations as intended. Fixed an issue where Wager Match trophies could drop during Private Matches. We’ve updated the maximum player count for Kil",
       "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 12, 2026"
+    },
+    "462554b939aa8430d904de4cbf95f25f4a13bd9498b633871e6b69724bfec2bd": {
+      "anchor": "nov23",
+      "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
+      "author": "Infinity Ward",
+      "baseline": false,
+      "categories": [
+        "patch-notes",
+        "season-1"
+      ],
+      "digest": "18cfd312a2836a746527e24ffd6cc903674e883bfeca325363634429de0f5c57",
+      "event_date": "2026-11-24T00:04:25+00:00",
+      "first_observed": "2026-11-24T00:04:25+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:462554b939aa8430d904de4cbf95f25f4a13bd9498b633871e6b69724bfec2bd",
+      "id": "462554b939aa8430d904de4cbf95f25f4a13bd9498b633871e6b69724bfec2bd",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/patchnotes/body/mw4/mp/season-1/MW4-Patch-Notes-Tout-3.jpg",
+      "image_type": "image/jpeg",
+      "kind": "patch",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "precision": "date",
+      "product_categories": [
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": "anchor:nov23",
+      "source_date": "2026-11-23",
+      "source_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes#nov23",
+      "summary": "Thanksgiving Duty Roster Event (New Today). Get kills across any game mode to earn points and climb the Leaderboard. Earn 10 points for each MP kill, 20 points for each Warzone kill, and 2 points for each DMZ kill. Compete for rewards including the \"Bird Call\" Astaroth .57 Weapon Blueprint. Leaderboards last 3 hours and reset every 4 hours, giving players another opportunity to climb the ranks. Each reward can only be earned once, even after the ",
+      "title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes — November 23, 2026"
     },
     "4d4890b8f7c83b2439c6d1af8a38ac5c15ec0575183ae5ec272d5b0567afaba7": {
       "anchor": null,
@@ -1332,8 +1386,10 @@
       "last_build": "2026-11-18T00:02:00+00:00"
     },
     "patch": {
-      "fingerprint": "cc2db33afe3355de725d6e8085809c096809c625cea15f47ea5f0670e01eeb25",
+      "fingerprint": "ecd001f642de4fa2f0035e454a51f5e4362c84e0f09d980337dbae430c05937b",
       "ids": [
+        "462554b939aa8430d904de4cbf95f25f4a13bd9498b633871e6b69724bfec2bd",
+        "308a62f1fd72247e1ef9174c3a1464383f2838b9f29585feb3acd7f682eca63b",
         "4d4890b8f7c83b2439c6d1af8a38ac5c15ec0575183ae5ec272d5b0567afaba7",
         "00ab9df7bef53f47732d3c107618acafd46fa4392dfb3e74fb5fecd523f34c93",
         "9f65fd1b6f92f514579d5b0eed53c00392b9f751dbea102d9d4c61a286a2a4dc",
@@ -1361,7 +1417,7 @@
         "021b1e2443f5d9c80cd61104ce64a70bc4397c530a055f1f9d59999499a6b939",
         "004110105b90e68b91123f59a74fd380b0cf0115fcd5fd651cfd2c968393bb64"
       ],
-      "last_build": "2026-11-19T21:46:42+00:00"
+      "last_build": "2026-11-24T00:04:25+00:00"
     }
   },
   "image_types": {
@@ -1511,6 +1567,14 @@
         "patch": 26
       },
       "successful_source_checks": 15
+    },
+    {
+      "day": "2026-11-24",
+      "item_counts": {
+        "news": 13,
+        "patch": 28
+      },
+      "successful_source_checks": 9
     }
   ],
   "parser_version": 2,
@@ -1893,12 +1957,15 @@
       "source_date": "2026-11-10"
     },
     "e27e1c713dbdf95be990e74e830087a90b88540d366c9751c33eeb4ce6e1938b": {
-      "aliases": [],
-      "anchor": null,
-      "digest": "e1ba4f23a9401af019d8ab3c348a6fa0eacf6660926bae6ea1e52a9d6c7a020a",
+      "aliases": [
+        "anchor:nov19"
+      ],
+      "anchor": "nov19",
+      "digest": "d70a754dc5e74b34f75580c580d05dfb2be829f25b8d4cd14c9367c0ee1c7e55",
       "digest_aliases": {},
       "digests": [
-        "e1ba4f23a9401af019d8ab3c348a6fa0eacf6660926bae6ea1e52a9d6c7a020a"
+        "e1ba4f23a9401af019d8ab3c348a6fa0eacf6660926bae6ea1e52a9d6c7a020a",
+        "d70a754dc5e74b34f75580c580d05dfb2be829f25b8d4cd14c9367c0ee1c7e55"
       ],
       "first_observed": "2026-11-19T21:46:42+00:00",
       "key": "date:2026-11-19:label:november-19-2026",
@@ -1926,6 +1993,22 @@
       "parser_version": 2,
       "precision": "date",
       "source_date": "2026-11-05"
+    },
+    "ecb354c804c52f6608d002cd8e1f51009f0217f62e47e9a89a2f80bf9b053f8e": {
+      "aliases": [],
+      "anchor": "nov23",
+      "digest": "18cfd312a2836a746527e24ffd6cc903674e883bfeca325363634429de0f5c57",
+      "digest_aliases": {},
+      "digests": [
+        "18cfd312a2836a746527e24ffd6cc903674e883bfeca325363634429de0f5c57"
+      ],
+      "first_observed": "2026-11-24T00:04:25+00:00",
+      "key": "anchor:nov23",
+      "label": "November 23, 2026",
+      "page_url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-modern-warfare-4-season-1-patch-notes",
+      "parser_version": 2,
+      "precision": "date",
+      "source_date": "2026-11-23"
     },
     "f707d463fad62285ab9706f300a8da451b68d159df0d6e4928eca83bf739aec4": {
       "aliases": [],
