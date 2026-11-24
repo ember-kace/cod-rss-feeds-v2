@@ -88,6 +88,14 @@
       "source_date": "2026-11-11T12:00:00-07:00",
       "title": "Answer the Call This Veterans Day"
     },
+    "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-cod-intel-billboard": {
+      "aliases": [],
+      "first_observed": "2026-11-24T20:23:34+00:00",
+      "kind": "news",
+      "precision": "datetime",
+      "source_date": "2026-11-24T12:00:00-07:00",
+      "title": "How We Built a City in a Billboard for Modern Warfare 4 in Locations Across the Globe"
+    },
     "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-season-1-battle-pass-blackcell-store-bundles": {
       "aliases": [],
       "first_observed": "2026-11-08T20:41:46+00:00",
@@ -799,6 +807,37 @@
       "summary": "Fixed an issue on XBOX and PC where players using the full Korean language setting could not launch Black Ops 7 from MW4. Fixed an issue where weapon stats were not displayed for locked Attachments in Gunsmith. Updated the Prestige reset process to ensure Loadouts are properly cleared when Prestiging. Fixed a visual issue in the Optic Rail Placement menu. Fixed an issue where the Resource Management Trait description would scroll too fast to read",
       "title": "Call of Duty: Modern Warfare 4 Launch Patch Notes — October 25, 2026"
     },
+    "8694b28d9a4d04f671cbc540694ddce2494fcb1d84a920a4c08f56d724027b7c": {
+      "anchor": "",
+      "article_title": "How We Built a City in a Billboard for Modern Warfare 4 in Locations Across the Globe",
+      "author": "The COD Intel Team",
+      "baseline": false,
+      "categories": [
+        "news",
+        "news-announcements"
+      ],
+      "digest": null,
+      "event_date": "2026-11-24T12:00:00-07:00",
+      "first_observed": "2026-11-24T20:23:34+00:00",
+      "game": "Modern Warfare 4",
+      "guid": "urn:cod-rss:8694b28d9a4d04f671cbc540694ddce2494fcb1d84a920a4c08f56d724027b7c",
+      "id": "8694b28d9a4d04f671cbc540694ddce2494fcb1d84a920a4c08f56d724027b7c",
+      "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-Intel-Tout-EP-004.jpg",
+      "image_type": "image/jpeg",
+      "kind": "news",
+      "page_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-cod-intel-billboard",
+      "precision": "datetime",
+      "product_categories": [
+        "cod-intel",
+        "Modern Warfare 4"
+      ],
+      "revision": false,
+      "section_key": null,
+      "source_date": "2026-11-24T12:00:00-07:00",
+      "source_url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-cod-intel-billboard",
+      "summary": "From Korean Alleyways in London and Los Angeles to launch experiences in Brazil, Mexico, and Australia, fans literally stepped into the world of Modern Warfare 4.",
+      "title": "How We Built a City in a Billboard for Modern Warfare 4 in Locations Across the Globe"
+    },
     "8758a04f310696ad25d7ab8b186dfa97b1b3a15e5a11537b3b38d9d30b7f49f0": {
       "anchor": "nov13",
       "article_title": "Call of Duty: Modern Warfare 4 Season 1 Patch Notes",
@@ -1367,8 +1406,9 @@
   },
   "feeds": {
     "news": {
-      "fingerprint": "f03a40a7ec9545b3871934d36b7617db9c27f2182ea0dbd16ca307e08d7ab5a6",
+      "fingerprint": "285aa616a821bbc62aa32eb3bcc68ce837884ae9b9744d677226a3754d1a0ec6",
       "ids": [
+        "8694b28d9a4d04f671cbc540694ddce2494fcb1d84a920a4c08f56d724027b7c",
         "cc15a57f29fe2c0ce352cc24b02c88c117a3be6c9cb73ca27454b97901f37e67",
         "9f3dd1dba697b2a0888c4b226892020a471e42b3d900fadb13586ba5eb07620a",
         "0b1edc084f0606d1bdbd1c81d725b5a0a4d71ae896acbbfe4ec5b3ea2b3bde46",
@@ -1383,7 +1423,7 @@
         "3fb51f1cde4ff187f396d26ac45373f8757a45f9f595f9a2cf19ecb1aed4a895",
         "00eb2368a4095ef51514f0f55ddedf13b84a40c993ec367cd8e170eb6315d314"
       ],
-      "last_build": "2026-11-18T00:02:00+00:00"
+      "last_build": "2026-11-24T20:23:34+00:00"
     },
     "patch": {
       "fingerprint": "ecd001f642de4fa2f0035e454a51f5e4362c84e0f09d980337dbae430c05937b",
@@ -1424,6 +1464,7 @@
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-001-TOUT_(2).jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-002-TOUT.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-INTEL-003-TOUT.jpg": "image/jpeg",
+    "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-Intel-Tout-EP-004.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/MW4-CODE-FORGED-IN-VALOR-TOUT.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/code/veterans-day-2026/CODE-VETERANS-DAY-26-TOUT.jpg": "image/jpeg",
     "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/MW4-LAUNCH-TOUT.jpg": "image/jpeg",

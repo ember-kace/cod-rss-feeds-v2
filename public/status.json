@@ -22,9 +22,9 @@
   },
   "feeds": {
     "news": {
-      "count": 13,
-      "last_build": "2026-11-18T00:02:00+00:00",
-      "latest_source_date": "2026-11-17T12:00:00-07:00",
+      "count": 14,
+      "last_build": "2026-11-24T20:23:34+00:00",
+      "latest_source_date": "2026-11-24T12:00:00-07:00",
       "name": "Modern Warfare 4 — Official Blog"
     },
     "patch": {

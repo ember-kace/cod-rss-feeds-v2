@@ -5,10 +5,23 @@
     <description>Official Call of Duty articles tagged Modern Warfare 4, including shared MW4/Warzone announcements. Independently maintained RSS feeds of official Call of Duty content. Activision does not operate or endorse this hosting project.</description>
     <language>en-us</language>
     <atom:link href="https://ember-kace.github.io/cod-rss-feeds-v2/feeds/modern-warfare-4.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 18 Nov 2026 00:02:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 20:23:34 GMT</lastBuildDate>
     <ttl>15</ttl>
     <generator>Call of Duty Feed Desk</generator>
     <copyright>Original articles and artwork © Activision Publishing, Inc. Feed conversion independently operated.</copyright>
+    <item>
+      <title>How We Built a City in a Billboard for Modern Warfare 4 in Locations Across the Globe</title>
+      <link>https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-cod-intel-billboard</link>
+      <guid isPermaLink="false">urn:cod-rss:8694b28d9a4d04f671cbc540694ddce2494fcb1d84a920a4c08f56d724027b7c</guid>
+      <pubDate>Tue, 24 Nov 2026 19:00:00 GMT</pubDate>
+      <dc:creator>The COD Intel Team</dc:creator>
+      <description><![CDATA[<p>From Korean Alleyways in London and Los Angeles to launch experiences in Brazil, Mexico, and Australia, fans literally stepped into the world of Modern Warfare 4.</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-Intel-Tout-EP-004.jpg" alt="How We Built a City in a Billboard for Modern Warfare 4 in Locations Across the Globe" /></p><p><a href="https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-cod-intel-billboard">Read the official update</a></p>]]></description>
+      <content:encoded><![CDATA[<p>From Korean Alleyways in London and Los Angeles to launch experiences in Brazil, Mexico, and Australia, fans literally stepped into the world of Modern Warfare 4.</p><p><img src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-Intel-Tout-EP-004.jpg" alt="How We Built a City in a Billboard for Modern Warfare 4 in Locations Across the Globe" /></p><p><a href="https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-cod-intel-billboard">Read the official update</a></p>]]></content:encoded>
+      <category>cod-intel</category>
+      <category>Modern Warfare 4</category>
+      <media:content url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-Intel-Tout-EP-004.jpg" medium="image" type="image/jpeg"/>
+      <media:thumbnail url="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/cod-intel/COD-Intel-Tout-EP-004.jpg"/>
+    </item>
     <item>
       <title>RICOCHET’s Head of Anti-Cheat Discussed War on Cheating in Recent Reddit AMA</title>
       <link>https://www.callofduty.com/blog/2026/11/call-of-duty-cod-intel-ricochet-anti-cheat-reddit-ama</link>
